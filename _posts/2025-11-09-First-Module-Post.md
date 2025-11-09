@@ -238,7 +238,7 @@ It is important to first understand AI as a field in computer science. Artificia
 Expanding the definition by Abbass, it is imperative to know that AI involves creating systems that can perform tasks that require human intelligence, for example learning, problem solving, and decision making at different levels. AI uses different technologies to enable machines to learn, see, understand human language, analyse big data, and make recommendations.
 
 ## 3.	What exactly have I learnt and how
-### 3.1 What to Learn
+### 3.1 What Have I learnt from this module
 •	Computing Fundamentals
 
 •	Programming basics in Python
@@ -251,7 +251,7 @@ Expanding the definition by Abbass, it is imperative to know that AI involves cr
 
 •	Professional and academic skills
 
-### 3.2 The how part of learning the above
+### 3.2 The how part of learning the above from this module
 •	Hands-on practice from unit 1 to 12
 
 •	Project based learning
