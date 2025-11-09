@@ -3,7 +3,7 @@ layout: post
 title: Launch into Computing
 subtitle: Details about the module
 categories: Module for Data Science
-tags: [Github, Modules, introduction]
+tags: [Github, Modules, website]
 ---
 ## 1.	A summary of the learning outcomes of the module
 •	Learned in depth concepts of Computing, Software Engineering, Artificial Intelligence, Data Science, and Cyber Security.
