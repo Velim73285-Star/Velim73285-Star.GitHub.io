@@ -32,14 +32,11 @@ Introduction to querying and processing SQL Server data with SQL statements
 
 1.	Sasol South Africa (Pty) Ltd (Polymersl)               
 Position: Lab Analyst
-     
-3.	Statistics South Africa (Stats SA)
+2.	Statistics South Africa (Stats SA)
 Positions: Survey Statistician, Marketing Officer and Statistical Advisor
-    
-5.	South African Social Security Agency (SASSA)
+3.	South African Social Security Agency (SASSA)
 Positions: Senior Statistician
-
-7.	National Energy Regulator of South Africa (NERSA)
+4.	National Energy Regulator of South Africa (NERSA
 Positions: Senior Statistician     
 
 ### Personal attributes 
