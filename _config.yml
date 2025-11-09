@@ -40,7 +40,7 @@ author: Veli Mahlangu
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2025-{currentYear} {author}"
+copyright: "Unpublished Work (cleft) 2025-2027{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Data science is a multidisciplinary field that combines statistics, mathematics, computer science, domain expertise, and data analysis to extract meaningful insights and knowledge from structured and unstructured data. The goal is to use these insights to inform decision-making, optimize processes, and drive innovation across various industries.
