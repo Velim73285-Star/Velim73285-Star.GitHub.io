@@ -35,7 +35,7 @@ tags: [Github, Modules, Python]
 ### Collaboration discussion: 
 Critically evaluate the rationale behind the Internet of Things (IOT), in the context of, highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.
 
-### Summary Post
+### Initial Post 
 ### Banking sector IoT data collection
 Kopetz and Steiner  (2022) state that IoT is a  connection of physical things to the internet and this makes it possible to access remote sensor data and to control the physical world from a distance. The logic behind the IoT in a banking sector focused on enhancing operational efficiency, customer experience, data driven decision making and availability of real time data for business processes. This idea is tone down by significant limitations, risks and challenges. 
 
@@ -64,7 +64,12 @@ Kopetz, H. and Steiner, W., 2022. Internet of things. In Real-time systems: desi
 Li, F., Li, F., Li, S. and Long, Y., 2020. Deciphering the recreational use of urban parks: Experiments using multi-source big data for all Chinese cities. Science of the Total Environment, 701, p.134896.
 
 Sadhu, P.K., Yanambaka, V.P. and Abdelgawad, A., 2022. Internet of things: Security and solutions survey. Sensors, 22(19), p.7433.
-Summary Post
+
+### Summary Post
+To be completed
+
+
+
 
 ### Feedback from the Tutor for the collaboration discussion 
 To be completed
