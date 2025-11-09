@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title: About Me
 ---
 
 ## About
 
-Hi, nice to meet you.
+Summarised CV.
