@@ -228,7 +228,7 @@ print_calendar(year, month1)
 print_calendar(year, month2)
 
 ### The presentation
-#### Introduction
+### Introduction
 In 2023, a private hospital in Johannesburg, South Africa tested an Artificial Intelligence (AI) system to detect early signs of eyes disease, trying to improve early detection of eyes’ diseases in patients and also improve patients experience in healthcare. Today, we will explore in-depth the AI environment. 
 
 ### What is (AI)?
