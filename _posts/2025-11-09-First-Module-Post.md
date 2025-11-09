@@ -54,7 +54,8 @@ Two peer responses were received for the discussion. Daniel Lopez agreed with my
 
 The second peer response was from Kyle Au, and Kyle’s response was in agreement with my discussion on how DS has transformed the banking industry. Kyle suggested that DS professionals must always upskill themselves as to keep updated with changes in the field. 
 
-Summary of unit 1 to 4 includes learnings from how Artificial Intelligence (AI) revolutionised industries, but this came with challenges such as algorithms bias in AI, for example, machine learning models mistakenly discriminating against certain groups due to biased training data, and lack of accountability in such incidents is a problem. Logical, and mathematical principles supporting computing such as Boolean logic, logic gates, and set theory were also deliberated in the past four weeks. It was interesting to learn how Boolean algebra and set theory work in computing. The fundamental principles of computer science such as algorithms, data structures, and computational complexity were also discussed in-depth, and how these principles support problem solving, and an efficient storage and retrieval of data. Lastly, Software engineering was studied, where Software Development Life Cycle (SDLC) phases were discussed in detail across different aspects of computing.  
+Summary of unit 1 to 4 includes learnings from how Artificial Intelligence (AI) revolutionised industries, but this came with challenges such as algorithms bias in AI, for example, machine learning models mistakenly discriminating against certain groups due to biased training data, and lack of accountability in such incidents is a problem. Logical, and mathematical principles supporting computing such as Boolean logic, logic gates, and set theory were also deliberated in the past four weeks. It was interesting to learn how Boolean algebra and set theory work in computing. The fundamental principles of computer science such as algorithms, data structures, and computational complexity were also discussed in-depth, and how these principles support problem solving, and an efficient storage and retrieval of data. Lastly, Software engineering was studied, where Software Development Life Cycle (SDLC) phases were discussed in detail across different aspects of computing. 
+
 To sum up, computing will continue to change and shape every aspect of modern life across the globe, and creating opportunities for innovation, but this will also come with increased challenges in cybersecurity, privacy and digital inequality.
 
 #### References:
@@ -237,8 +238,8 @@ It is important to first understand AI as a field in computer science. Artificia
 
 Expanding the definition by Abbass, it is imperative to know that AI involves creating systems that can perform tasks that require human intelligence, for example learning, problem solving, and decision making at different levels. AI uses different technologies to enable machines to learn, see, understand human language, analyse big data, and make recommendations.
 
-## 3.	What exactly have I learnt and how
-### 3.1 What have I learnt from this module
+## 3.	What exactly have I learnt and how?
+### 3.1 What have I learnt from this module?
 •	Computing Fundamentals
 
 •	Programming basics in Python
