@@ -3,7 +3,7 @@ layout: post
 title: Launch into Computing
 subtitle: Each post has a subtitle
 categories: Module for Data Science
-tags: [Github, Modules]
+tags: [Github, Website]
 ---
 
 ## 1.	A summary of the learning outcomes of the module
