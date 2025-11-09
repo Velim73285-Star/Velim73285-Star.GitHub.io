@@ -2,7 +2,7 @@
 layout: post
 title: Launch into Computing
 subtitle: Each post has a subtitle
-categories: Module
+categories: Modules
 tags: [Github, Modules, Python]
 ---
 
