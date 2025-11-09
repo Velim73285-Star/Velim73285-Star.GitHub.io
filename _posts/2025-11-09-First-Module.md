@@ -138,6 +138,104 @@ Select an enterprise IT governance framework between  COBIT, ITIL, or TOGAF and 
 
 Consider a hypothetical medium to large enterprise called Cloud Operations Ltd in South Africa, whose operations are heavily depended on cloud services. Cloud Operations Ltd has outsourced all its computing infrastructure, applications, and data storage to external cloud provider, that uses Google Cloud Platform. The company’s mission revolves around providing real time analytics and AI driven insights to clients globally, necessitating scalable, distributed, and highly reliable computing resources.
 
+### Evaluating the development models of two programming languages
+Developing and comparing two programming languages based on two small utility applications that perform the same function in both languages.
+
+### The Python code
+This Python program is developed using the Google Colab platform to display a calendar for 2 given months and year. The user is prompted to input the year, first month and second month and once the program is executed, the calendar for the 2 months in the specific given year.
+
+#/ This statement imports the calendar module.
+import calendar
+
+#/ The statements below prompt the user to input the year, month 1 and 2.
+
+year = int(input("Input a year and then press Enter (e.g., 2018): "))
+
+month1 = int(input("Input the first month and then press Enter (1 - 12): "))
+
+month2 = int(input("Input the second month and then press Enter (1 - 12): "))
+
+#/ The statements below display the calendar for month 1.
+
+print(f"\nCalendar for {calendar.month_name[month1]} {year}")
+
+print(calendar.month(year, month1))
+
+#/ The statements below display the calendar for month 2.
+
+print(f"\nCalendar for {calendar.month_name[month2]} {year}")
+
+print(calendar.month(year, month2))
+
+### The Ruby code
+The Ruby code below is developed using the Online Ruby Compiler platform to display a calendar for 2 given months and year. The user is requested to input the year, first month and second month and once the program is executed, the calendar for the 2 months in the specific given year.
+
+#/ The statement code calls the date library into the program code.
+require 'date'
+
+#/ The statements below ask the user to input the year, month 1 and 2.
+
+print "Input the year and then press Enter (e.g., 2015): "
+
+year = gets.chomp.to_i
+
+print " Input the first month and then press Enter (1 - 12): "
+
+month1 = gets.chomp.to_i
+
+print " Input the second month and then press Enter  (1 - 12): "
+
+month2 = gets.chomp.to_i
+
+#/ The programming statements below print the calendar for a given year and month. 
+def print_calendar(year, month)
+
+#/ The (1) creates a new date object representing the first day of a specific month in a given year.
+
+  first_day = Date.new(year, month, 1)
+
+#/ The (-1) defines the last day of the month in using the Ruby date library.
+
+  last_day = Date.new(year, month, -1) 
+
+#/ The statement below "\n#{Date::MONTHNAMES is a constant array defined in the 
+Ruby date library to hold the full names of the months, indexed from 1 to 12. 
+  puts "\n#{Date::MONTHNAMES[month]} #{year}"
+
+  puts "Su Mo Tu We Th Fr Sa"
+
+  #/ The statements below print all leading space for a proper display.
+
+  print "   " * first_day.wday
+
+  (first_day.day..last_day.day).each do |day|
+
+     print day.to_s.rjust(2) + " "
+
+     first_day = first_day.next_day
+
+     puts if first_day.wday == 0
+  end
+
+  puts "\n"
+
+end
+
+#/ The programming statements below display the calendars for month 1 and 2 together with the year.
+
+print_calendar(year, month1)
+
+print_calendar(year, month2)
+
+### The presentation
+#### Introduction
+In 2023, a private hospital in Johannesburg, South Africa tested an Artificial Intelligence (AI) system to detect early signs of eyes disease, trying to improve early detection of eyes’ diseases in patients and also improve patients experience in healthcare. Today, we will explore in-depth the AI environment. 
+
+### What is (AI)?
+It is important to first understand AI as a field in computer science. Artificial Intelligence is defined by Abbass (2021: pp 94-95) as “a social and cognitive phenomena that enables a machine to socially integrate with a society to perform competitive tasks requiring cognitive processes and communicate with other entities in society by exchanging messages with high information content and shorter representations”. 
+
+Expanding the definition by Abbass, it is imperative to know that AI involves creating systems that can perform tasks that require human intelligence, for example learning, problem solving, and decision making at different levels. AI uses different technologies to enable machines to learn, see, understand human language, analyse big data, and make recommendations.
+
 ## 3.	What exactly have I learnt and how
 ### 3.1 What to Learn
 •	Computing Fundamentals
