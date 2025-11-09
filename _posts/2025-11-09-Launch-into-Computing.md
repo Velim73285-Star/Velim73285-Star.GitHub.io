@@ -7,10 +7,15 @@ tags: [Github, Modules, introduction]
 ---
 ## 1.	A summary of the learning outcomes of the module
 •	Learned in depth concepts of Computing, Software Engineering, Artificial Intelligence, Data Science, and Cyber Security.
+
 •	Studied the basic principles, processes, and procedures of software design and implementation methodologies.
+
 •	The technologies and principles that form the basis of Artificial Intelligence implementations were also studied.
+
 •	Explored the current and future challenges, limitations, and opportunities in the field of computing.
+
 •	An understanding of how computing concepts and devices can be used to overcome barriers to equality, diversity and inclusion
+
 •	Developed a presentation where the presentation focused on Artificial Intelligence presenting critical arguments for specific actions and outcomes to a diverse audience.
 
 ## 2.	The artefacts created during the module
@@ -113,36 +118,55 @@ Comparing two software development methodologies, Waterfall, and DevOps, highlig
 Developed a report evaluating the security position of Artificial Intelligence (AI) systems deployed within an organisation, identifying vulnerabilities, threats, and mitigation strategies. The main objective is to ensure ethical, transparent, safe, and robust AI operations within organisations. Artificial Intelligence is defined as the simulation of human intelligence in machines that are programmed to think, learn, and make decisions like human beings. The AI programmed systems can perform tasks that naturally require human understanding, such as understanding language, recognising patterns, making decisions, and learning from data. 
 
 ### Disaster recovery plan (DRP)
-Develop a disaster recovery plan (DRP) for the organisation, including::
+Develop a disaster recovery plan (DRP) for the organisation, including:
+
 •	Steps to restore operations during and after a disruption.
+
 •	Tools and technologies for example AWS Elastic Disaster Recovery, Bacula for backups.
+
 •	Methods to ensure data integrity and minimise downtime.
 
 ### IT Governance Framework Analysis
 Select an enterprise IT governance framework between  COBIT, ITIL, or TOGAF and analyse how the framework can be applied in a hypothetical organisation to achieve the following:
+
 •	Align IT goals with business objectives.
+
 •	Mitigate IT-related risks.
+
 •	Optimise IT resources for competitive advantage.
+
 Consider a hypothetical medium to large enterprise called Cloud Operations Ltd in South Africa, whose operations are heavily depended on cloud services. Cloud Operations Ltd has outsourced all its computing infrastructure, applications, and data storage to external cloud provider, that uses Google Cloud Platform. The company’s mission revolves around providing real time analytics and AI driven insights to clients globally, necessitating scalable, distributed, and highly reliable computing resources.
 
 ## 3.	What exactly have I learnt and how
 ### 3.1 What to Learn
 •	Computing Fundamentals
+
 •	Programming basics in Python
+
 •	Digital literacy
+
 •	Data and information
+
 •	Computational thinking
+
 •	Professional and academic skills
 
 ### 3.2 The how part of learning the above
 •	Hands-on practice from unit 1 to 12
+
 •	Project based learning
+
 •	Critical reflection and collaboration discussions
+
 •	Blended learning
+
 •	Assessment preparation 
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
 •	Identify and critically analyse computing challenges and processes in business systems, accounting for the current enterprise landscape.
+
 •	Gather and synthesise information from multiple sources (including internet resources and business publications) to aid in the systematic design and analysis of computing challenges.
+
 •	Critically evaluate appropriate methodologies, tools and techniques to mitigate and/or solve computing issues and their business impact.
+
 •	Communicate the legal, social, ethical, and professional issues faced by computing professionals.
