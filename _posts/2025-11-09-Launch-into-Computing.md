@@ -64,29 +64,46 @@ Wempen, F., 2014. Computing fundamentals: Introduction to computers. John Wiley 
 Veli provided a solid and contextually relevant contribution to the discussion, particularly focusing on the importance of data science and data quality. The initial post was articulate, with clear structure and appropriate referencing, demonstrating understanding of technical aspects such as statistical methods and data mining. However, while the peer responses were respectful and added value, they leaned toward general agreement and lacked deeper critical engagement or probing questions. The summary post effectively reflected on personal learning and highlighted connections across peers’ posts, but would benefit from a more analytical tone. Overall, the submission shows good understanding and effort, with room for improvement in critical depth.
 
 ### SAS program to use to develop a Bubble sort algorithm
-/***********************************************************************************************/
-/*This program shows how the Bubble sort algorithm is executed in a SAS               */        /* environment.                                                                                                            */  
-/**********************************************************************************************/;
-/*Create a dataset named "Algorith_Bubble_Sort" in a temp library called work*/;  
+/*Create a dataset named "Algorith_Bubble_Sort" in a temp library called work*/; 
+
 data Algorith_Bubble_Sort 
+
  /*Defining an array with 10 unsorted integers*/;
- array bubble_array[10] (88, 92, 12, 28, 79, 3, 33, 52, 68, 47);   
+ 
+ array bubble_array[10] (88, 92, 12, 28, 79, 3, 33, 52, 68, 47); 
+ 
     length sorted_bubble_array $80;
+    
 /*Function to return the number of elements in a one-dimensional array*/;   
+
     a = dim(bubble_array); 
+    
     /* Start with the Bubble sort algorithm using the do loop*/
+    
     do x = 1 to a-1;
+    
         do y = 1 to a-x;
+        
             if bubble_array[y] > bubble_array[y+1] then do;
+            
                 /* If the condition above is true, then swap the elements in the array*/
+                
                 Bin_array = bubble_array[y];
+                
                 bubble_array[y] = bubble_array [y+1];
+                
                 bubble_array[y+1] = Bin_array;
+                
             end;
+            
         end;
+        
     end;
+    
 /*Print the final results of the sorted array of 10 numbers*/
+
 title "Sorted bubble array numbers";
+
 proc print data=Algorith_Bubble_Sort;
 
 ### Comparing two software development methodologies
