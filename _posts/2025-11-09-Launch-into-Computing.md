@@ -24,22 +24,19 @@ Collaboration discussion: The Evolution of Computing and Its Impact on Business 
 
 ### Initial Post
 
-Introduction
-
+#### Introduction
 Data Science is a computing field that brings together computational methods, data analysis, and scientific methods to extract meaningful insights from big and complex datasets. This computing discipline uses tools from mathematics, computer science, and statistics to solve real world problems, make predictions, and support decision making.
 
-How Data Science transformed industries and societies in recent decades
-
+#### How Data Science transformed industries and societies in recent decades
 Data Science has transformed industries and societies in aspects such as: Digital banking, and streaming services have now replaced the traditional ways of doing things, have increased turnaround time, and created an environmentally friendly business process. Different social media platforms, messaging applications, emails, and internet have completely changed how societies across the world communicate and share information. 
 
 There are positive influences from how computing has transformed industries and societies, however this transformation has also brought in negative impact such as data security, cybersecurity, and replacement of human jobs. 
 In conclusion, smart city initiatives in South Africa are pushing for smart city development in major cities such as Cape Town and Johannesburg. Companies specialising in network sensors, urban management systems for water and electricity, and traffic monitoring can play a critical role in these projects. These companies can provide advanced sensor technology for monitoring environmental conditions, traffic patterns, and other data intensive applications (Digital Economy Report 2024, United Nations Publications).
 
-The impact of computing in the banking sector
-
+#### The impact of computing in the banking sector
 Banks have jumped on the opportunities offered by internet, and mobile banking applications. It is possible to do everything online these days, starting from a simple transaction to complicated matters such as applying for a mortgage bond. Some banks are now only available virtually, and banks like Smile in the UK and Simple in the US do not have any physical branches at all.
 
-References:
+#### References:
 
 Lou Brodie, M.L., 2019. What is data science?. In Applied data science: Lessons learned for the data-driven business (pp. 101-130). Cham: Springer International Publishing.
 
@@ -59,7 +56,7 @@ The second peer response was from Kyle Au, and Kyle’s response was in agreemen
 Summary of unit 1 to 4 includes learnings from how Artificial Intelligence (AI) revolutionised industries, but this came with challenges such as algorithms bias in AI, for example, machine learning models mistakenly discriminating against certain groups due to biased training data, and lack of accountability in such incidents is a problem. Logical, and mathematical principles supporting computing such as Boolean logic, logic gates, and set theory were also deliberated in the past four weeks. It was interesting to learn how Boolean algebra and set theory work in computing. The fundamental principles of computer science such as algorithms, data structures, and computational complexity were also discussed in-depth, and how these principles support problem solving, and an efficient storage and retrieval of data. Lastly, Software engineering was studied, where Software Development Life Cycle (SDLC) phases were discussed in detail across different aspects of computing.  
 To sum up, computing will continue to change and shape every aspect of modern life across the globe, and creating opportunities for innovation, but this will also come with increased challenges in cybersecurity, privacy and digital inequality.
 
-References:
+#### References:
 
 Elliott, S., 2021. Projecting the Impact of Computers on Work in 2030. In National Academies Workshop on Research Evidence Related to Future Skill Demands.
 
