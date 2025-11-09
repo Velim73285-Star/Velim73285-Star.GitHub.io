@@ -8,8 +8,8 @@ title: About Me
 ### Summarised CV
 
 ### Personal details
-Surname: Mahlangu
-Names: Veli April 
+   Surname: Mahlangu
+   Names: Veli April 
 
 ### Education details
 1.	BSc degree (University of Limpopo)
