@@ -23,7 +23,6 @@ First Names	: Veli April
 
 1.	Microsoft programs
 MS Word, Ms Excel, MS Access, MS Outlook, and MS Power point
-
 2.	Programming		
 SAS programming language
 Introduction to querying and processing SQL Server data with SQL statements
