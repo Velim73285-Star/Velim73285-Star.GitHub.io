@@ -76,8 +76,8 @@ To be completed
 
 
 
-## 3.	What exactly have I learnt and how
-## 3.1 What have I learnt from this module
+## 3.	What exactly have I learnt and how?
+## 3.1 What have I learnt from this module?
 To be completed
 
 
