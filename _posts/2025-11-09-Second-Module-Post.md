@@ -120,11 +120,11 @@ python
 
 The output is in two formats as outlined below:
 
-1.	JSON file (data_scientist_jobs.json)
+1. JSON file (data_scientist_jobs.json)
    
 •	This file format is easy for developers, analysts, or APIs to consume.
 
-Example:
+#### Example:
 
 json
 
@@ -141,11 +141,11 @@ json
   
 ]
 
-2.	XML file (data_scientist_jobs.xml)
+2. XML file (data_scientist_jobs.xml)
    
 •	This file format is useful for legacy systems or compliance reporting.
 
-Example:
+#### Example:
 
 xml
 
@@ -163,7 +163,7 @@ xml
   
 </Jobs>
 
-Important issues to note
+### Important issues to note
 
 1.	The actual findings depend on the live HTML structure of Careers24 or PNet at the time of scraping. If the site changes its CSS classes, for example job card or job title, the script must be updated to align with the changes.
    
