@@ -66,26 +66,38 @@ Li, F., Li, F., Li, S. and Long, Y., 2020. Deciphering the recreational use of u
 Sadhu, P.K., Yanambaka, V.P. and Abdelgawad, A., 2022. Internet of things: Security and solutions survey. Sensors, 22(19), p.7433.
 
 ### Summary Post
-To be completed
+The IoT connects physical devices to the internet, enabling real-time data access and remote control. For banks, IoT promises efficiency, customer-centric innovation, and data-driven decision-making. Yet, adoption requires careful navigation of infrastructure realities, regulatory compliance, and ethical considerations. (Fahmideh et al., 2023) state that the IoT platforms are key enablers for smart city initiatives, targeting the improvement of citizens’ quality of life and economic growth. As IoT platforms are dynamic, proactive, and heterogeneous socio-technical artefacts, systematic approaches are required for their development. Based on this statement from Fahmideh et al, there is limited information available from surveys or other sources indicating how IoT platforms are developed and maintained from the perspective of information system development process lifecycle. 
 
+One peer response was received from Preh Muneer Abbasi for the collaboration discussion. The peer review response agreed with all the areas that were discussed in the initial post such as connectivity gaps, poor data quality, security measures. privacy safeguards, fairness controls, and infrastructure investment. Preh Muneer Abbasi suggested that “strategic initiatives are required to close the digital divide by investing in reliable networks and power supply, so that rural or low-income populations are not left behind”. This suggestion is very key in the advancement of the IoT platforms to address infrastructure challenges and digital inequality.
 
+The summary learnings from unit 1 to 3 of the module includes big data, technologies associated with big data, and concepts underlying data management. A deep analysis in understand the four Vs of big data that include volume, velocity, variety, and veracity were also explored. Topics on different data types and formats and how these impact the way data is stored from different organisations were studied. An introduction to the implementation of Python routines and applications using APIs was achieved. Lastly, an in depth study of various data sources, data collection methods, and evaluating challenges associated with data collection process such as item nonresponse, unit nonresponse, missing data, outliers, and duplicate values was offered in the first 3 units of the module.
 
+To sum up, it is apparent that IoT offers transformative opportunities across the world, but organisations must balance innovation with robust governance, cybersecurity frameworks, and compliance alignment to ensure sustainable adoption at all levels.
+
+### References
+
+Bandyopadhyay, D. and Sen, J., 2011. Internet of things: Applications and challenges in technology and standardization. Wireless personal communications, 58(1), pp.49-69.
+
+Fahmideh, M. and Zowghi, D., 2020. An exploration of IoT platform development. Information Systems, 87, p.101409.
+
+Holler, J., Tsiatsis, V., Mulligan, C., Karnouskos, S., Avesand, S. and Boyle, D., 2014. Internet of things. Academic Press.
+
+Kumar, S., Kumar, K.A. and Raman, R., 2021, September. Internet of Things Security: Attacks, Solutions, Strengths and Limitations. In 2021 International 
+Conference on Artificial Intelligence and Machine Vision (AIMV) (pp. 1-6). IEEE.
+
+Li, S., Xu, L.D. and Zhao, S., 2015. The internet of things: a survey. Information systems frontiers, 17(2), pp.243-259.
+
+Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges and opportunities. Internet of things: Challenges and opportunities, pp.1-17.
 
 ### Feedback from the Tutor for the collaboration discussion 
 To be completed
-
-
 
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
 To be completed
 
-
-
 ## 3.2 The how part of learning the above
 To be completed
-
-
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
 To be completed
