@@ -124,44 +124,9 @@ The output is in two formats as outlined below:
    
 •	This file format is easy for developers, analysts, or APIs to consume.
 
-#### Example:
-
-json
-
-[
-
-  {
-  
-    "title": "Data Scientist",
-    
-    "company": "Capitec Bank",
-
-        "location": "Cape Town, Western Cape"
-  }
-  
-]
-
 2. XML file (data_scientist_jobs.xml)
    
 •	This file format is useful for legacy systems or compliance reporting.
-
-#### Example:
-
-xml
-
------- <Jobs>    
-  
------- <Job>       
-  
------- <Title>Data Scientist</Title>   
-    
------- <Company>Capitec Bank</Company> 
-    
------- <Location>Cape Town, Western Cape</Location> 
-    
------- </Job> 
-  
------- </Jobs>
 
 ### Important issues to note
 
@@ -173,6 +138,9 @@ xml
    
 4.	I need skills in XML and HTML in order to develop an efficient script and be able to correctly interpret the results.
 
+The Python script and results (JSON and XML) can be found on the link below.
+
+https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
 
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
