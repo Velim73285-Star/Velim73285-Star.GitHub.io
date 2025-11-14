@@ -149,19 +149,19 @@ json
 
 xml
 
-<Jobs>
+*/ <Jobs>
   
-  <Job>
-    
-    <Title>Data Scientist</Title>
-    
-    <Company>Capitec Bank</Company>
-    
-    <Location>Cape Town, Western Cape</Location>
-    
-  </Job>
+*/ <Job>
   
-</Jobs>
+*/ <Title>Data Scientist</Title>
+    
+*/ <Company>Capitec Bank</Company>
+    
+*/ <Location>Cape Town, Western Cape</Location>
+    
+*/ </Job>
+  
+*/ </Jobs>
 
 ### Important issues to note
 
