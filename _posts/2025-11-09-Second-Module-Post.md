@@ -92,6 +92,59 @@ Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges a
 ### Feedback from the Tutor for the collaboration discussion 
 To be completed
 
+### Web scraping
+
+Findings based on Python web scraping code
+The Python script was specifically tailor for South African job boards such as Careers24 to align it with local compliance. The code is designed to scrape job postings for the keyword “Data Scientist” and it specifically looked at:
+•	Job title as Data Scientist or Senior Data Scientist.
+•	Company name for example Capitec Bank, Standard Bank or Deloitte.
+•	Location went through different locations in the country, for example Cape Town in Western Cape or Johannesburg in Gauteng
+The above attributes are stored in a Python list of dictionaries like:
+python
+[
+  {
+    "title": "Data Scientist",
+    "company": "Capitec Bank",
+    "location": "Cape Town, Western Cape"
+  },
+]
+The output is in two formats as outlined below:
+1.	JSON file (data_scientist_jobs.json)
+•	This file format is easy for developers, analysts, or APIs to consume.
+Example:
+json
+[
+  {
+    "title": "Data Scientist",
+    "company": "Capitec Bank",
+    "location": "Cape Town, Western Cape"
+  }
+]
+2.	XML file (data_scientist_jobs.xml)
+•	This file format is useful for legacy systems or compliance reporting.
+Example:
+xml
+<Jobs>
+  <Job>
+    <Title>Data Scientist</Title>
+    <Company>Capitec Bank</Company>
+    <Location>Cape Town, Western Cape</Location>
+  </Job>
+</Jobs>
+Important issues to note
+1.	The actual findings depend on the live HTML structure of Careers24 or PNet at the time of scraping. If the site changes its CSS classes, for example job card or job title, the script must be updated to align with the changes.
+2.	Some sites blocked scraping unless a user agent header is included on the code.
+3.	It is noted that the Python script does not capture salary, posting date, or job description because these variables were not included on the selection list.
+4.	I need skills in XML and HTML in order to develop an efficient script and be able to correctly interpret the results.
+
+The Python script and results (JSON and XML) can be found on the link below.
+Veli M - Web scraping.ipynb - Colab
+
+
+
+
+
+
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
 To be completed
