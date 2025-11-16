@@ -156,7 +156,8 @@ o	Open the raw dataset in a spreadsheet.
 o	Delete the first line (the header row).
 
 o	Save the remaining rows as mn.csv.
- 
+ <img width="1036" height="593" alt="image" src="https://github.com/user-attachments/assets/cf1192b5-a544-471d-8a16-b4a399cda509" />
+
 #### 2. Create mn_headers.csv
 Manually creating the mn_headers.csv that should contain only the header row.
 
@@ -167,7 +168,8 @@ o	Copy the first line (the header row) from the raw dataset.
 o	Paste it into a new file.
 
 o	Save that file as mn_headers.csv.
- 
+ <img width="1020" height="553" alt="image" src="https://github.com/user-attachments/assets/057ac49a-81a2-4a6b-93e9-14bcec0e8f7f" />
+
 The Python example that reads the two files (mn.csv and mn_headers.csv) separately and then combines them into a single DataFrame for analysis is outlined below.
 #### Python script
 import pandas as pd
