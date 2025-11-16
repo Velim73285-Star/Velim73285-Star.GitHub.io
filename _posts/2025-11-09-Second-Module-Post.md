@@ -142,6 +142,53 @@ The output is in two formats as outlined below:
 
 https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
 
+### Unit 4: Data Cleaning and Transformation 
+Lecturecast activities and results 
+#### Exercise 1
+Identify the raw dataset from GitHub as mn.csv and mn_headers.csv and download them into the desktop.
+#### 1. Create mn.csv
+Manually creating the mn.csv file that should contain only the data rows, without headers or variables.
+•	Steps:
+
+o	Open the raw dataset in a spreadsheet.
+
+o	Delete the first line (the header row).
+
+o	Save the remaining rows as mn.csv.
+ 
+#### 2. Create mn_headers.csv
+Manually creating the mn_headers.csv that should contain only the header row.
+•	Steps:
+
+o	Copy the first line (the header row) from the raw dataset.
+
+o	Paste it into a new file.
+
+o	Save that file as mn_headers.csv.
+ 
+The Python example that reads the two files (mn.csv and mn_headers.csv) separately and then combines them into a single DataFrame for analysis is outlined below.
+#### Python script
+import pandas as pd
+
+Step 1: Load the headers
+
+headers = pd.read_csv("mn_headers.csv", header=None).iloc[0].tolist()
+
+Step 2: Load the data without headers
+
+data = pd.read_csv("mn.csv", header=None)
+
+Step 3: Assign headers to the data
+
+data.columns = headers
+
+Step 4: Inspect the combined DataFrame
+
+print(data.head())
+
+
+
+
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
 To be completed
