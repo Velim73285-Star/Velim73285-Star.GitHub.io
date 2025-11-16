@@ -92,7 +92,7 @@ Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges a
 ### Feedback from the Tutor for the collaboration discussion 
 To be completed
 
-### Web scraping
+### Unit 3: Web scraping exercise 
 
 ### Findings based on Python web scraping code
 The Python script was specifically tailor for South African job boards such as Careers24 to align it with local compliance. The code is designed to scrape job postings for the keyword “Data Scientist” and it specifically looked at:
