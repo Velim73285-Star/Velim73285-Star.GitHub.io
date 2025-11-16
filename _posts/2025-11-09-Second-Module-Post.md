@@ -148,6 +148,7 @@ Lecturecast activities and results
 Identify the raw dataset from GitHub as mn.csv and mn_headers.csv and download them into the desktop.
 #### 1. Create mn.csv
 Manually creating the mn.csv file that should contain only the data rows, without headers or variables.
+
 •	Steps:
 
 o	Open the raw dataset in a spreadsheet.
@@ -158,6 +159,7 @@ o	Save the remaining rows as mn.csv.
  
 #### 2. Create mn_headers.csv
 Manually creating the mn_headers.csv that should contain only the header row.
+
 •	Steps:
 
 o	Copy the first line (the header row) from the raw dataset.
@@ -185,9 +187,6 @@ data.columns = headers
 Step 4: Inspect the combined DataFrame
 
 print(data.head())
-
-
-
 
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
