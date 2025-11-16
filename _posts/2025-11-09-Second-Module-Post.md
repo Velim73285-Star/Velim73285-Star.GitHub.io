@@ -142,14 +142,14 @@ The output is in two formats as outlined below:
 
 https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
 
-### Unit 4: Data Cleaning and Transformation 
+### Unit 4: Data cleaning and transformation 
 Lecturecast activities and results 
 #### Exercise 1
 Identify the raw dataset from GitHub as mn.csv and mn_headers.csv and download them into the desktop.
 #### 1. Create mn.csv
 Manually creating the mn.csv file that should contain only the data rows, without headers or variables.
 
-•	Steps:
+#### Steps:
 
 o	Open the raw dataset in a spreadsheet.
 
@@ -160,7 +160,7 @@ o	Save the remaining rows as mn.csv.
 #### 2. Create mn_headers.csv
 Manually creating the mn_headers.csv that should contain only the header row.
 
-•	Steps:
+#### Steps:
 
 o	Copy the first line (the header row) from the raw dataset.
 
