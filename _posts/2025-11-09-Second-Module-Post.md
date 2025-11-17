@@ -295,7 +295,7 @@ Spain, United States, and United Kingdom are outliers in the dataset since the d
 
 Mali, Guinea, Liberia, Nigeria, and Sierra Leone had the highest percentage of deaths based on recorded cases and deaths while Senegal had no deaths from the three reported cases.
 
-<img width="887" height="270" alt="image" src="https://github.com/user-attachments/assets/23095c18-d7cf-492b-94df-0001217cd12c" />
+<img width="888" height="284" alt="image" src="https://github.com/user-attachments/assets/bf919138-0fd4-4301-a45e-fd8696d011d3" />
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
