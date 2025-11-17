@@ -239,11 +239,11 @@ Python code
 
 import pandas as pd
 
-1. Load the dataset
+Load the dataset
    
 df = pd.read_csv("ebola_2014_2016_clean.csv")
 
-2. Missing values per country per column
+Missing values per country per column
 
 missing_values = df.groupby("Country").apply(lambda x: x.isnull().sum())
 
@@ -253,7 +253,7 @@ print(missing_values)
 
 print("\n")
 
-3. Cumulative totals (cases and deaths) per country
+Cumulative totals (cases and deaths) per country
 
 cumulative_totals = df.groupby("Country")[[
 
@@ -269,15 +269,17 @@ print(cumulative_totals)
 
 print("\n")
 
-4. Mean and Standard Deviation per country
-5. 
+Mean and Standard Deviation per country
+ 
 stats = df.groupby("Country")[[
 
     "Cumulative no. of confirmed, probable and suspected cases",
    
     "Cumulative no. of confirmed, probable and suspected deaths"
    
-]].agg(["mean", "std"])
+]].
+
+agg(["mean", "std"])
 
 print("=== Mean and Standard Deviation per Country ===")
 
