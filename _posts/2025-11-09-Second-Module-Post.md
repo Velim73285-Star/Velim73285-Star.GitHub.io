@@ -158,7 +158,7 @@ xml
   
 </Jobs>
 
-#### 2.2.2 Important issues to note
+### 2.2.2 Important issues to note
 1.	The actual findings depend on the live HTML structure of Careers24 or PNet at the time of scraping. If the site changes its CSS classes, for example job card or job title, the script must be updated to align with the changes.
    
 2.	Some sites blocked scraping unless a user agent header is included on the code.
