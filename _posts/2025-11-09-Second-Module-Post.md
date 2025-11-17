@@ -279,18 +279,19 @@ stats = df.groupby("Country")[[
    
 ]].
 
-agg(["mean", "std"])
+agg (["mean", "std"])
 
 print("=== Mean and Standard Deviation per Country ===")
 
 print(stats)
 
+### 2.4.3 Results
 
 ## 3.	What exactly have I learnt and how?
-## 3.1 What have I learnt from this module?
+### 3.1 What have I learnt from this module?
 To be completed
 
-## 3.2 The how part of learning the above
+### 3.2 The how part of learning the above
 To be completed
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
