@@ -6,7 +6,6 @@ categories: Modules
 tags: [Github, Modules, Python]
 ---
 
-## Deciphering Big Data
 ### 1. A summary of the learning outcomes of the module
 •	Study various concepts of big data, technologies, and data management to enable students to be able to identify and manage challenges associated with security risks and limitations.
 	
