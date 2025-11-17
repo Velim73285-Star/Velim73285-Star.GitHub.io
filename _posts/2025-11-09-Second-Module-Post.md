@@ -287,6 +287,16 @@ print(stats)
 
 ### 2.4.3 Results
 
+<img width="877" height="594" alt="image" src="https://github.com/user-attachments/assets/61bebee1-32ba-4161-b151-88f2efcfac27" />
+
+Spain, United States, and United Kingdom are outliers in the dataset since the data is based on Western African Ebola virus epidemic.
+
+<img width="659" height="281" alt="image" src="https://github.com/user-attachments/assets/7d769e8d-8311-4fc6-bd80-3a0c0b6f184b" />
+
+Mali, Guinea, Liberia, Nigeria, and Sierra Leone had the highest percentage of deaths based on recorded cases and deaths while Senegal had no deaths from the three reported cases.
+
+<img width="887" height="270" alt="image" src="https://github.com/user-attachments/assets/23095c18-d7cf-492b-94df-0001217cd12c" />
+
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
 To be completed
