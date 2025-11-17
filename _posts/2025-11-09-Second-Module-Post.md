@@ -235,7 +235,7 @@ print(data.head())
 •	The final numbers 28,616 people, including 11,310 deaths, for a case-fatality rate of 40%.
 
 ### 2.4.2 Data analysis and results
-Python code
+#### Python code
 
 import pandas as pd
 
