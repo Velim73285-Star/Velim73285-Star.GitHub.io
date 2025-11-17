@@ -92,56 +92,6 @@ Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges a
 ### Feedback from the Tutor for the collaboration discussion 
 To be completed
 
-### Unit 3: Web scraping exercise 
-
-### Findings based on Python web scraping code
-The Python script was specifically tailor for South African job boards such as Careers24 to align it with local compliance. The code is designed to scrape job postings for the keyword “Data Scientist” and it specifically looked at:
-
-•	Job title as Data Scientist or Senior Data Scientist.
-
-•	Company name for example Capitec Bank, Standard Bank or Deloitte.
-
-•	Location went through different locations in the country, for example Cape Town in Western Cape or Johannesburg in Gauteng
-The above attributes are stored in a Python list of dictionaries like:
-
-python
-[
-  
-  {
-    "title": "Data Scientist",
-    
-    "company": "Capitec Bank",
-    
-    "location": "Cape Town, Western Cape"
-    
-  },
-  
-]
-
-The output is in two formats as outlined below:
-
-1. JSON file (data_scientist_jobs.json)
-   
-•	This file format is easy for developers, analysts, or APIs to consume.
-
-2. XML file (data_scientist_jobs.xml)
-   
-•	This file format is useful for legacy systems or compliance reporting.
-
-### Important issues to note
-
-1.	The actual findings depend on the live HTML structure of Careers24 or PNet at the time of scraping. If the site changes its CSS classes, for example job card or job title, the script must be updated to align with the changes.
-   
-2.	Some sites blocked scraping unless a user agent header is included on the code.
-   
-3.	It is noted that the Python script does not capture salary, posting date, or job description because these variables were not included on the selection list.
-   
-4.	I need skills in XML and HTML in order to develop an efficient script and be able to correctly interpret the results.
-
-#### The Python script and results (JSON and XML) can be found on the link below.
-
-https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
-
 ### Unit 4: Data cleaning and transformation 
 ### Lecturecast activities and results 
 #### Exercise 1
