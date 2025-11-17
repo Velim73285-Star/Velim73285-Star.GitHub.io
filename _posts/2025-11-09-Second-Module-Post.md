@@ -6,8 +6,8 @@ categories: Modules
 tags: [Github, Modules, Python]
 ---
 
-## 1.	Deciphering Big Data
-### A summary of the learning outcomes of the module
+## Deciphering Big Data
+### 1. A summary of the learning outcomes of the module
 •	Study various concepts of big data, technologies, and data management to enable students to be able to identify and manage challenges associated with security risks and limitations.
 	
 • Critically analyse data wrangling problems and determine appropriate methodologies and tools in problem solving.
@@ -32,10 +32,10 @@ tags: [Github, Modules, Python]
 
 ## 2.	The artefacts created during the module
 
-### Collaboration discussion: 
+### 2.1  Unit 1 and 2: Collaboration discussion
 Critically evaluate the rationale behind the Internet of Things (IOT), in the context of, highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.
 
-### Initial Post 
+### 2.1.1 Initial Post 
 ### Banking sector IoT data collection
 Kopetz and Steiner  (2022) state that IoT is a  connection of physical things to the internet and this makes it possible to access remote sensor data and to control the physical world from a distance. The logic behind the IoT in a banking sector focused on enhancing operational efficiency, customer experience, data driven decision making and availability of real time data for business processes. This idea is tone down by significant limitations, risks and challenges. 
 
@@ -65,7 +65,7 @@ Li, F., Li, F., Li, S. and Long, Y., 2020. Deciphering the recreational use of u
 
 Sadhu, P.K., Yanambaka, V.P. and Abdelgawad, A., 2022. Internet of things: Security and solutions survey. Sensors, 22(19), p.7433.
 
-### Summary Post
+### 2.1.2 Summary Post
 The IoT connects physical devices to the internet, enabling real-time data access and remote control. For banks, IoT promises efficiency, customer-centric innovation, and data-driven decision-making. Yet, adoption requires careful navigation of infrastructure realities, regulatory compliance, and ethical considerations. (Fahmideh et al., 2023) state that the IoT platforms are key enablers for smart city initiatives, targeting the improvement of citizens’ quality of life and economic growth. As IoT platforms are dynamic, proactive, and heterogeneous socio-technical artefacts, systematic approaches are required for their development. Based on this statement from Fahmideh et al, there is limited information available from surveys or other sources indicating how IoT platforms are developed and maintained from the perspective of information system development process lifecycle. 
 
 One peer response was received from Preh Muneer Abbasi for the collaboration discussion. The peer review response agreed with all the areas that were discussed in the initial post such as connectivity gaps, poor data quality, security measures. privacy safeguards, fairness controls, and infrastructure investment. Preh Muneer Abbasi suggested that “strategic initiatives are required to close the digital divide by investing in reliable networks and power supply, so that rural or low-income populations are not left behind”. This suggestion is very key in the advancement of the IoT platforms to address infrastructure challenges and digital inequality.
@@ -89,8 +89,85 @@ Li, S., Xu, L.D. and Zhao, S., 2015. The internet of things: a survey. Informati
 
 Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges and opportunities. Internet of things: Challenges and opportunities, pp.1-17.
 
-### Feedback from the Tutor for the collaboration discussion 
+### 2.1.3 Feedback from the Tutor for the collaboration discussion 
 To be completed
+
+### 2.2 Unit 3: Web Scraping
+### 2.2.1 Web scraping
+### Findings based on Python web scraping code
+The Python script was specifically tailor for South African job boards such as Careers24 to align it with local compliance. The code is designed to scrape job postings for the keyword “Data Scientist” and it specifically looked at:
+
+•	Job title as Data Scientist or Senior Data Scientist.
+
+•	Company name for example Capitec Bank, Standard Bank or Deloitte.
+
+•	Location went through different locations in the country, for example Cape Town in Western Cape or Johannesburg in Gauteng
+The above attributes are stored in a Python list of dictionaries like:
+
+python
+
+[
+
+  {
+    "title": "Data Scientist",
+    "company": "Capitec Bank",
+    "location": "Cape Town, Western Cape"
+  },
+  
+]
+
+The output is in two formats as outlined below:
+
+1.	JSON file (data_scientist_jobs.json)
+   
+•	This file format is easy for developers, analysts, or APIs to consume.
+
+### Example:
+
+json
+[
+
+  {
+    "title": "Data Scientist",
+    "company": "Capitec Bank",
+    "location": "Cape Town, Western Cape"
+  }
+  
+]
+
+2.	XML file (data_scientist_jobs.xml)
+   
+•	This file format is useful for legacy systems or compliance reporting.
+
+### Example:
+xml
+
+<Jobs>
+  
+  <Job>
+    
+    <Title>Data Scientist</Title>
+    
+    <Company>Capitec Bank</Company>
+    
+    <Location>Cape Town, Western Cape</Location>
+    
+  </Job>
+  
+</Jobs>
+
+### 2.2.2 Important issues to note
+1.	The actual findings depend on the live HTML structure of Careers24 or PNet at the time of scraping. If the site changes its CSS classes, for example job card or job title, the script must be updated to align with the changes.
+   
+2.	Some sites blocked scraping unless a user agent header is included on the code.
+   
+3.	It is noted that the Python script does not capture salary, posting date, or job description because these variables were not included on the selection list.
+   
+4.	I need skills in XML and HTML in order to develop an efficient script and be able to correctly interpret the results.
+
+### The Python script and results (JSON and XML) can be found on the link below.
+
+https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
 
 ### Unit 4: Data cleaning and transformation 
 ### Lecturecast activities and results 
