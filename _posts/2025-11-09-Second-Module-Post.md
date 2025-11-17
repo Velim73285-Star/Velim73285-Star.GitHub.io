@@ -219,6 +219,71 @@ Step 4: Inspect the combined DataFrame
 
 print(data.head())
 
+### 2.4 Unit 5: Seminar
+### 2.4.1 Title: Case Study on data investigations
+### Western African Ebola virus epidemic (2013–2016) 
+•	The Western African Ebola virus epidemic (2013–2016) was the most widespread outbreak of Ebola virus disease (EVD) in history.
+
+•	Causing major loss of life and socioeconomic disruption in the region, mainly in Guinea, Liberia, and Sierra Leone.
+
+•	The  first cases were recorded in Guinea in December 2013.
+
+•	Later, the disease spread to neighbouring Liberia and Sierra Leone, with minor outbreaks occurring elsewhere.
+
+•	It caused significant mortality, with the case fatality rate reported which was initially considered, while the rate among hospitalised patients was 57–59%.
+
+•	The final numbers 28,616 people, including 11,310 deaths, for a case-fatality rate of 40%.
+
+### 2.4.2 Data analysis and results
+Python code
+
+import pandas as pd
+
+1. Load the dataset
+   
+df = pd.read_csv("ebola_2014_2016_clean.csv")
+
+2. Missing values per country per column
+
+missing_values = df.groupby("Country").apply(lambda x: x.isnull().sum())
+
+print("=== Missing Values per Country per Column ===")
+
+print(missing_values)
+
+print("\n")
+
+3. Cumulative totals (cases and deaths) per country
+
+cumulative_totals = df.groupby("Country")[[
+
+    "Cumulative no. of confirmed, probable and suspected cases",
+    
+    "Cumulative no. of confirmed, probable and suspected deaths"
+    
+]].sum()
+
+print("=== Cumulative Totals per Country ===")
+
+print(cumulative_totals)
+
+print("\n")
+
+4. Mean and Standard Deviation per country
+5. 
+stats = df.groupby("Country")[[
+
+    "Cumulative no. of confirmed, probable and suspected cases",
+   
+    "Cumulative no. of confirmed, probable and suspected deaths"
+   
+]].agg(["mean", "std"])
+
+print("=== Mean and Standard Deviation per Country ===")
+
+print(stats)
+
+
 ## 3.	What exactly have I learnt and how?
 ## 3.1 What have I learnt from this module?
 To be completed
