@@ -171,11 +171,11 @@ xml
 
 https://colab.research.google.com/drive/18Y2WAtSWLQJ2y3JFn0yZU_Dbcvtt_oMP?usp=sharing
 
-### Unit 4: Data cleaning and transformation 
-### Lecturecast activities and results 
+### 2.3 Unit 4: Data cleaning and transformation 
+### 2.3.1 Lecturecast activities and results 
 #### Exercise 1
 Identify the raw dataset from GitHub as mn.csv and mn_headers.csv and download them into the desktop.
-#### 1. Create mn.csv
+#### 2.3.2 Create mn.csv
 Manually creating the mn.csv file that should contain only the data rows, without headers or variables.
 
 #### Steps:
@@ -187,7 +187,7 @@ o	Delete the first line (the header row).
 o	Save the remaining rows as mn.csv.
  <img width="1036" height="593" alt="image" src="https://github.com/user-attachments/assets/cf1192b5-a544-471d-8a16-b4a399cda509" />
 
-#### 2. Create mn_headers.csv
+#### 2.3.3 Create mn_headers.csv
 Manually creating the mn_headers.csv that should contain only the header row.
 
 #### Steps:
