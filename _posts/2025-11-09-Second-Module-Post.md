@@ -291,7 +291,7 @@ print(stats)
 
 Spain, United States, and United Kingdom are outliers in the dataset since the data is based on Western African Ebola virus epidemic.
 
-<img width="659" height="281" alt="image" src="https://github.com/user-attachments/assets/7d769e8d-8311-4fc6-bd80-3a0c0b6f184b" />
+<img width="757" height="322" alt="image" src="https://github.com/user-attachments/assets/99fdd712-5c19-4d70-a325-83f33b9c735d" />
 
 Mali, Guinea, Liberia, Nigeria, and Sierra Leone had the highest percentage of deaths based on recorded cases and deaths while Senegal had no deaths from the three reported cases.
 
