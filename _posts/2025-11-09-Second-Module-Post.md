@@ -342,13 +342,11 @@ Courses (course details independent of students).
 Enrolments (linking students to courses, exam boards, teachers, and scores).
 
 #### 2NF Table: Students
-
 <img width="648" height="338" alt="image" src="https://github.com/user-attachments/assets/9fd68738-fcf0-41b9-bb12-79bcc8925e5f" />
 
 #### 2NF Table: Courses
 
 <img width="372" height="324" alt="image" src="https://github.com/user-attachments/assets/e4cc20b0-f1ed-45fd-a8ac-ba5553f95ef8" />
-
 #### 2NF Table: Enrolments
 
 <img width="683" height="369" alt="image" src="https://github.com/user-attachments/assets/b5dc0ae6-9f09-465c-aba4-821b2bbf2ca9" />
@@ -367,23 +365,18 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 •	Exam Board depends on Course and so, there is a need to separate Teachers and Exam Boards into their own tables.
 
 #### 3NF Table: Students
-
 <img width="511" height="320" alt="image" src="https://github.com/user-attachments/assets/d3506072-9dec-4333-afb5-cc6e6d77c963" />
 
 #### 3NF Table: Courses
-
 <img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/b9e43286-a2a7-4c41-aa27-b1f63950cb90" />
 
 #### 3NF Table: Teachers
-
 <img width="491" height="326" alt="image" src="https://github.com/user-attachments/assets/3bffaecf-c93f-49d3-9030-d6e3c1cf38c9" />
 
 #### 3NF Table: Exam and Boards
-
 <img width="492" height="322" alt="image" src="https://github.com/user-attachments/assets/8a259a11-1b77-41c8-8316-db096a1388b4" />
 
 #### 3NF Table: Enrolments
-
 <img width="668" height="367" alt="image" src="https://github.com/user-attachments/assets/8af7c940-eaf1-42f8-90fc-1589be1084d5" />
 
 ### 2.6.2 The database design
@@ -393,7 +386,6 @@ Microsoft Access database was selected to design the database for this exercise,
 <img width="903" height="406" alt="image" src="https://github.com/user-attachments/assets/b2e8dbc3-fa34-483c-9699-7bf1ce46a4c2" />
 
 #### The ER diagram
-
 <img width="602" height="549" alt="image" src="https://github.com/user-attachments/assets/37e0c352-a2d8-432f-b39a-7b8b761ea79b" />
 
 
