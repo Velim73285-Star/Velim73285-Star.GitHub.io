@@ -343,7 +343,7 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 <img width="654" height="369" alt="image" src="https://github.com/user-attachments/assets/587a2c9a-85b3-48d0-bd37-81147a3928ab" />
 
 
-<img width="381" height="355" alt="image" src="https://github.com/user-attachments/assets/9a65e8e1-389b-4cda-8586-bec6d303a696" />
+<img width="654" height="369" alt="image" src="https://github.com/user-attachments/assets/9a65e8e1-389b-4cda-8586-bec6d303a696" />
 
 
 <img width="789" height="408" alt="image" src="https://github.com/user-attachments/assets/7950aac6-6788-4fff-9b9b-d5b1e154ad2b" />
