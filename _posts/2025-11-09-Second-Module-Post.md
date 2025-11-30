@@ -361,6 +361,7 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 
 •	Exam Board depends on Course and so, there is a need to separate Teachers and Exam Boards into their own tables.
 
+
 <img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/dcdb03e7-695f-4e4e-9398-0755ef291f9c" />
 
 
