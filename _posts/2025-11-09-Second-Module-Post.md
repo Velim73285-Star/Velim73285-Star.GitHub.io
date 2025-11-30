@@ -342,7 +342,9 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 
 <img width="654" height="369" alt="image" src="https://github.com/user-attachments/assets/587a2c9a-85b3-48d0-bd37-81147a3928ab" />
 
+
 <img width="381" height="355" alt="image" src="https://github.com/user-attachments/assets/9a65e8e1-389b-4cda-8586-bec6d303a696" />
+
 
 <img width="789" height="408" alt="image" src="https://github.com/user-attachments/assets/7950aac6-6788-4fff-9b9b-d5b1e154ad2b" />
 
@@ -361,20 +363,26 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 
 <img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/dcdb03e7-695f-4e4e-9398-0755ef291f9c" />
 
+
 <img width="512" height="353" alt="image" src="https://github.com/user-attachments/assets/8344a366-5561-4d58-aa67-5e7b76465d13" />
+
 
 <img width="493" height="366" alt="image" src="https://github.com/user-attachments/assets/0e0ffd18-d3fe-46e9-ab0e-806b710f7f67" />
 
+
 <img width="498" height="354" alt="image" src="https://github.com/user-attachments/assets/af10f7d6-8324-4be1-a864-4d9e29eb8b1f" />
 
+
 <img width="769" height="402" alt="image" src="https://github.com/user-attachments/assets/da16b3c2-01ad-475b-89c6-7417fe662f58" />
+
 
 ### 2.6.2 The database design
 Microsoft Access database was selected to design the database for this exercise, which is a desktop-based relational database management system (RDBMS) that helps users create, manage, and analyse structured data using tables, queries, forms, and reports.
 
 <img width="888" height="467" alt="image" src="https://github.com/user-attachments/assets/b5fe6d0e-ab5a-4faf-a211-9394501f1645" />
 
-<img width="889" height="853" alt="image" src="https://github.com/user-attachments/assets/3164b390-fa35-4b68-bc91-e5eb6e0a1077" />
+
+<img width="889" height="798" alt="image" src="https://github.com/user-attachments/assets/2ad48efa-9e51-44ac-97fe-c79893e295bc" />
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
