@@ -301,13 +301,84 @@ A team of 4 students was created to position themselves as a team of Software Co
 
 Team was expected to prepare and deliver a design report of the intended development work for the client organisation. The design report had to capture the following:
 
-	Logical design => data items/entities, attributes of the data items chosen, relationships and associations. Identify and explain the data types used and data formats selected.
+•	Logical design => data items/entities, attributes of the data items chosen, relationships and associations. Identify and explain the data types used and data formats selected.
 
-	Produce a proposal of the database build, creating an intended database model design. The team was expected to propose a database management system that will be used for the build, considering the client requirements of storage, user access, and the manipulation and retrieval of data within the proposed database.
+•	Produce a proposal of the database build, creating an intended database model design. The team was expected to propose a database management system that will be used for the build, considering the client requirements of storage, user access, and the manipulation and retrieval of data within the proposed database.
 
-	The team was also expected to critically evaluate the data management pipeline process with regards to discussing the capturing of the data used and detailing its source, documenting how you implemented data cleaning techniques and the stages that have been carried out during the cleaning process.
+•	The team was also expected to critically evaluate the data management pipeline process with regards to discussing the capturing of the data used and detailing its source, documenting how you implemented data cleaning techniques and the stages that have been carried out during the cleaning process.
 
 The proposal document was developed and submitted for grading by 01 December 2025 by the Project and Research Lead, Database Designer, Data Manager, and Data Dictionary Analyst.
+
+### 2.6 Unit 7: The Normalisation and database built tasks including the results
+Use the DBD_PCOM7E table provided to execute the normalisation task and then use the tables to design a database.
+### 2.6.1 Normalisation and results
+### 2.6.1.1 First Normal Form (1NF)
+Rules:
+
+•	Eliminate repeating groups.
+
+•	Ensure atomic values (no multi-valued attributes).
+
+•	Each row must have a unique primary key.
+
+Action taken: Separate each course taken by a student into its own row.
+
+1NF Table: Student, Course and Exam
+<img width="886" height="512" alt="image" src="https://github.com/user-attachments/assets/94bba716-65eb-481b-aa12-bc3592fa7c30" />
+
+### 2.6.1.2  Second Normal Form (2NF)
+Rules:
+
+•	Must already be in 1NF.
+
+•	Remove partial dependencies (non-key attributes depending only on part of a composite key). 
+
+Action taken: Split the table into separate tables:
+
+Students (student details independent of courses). 
+
+Courses (course details independent of students).
+
+Enrolments (linking students to courses, exam boards, teachers, and scores).
+
+2NF Table: Students
+<img width="648" height="338" alt="image" src="https://github.com/user-attachments/assets/9fd68738-fcf0-41b9-bb12-79bcc8925e5f" />
+
+2NF Table: Courses
+<img width="372" height="324" alt="image" src="https://github.com/user-attachments/assets/e4cc20b0-f1ed-45fd-a8ac-ba5553f95ef8" />
+
+2NF Table: Enrolments
+<img width="683" height="369" alt="image" src="https://github.com/user-attachments/assets/b5dc0ae6-9f09-465c-aba4-821b2bbf2ca9" />
+
+### 2.6.1.3 Third Normal Form (3NF)
+Rules:
+
+•	Must already be in 2NF.
+
+•	Remove transitive dependencies (non-key attributes depending on other non-key attributes).
+
+Action taken: Divide the table into five separate tables.
+
+•	Teacher Name depends on Course (not directly on Student).
+
+•	Exam Board depends on Course and so, there is a need to separate Teachers and Exam Boards into their own tables.
+
+3NF Table: Students
+<img width="511" height="320" alt="image" src="https://github.com/user-attachments/assets/d3506072-9dec-4333-afb5-cc6e6d77c963" />
+
+3NF Table: Courses
+<img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/b9e43286-a2a7-4c41-aa27-b1f63950cb90" />
+
+3NF Table: Teachers
+<img width="491" height="326" alt="image" src="https://github.com/user-attachments/assets/3bffaecf-c93f-49d3-9030-d6e3c1cf38c9" />
+
+3NF Table: Exam and Boards
+<img width="492" height="322" alt="image" src="https://github.com/user-attachments/assets/8a259a11-1b77-41c8-8316-db096a1388b4" />
+
+3NF Table: Enrolments
+<img width="668" height="367" alt="image" src="https://github.com/user-attachments/assets/8af7c940-eaf1-42f8-90fc-1589be1084d5" />
+
+### 2.6.2 The database design
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
