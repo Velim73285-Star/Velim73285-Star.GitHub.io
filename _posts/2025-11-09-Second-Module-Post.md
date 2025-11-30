@@ -333,7 +333,7 @@ Rules:
 
 •	Remove partial dependencies (non-key attributes depending only on part of a composite key). 
 
-Action taken: Split the table into separate tables:
+Action taken: Split the table into separate tables.
 
 Students (student details independent of courses). 
 
@@ -387,6 +387,9 @@ Action taken: Divide the table into five separate tables.
 <img width="668" height="367" alt="image" src="https://github.com/user-attachments/assets/8af7c940-eaf1-42f8-90fc-1589be1084d5" />
 
 ### 2.6.2 The database design
+
+
+
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
