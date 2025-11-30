@@ -365,13 +365,13 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 <img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/dcdb03e7-695f-4e4e-9398-0755ef291f9c" />
 
 
-<img width="512" height="353" alt="image" src="https://github.com/user-attachments/assets/8344a366-5561-4d58-aa67-5e7b76465d13" />
+<img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/8344a366-5561-4d58-aa67-5e7b76465d13" />
 
 
-<img width="493" height="366" alt="image" src="https://github.com/user-attachments/assets/0e0ffd18-d3fe-46e9-ab0e-806b710f7f67" />
+<img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/0e0ffd18-d3fe-46e9-ab0e-806b710f7f67" />
 
 
-<img width="498" height="354" alt="image" src="https://github.com/user-attachments/assets/af10f7d6-8324-4be1-a864-4d9e29eb8b1f" />
+<img width="584" height="235" alt="image" src="https://github.com/user-attachments/assets/af10f7d6-8324-4be1-a864-4d9e29eb8b1f" />
 
 
 <img width="769" height="402" alt="image" src="https://github.com/user-attachments/assets/da16b3c2-01ad-475b-89c6-7417fe662f58" />
