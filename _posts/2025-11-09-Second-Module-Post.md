@@ -345,10 +345,9 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 <img width="648" height="338" alt="image" src="https://github.com/user-attachments/assets/9fd68738-fcf0-41b9-bb12-79bcc8925e5f" />
 
 #### 2NF Table: Courses
-
 <img width="372" height="324" alt="image" src="https://github.com/user-attachments/assets/e4cc20b0-f1ed-45fd-a8ac-ba5553f95ef8" />
-#### 2NF Table: Enrolments
 
+#### 2NF Table: Enrolments
 <img width="683" height="369" alt="image" src="https://github.com/user-attachments/assets/b5dc0ae6-9f09-465c-aba4-821b2bbf2ca9" />
 
 ### 2.6.1.3 Third Normal Form (3NF)
