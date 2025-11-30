@@ -390,11 +390,9 @@ Action taken: Divide the table into five separate tables.
 Microsoft Access database was selected to design the database for this exercise, which is a desktop-based relational database management system (RDBMS) that helps users create, manage, and analyse structured data using tables, queries, forms, and reports.
 
 Relationships summary table
-
 <img width="903" height="406" alt="image" src="https://github.com/user-attachments/assets/b2e8dbc3-fa34-483c-9699-7bf1ce46a4c2" />
 
 The ER diagram
-
 <img width="602" height="549" alt="image" src="https://github.com/user-attachments/assets/37e0c352-a2d8-432f-b39a-7b8b761ea79b" />
 
 
