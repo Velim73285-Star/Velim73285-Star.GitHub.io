@@ -296,6 +296,19 @@ Mali, Guinea, Liberia, Nigeria, and Sierra Leone had the highest percentage of d
 
 <img width="888" height="284" alt="image" src="https://github.com/user-attachments/assets/bf919138-0fd4-4301-a45e-fd8696d011d3" />
 
+### 2.5 Unit 6: Assignment Project Report on a database design
+A team of 4 students was created to position themselves as a team of Software Consultants and Developers contracted to design and build a logical database. The team had to choose an application and the client profile for the project. 
+
+Team was expected to prepare and deliver a design report of the intended development work for the client organisation. The design report had to capture the following:
+
+	Logical design => data items/entities, attributes of the data items chosen, relationships and associations. Identify and explain the data types used and data formats selected.
+
+	Produce a proposal of the database build, creating an intended database model design. The team was expected to propose a database management system that will be used for the build, considering the client requirements of storage, user access, and the manipulation and retrieval of data within the proposed database.
+
+	The team was also expected to critically evaluate the data management pipeline process with regards to discussing the capturing of the data used and detailing its source, documenting how you implemented data cleaning techniques and the stages that have been carried out during the cleaning process.
+
+The proposal document was developed and submitted for grading by 01 December 2025 by the Project and Research Lead, Database Designer, Data Manager, and Data Dictionary Analyst.
+
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
 To be completed
