@@ -367,18 +367,23 @@ Action taken: Divide the table into five separate tables.
 •	Exam Board depends on Course and so, there is a need to separate Teachers and Exam Boards into their own tables.
 
 3NF Table: Students
+
 <img width="511" height="320" alt="image" src="https://github.com/user-attachments/assets/d3506072-9dec-4333-afb5-cc6e6d77c963" />
 
 3NF Table: Courses
+
 <img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/b9e43286-a2a7-4c41-aa27-b1f63950cb90" />
 
 3NF Table: Teachers
+
 <img width="491" height="326" alt="image" src="https://github.com/user-attachments/assets/3bffaecf-c93f-49d3-9030-d6e3c1cf38c9" />
 
 3NF Table: Exam and Boards
+
 <img width="492" height="322" alt="image" src="https://github.com/user-attachments/assets/8a259a11-1b77-41c8-8316-db096a1388b4" />
 
 3NF Table: Enrolments
+
 <img width="668" height="367" alt="image" src="https://github.com/user-attachments/assets/8af7c940-eaf1-42f8-90fc-1589be1084d5" />
 
 ### 2.6.2 The database design
