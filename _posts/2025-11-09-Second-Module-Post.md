@@ -31,7 +31,7 @@ tags: [Github, Modules, Python]
 
 ## 2.	The artefacts created during the module
 
-### 2.1  Unit 1 and 2: Collaboration discussion
+### 2.1  Unit 1, 2 and 3: Collaboration discussion
 Critically evaluate the rationale behind the Internet of Things (IOT), in the context of, highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.
 
 ### 2.1.1 Initial Post 
