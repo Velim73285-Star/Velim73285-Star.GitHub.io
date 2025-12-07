@@ -64,7 +64,79 @@ Li, F., Li, F., Li, S. and Long, Y., 2020. Deciphering the recreational use of u
 
 Sadhu, P.K., Yanambaka, V.P. and Abdelgawad, A., 2022. Internet of things: Security and solutions survey. Sensors, 22(19), p.7433.
 
-### 2.1.2 Summary Post
+### 2.1.2 Peer Response to Lenka Solarova
+Thank you so much Lenka Solarova for such an insightful post that offers a thoughtful overview of the promise and pitfalls of large-scale data collection in IoT health monitoring. 
+
+You emphasised the dual nature of IoT in healthcare, its capacity to save lives through continuous monitoring and its potential to transform public health through aggregated data. You also used examples such as smartwatches to foetal monitors as grounds for  discussion in real-world applications. Your post also made reference to predictive modelling and early diagnosis reflecting current trends in digital health innovation. You successfully managed to highlight the data lifecycle challenges from collection to cleaning underscoring that raw data alone is insufficient without robust preprocessing. This aligns with Mavrogiorgou et al. (2019), who stress the importance of data wrangling in time series health data.
+
+While your post covers technical limitations and risks, some critical dimensions could be further explored such as ethical and regulatory oversight where you should engage with the ethical implications of health data collection because  IoT health devices often collect intimate biometric data, raising concerns about informed consent, data sovereignty, regulatory compliance and cybersecurity because, IoT health devices are often entry points for attackers. Huxley et al. (2020) warn that without robust encryption and authentication protocols, IoT health ecosystems remain dangerously exposed.
+
+In conclusion, Solarova’s post provides a solid foundation for understanding the opportunities and challenges of IoT in health monitoring. However, a more critical lens reveals that technical complexity must be matched by ethical vigilance and regulatory alignment. 
+
+### References
+
+Hassanien A. E., Slowik A., and Snášel D. Intelligent Data Analysis for IoT Systems. Cham: Springer, pp. 133–153.
+
+Huxley, C., Rosati, P., Lynn, T. and Cummins, M., 2020. The Internet of Things: Definitions, Key Concepts, and Reference Architectures. 
+
+Mavrogiorgou, A., Giannakopoulos, G., & Tserpes, K., 2019. Data pre-processing and data wrangling techniques for IoT. 
+
+Lynn T., Rosati P., Cummins M. and Huxley C. The Internet of Things: Key Applications and Protocols. Cham: Springer, pp.1–15.
+
+### 2.1.3 Peer Response to Mattia Russo
+The post offers a balanced overview of IoT’s promise, drawbacks, and Mattia Russo accurately defined IoT as a sensor-enabled network for data exchange, aligning with established literature like IBM’s technical framing (IBM, 2023) and recent reviews.
+
+### Analysis and strengths of the post
+(Thakur et al., 2023) argue that the integration of Deep Learning (DL) and the Internet of Things (IoT) has revolutionised technology in the twenty first century, enabling humans and machines to perform tasks more efficiently. Based on this statement, one can attest that the combination of DL and the IoT has resulted in significant advancements in technology by improving the efficiency, security, and user experience of IoT devices and systems. The post managed to clearly define the scope of IoT in the business world. The mentioning of education, smart cities, agriculture, and energy in the post reflects real-world IoT adoption trends. For instance, smart agriculture uses IoT for precision farming, while smart grids optimise energy distribution. The post correctly links IoT to big data analytics, emphasising operational efficiency and real-time decision-making which are core benefits supported by studies in industrial automation and smart infrastructure.
+ 
+### Observed gaps and challenges in the post
+There is citation ambiguity on the post such as the use of “(al., 2023)” and “Oclc.org, 2025” which lacks clarity and traceability. It should be noted that without full references, the credibility of claims, especially around ethics and data cleaning become weakened. Mattia also mentions algorithmic bias and transparency but does not explore how this manifest in IoT systems. For example, facial recognition in smart surveillance can reinforce racial bias if training data lacks diversity.
+
+### Discussion on data quality and veracity
+The emphasis on data cleaning is valid, but the post could have elaborated more by distinguishing between technical biases for example sensor drift and contextual biases for example socio-economic skew in data sources. The explanation of visual methods like boxplots and Q–Q plots in the post is very essential and useful, but it was going to be more beneficial if there were details on automated anomaly detection or AI assisted preprocessing of data, which are increasingly vital in large scale IoT systems.
+
+### Conclusion
+The IoT systems offer powerful opportunities for efficiency, personalisation, and data driven decision making across different sectors. Yet its full potential depends on overcoming challenges in scalability, ethics, data quality, and governance. These require strategic investment in skills, infrastructure, and responsible data practices.
+
+### References
+
+Khanna. A. and Kaur. S, “Internet of things (IoT), applications and challenges: A comprehensive review,” Wirel. Pers. Commun., vol. 114, pp. 1687–1762, 2020.
+
+Mohsan S. A. H. et al., “Recent advances, future trends, applications and challenges of internet of underwater things (IoUT): A comprehensive review,” J. Mar. Sci. Eng., vol. 11, no. 1, p. 124, 2023.
+
+Shaheen A., 2024 ‘The Internet of Things (IoT): A Comprehensive Review of Technologies, Applications, Challenges, and Future Trends’. Journal of Engineering and Computational Intelligence Review. Available at: https://jecir.com/index.php/jecir/article/view/11. (Accessed: 4 November 2025).
+
+Thakur, D., Saini, J.K. and Srinivasan, S., 2023. DeepThink IoT: the strength of deep learning in internet of things. Artificial Intelligence Review, 56(12), pp.14663-14730.
+Hassan, R.  et al., “Internet of Things and its applications: A comprehensive survey,” Symmetry, vol. 12, no. 10, p. 1674, 2020.
+
+Verma H., Chauhan, Nm and Awasthi L. K., “A comprehensive review of ‘Internet of Healthcare Things’: Networking aspects, technologies, services, applications, challenges, and security concerns,” Comput. Sci. Rev., vol. 50, p. 100591, 2023.
+
+### 2.1.4 Peer Response to Preh Muneer Abbasi
+The post by Preh Muneer Abbasi provides a balanced overview of IoT’s opportunities and risks, and the cited works support the discussion in the post. In recent years, the Internet of Things (IoT) and Cyber-Physical-Systems (CPS) have gained significant attraction and are becoming increasingly omnipresent. By the year 2030, the installed base of IoT devices will grow to 500 billion worldwide according to (Lesch et al., 2023). This statement is supported by the evidence that both IoT and CPS find applications in many different domains, such as healthcare, energy and utilities, smart cities and communities, manufacturing, and transportation and distribution.
+
+Preh’s post correctly identifies IoT’s core rationale, that it is connecting devices for continuous data collection and automation. This aligns with Marjani et al. (2017), who highlight IoT’s role in enabling smart cities, healthcare, and energy management through big data analytics. The mention of falling storage costs and ubiquitous sensors is valid and it reflects industry trends where cloud and edge computing architectures such as  Microsoft Azure IoT pipelines enable scalable data ingestion and analytics.
+
+The observation that IoT data is heterogeneous and unstructured is accurate and this raises the need for data cleaning, integration, and standardisation before analytics can be effective. It is also noted that while challenges persist in IoT, recent advances in AI-driven analytics and edge computing have matured IoT applications beyond early-stage experimentation. The post rightly stresses security and privacy concerns, citing Huxley et al. (2020) where it indicates that IoT devices expand the attack surface, often suffering from weak encryption, outdated firmware, and poor patch management.
+
+In conclusion, the post by Preh Muneer Abbasi provides a well-structured overview of IoT’s rationale, opportunities, and risks. It successfully highlights the transformative potential of IoT in domains such as smart cities, healthcare, and energy management, while also acknowledging the technical, security, and governance challenges that accompany large-scale data collection.
+
+### References
+
+Agarwal, S., Makkar, S., & Tran, D.-T. (2020). Privacy Vulnerabilities and Data Security Challenges in the IoT. CRC Press. https://doi.org/10.1201/9780429322969
+
+Alsarray, Z. A., & Kadhim, S. A. (2025). Risks and Challenges of the Internet of Things: An Analytical Review. University of Information Technology and Communications
+
+Huxley et al. (2020). A Review of IoT Security Challenges and Solutions. IEEE Xplore
+
+Laghari, A. A., Li, H., Khan, A. A., Shoulin, Y., Karim, S., & Khani, M. A. (2024). IoT Applications Security Trends and Challenges. Springer
+
+Lesch, V., Züfle, M., Bauer, A., Iffländer, L., Krupitzer, C. and Kounev, S., 2023. A literature review of IoT and CPS—What they are, and what they are not. Journal of Systems and Software, 200, p.111631.
+
+Marjani, M., Nasaruddin, F., Gani, A., Karim, A., Hashem, I. A. T., Siddiqa, A., & Yaqoob, I. (2017). Big IoT Data Analytics: Architecture, Opportunities, and Open Research Challenges. IEEE Access, 5, 5247–5261
+
+Microsoft Azure Architecture Center. (2025). Project 15 Open Platform IoT Sustainability. Microsoft Learn
+
+### 2.1.5 Summary Post
 The IoT connects physical devices to the internet, enabling real-time data access and remote control. For banks, IoT promises efficiency, customer-centric innovation, and data-driven decision-making. Yet, adoption requires careful navigation of infrastructure realities, regulatory compliance, and ethical considerations. (Fahmideh et al., 2023) state that the IoT platforms are key enablers for smart city initiatives, targeting the improvement of citizens’ quality of life and economic growth. As IoT platforms are dynamic, proactive, and heterogeneous socio-technical artefacts, systematic approaches are required for their development. Based on this statement from Fahmideh et al, there is limited information available from surveys or other sources indicating how IoT platforms are developed and maintained from the perspective of information system development process lifecycle. 
 
 One peer response was received from Preh Muneer Abbasi for the collaboration discussion. The peer review response agreed with all the areas that were discussed in the initial post such as connectivity gaps, poor data quality, security measures. privacy safeguards, fairness controls, and infrastructure investment. Preh Muneer Abbasi suggested that “strategic initiatives are required to close the digital divide by investing in reliable networks and power supply, so that rural or low-income populations are not left behind”. This suggestion is very key in the advancement of the IoT platforms to address infrastructure challenges and digital inequality.
@@ -87,9 +159,6 @@ Conference on Artificial Intelligence and Machine Vision (AIMV) (pp. 1-6). IEEE.
 Li, S., Xu, L.D. and Zhao, S., 2015. The internet of things: a survey. Information systems frontiers, 17(2), pp.243-259.
 
 Mukhopadhyay, S.C. and Suryadevara, N.K., 2014. Internet of things: Challenges and opportunities. Internet of things: Challenges and opportunities, pp.1-17.
-
-### 2.1.3 Feedback from the Tutor for the collaboration discussion 
-To be completed
 
 ### 2.2 Unit 3: Web Scraping
 ### 2.2.1 Web scraping
