@@ -454,6 +454,107 @@ Microsoft Access database was selected to design the database for this exercise,
 
 <img width="889" height="798" alt="image" src="https://github.com/user-attachments/assets/2ad48efa-9e51-44ac-97fe-c79893e295bc" />
 
+### 2.7 Unit 8, 9 and 10: Collaboration discussion
+To be completed
+
+### 2.8 Unit 9: Seminar activity
+
+Complete an example with storing data in a relational database. The example uses SQLite and includes the following parts:
+ • Installing SQLite and setting a relational database with Python.
+ • Saving the cleaned UNICEF dataset into the SQLite database.
+
+#### The Python code
+Work done in Python to create the DB
+
+import pandas as pd
+
+import sqlite3
+
+#### Load the Ms Excel dataset
+df = pd.read_excel("Mortality_rate_Final.xlsx")
+
+#### Connect to SQLite database
+conn = sqlite3.connect("unicef.db")
+
+#### Save dataset into SQLite (replace table Mortality_rate_Final.xlsx with mortality_data)
+df.to_sql("mortality_data", conn, if_exists="replace", index=False)
+
+import sqlite3
+
+import pandas as pd
+
+#### Connect to database called Unicef
+conn = sqlite3.connect("unicef.db")
+
+#### Create a cursor object: A cursor object in Python is an interface to interact with a database. it allows one to execute SQL queries, fetch results, and manage transactions through a connection. It acts as a bridge between your Python code and the database engine, whether you’re using SQLite, MySQL, or another supported database
+
+cursor = conn.cursor()
+
+#### Querying the database: Example 1: Average mortality rate per country 
+cursor.execute("""
+
+SELECT Region, AVG(mortality_rate) AS avg_rate
+
+FROM mortality_data
+
+GROUP BY Region
+
+ORDER BY avg_rate ASC
+
+""")
+
+rows = cursor.fetchall()
+
+print("Average mortality rate per country:")
+
+for row in rows:
+
+    print(row)
+
+import sqlite3
+
+import pandas as pd
+
+#### Connect to the database
+conn = sqlite3.connect("unicef.db")
+
+#### Create a cursor
+cursor = conn.cursor()
+
+#### Example 2: Calculate the stats on a variable called Mortality_Rate
+import sqlite3
+
+import pandas as pd
+
+#### Connect to the database
+conn = sqlite3.connect("unicef.db")
+
+#Use table is 'mortality_data' and numeric variable 'Mortality_Rate'
+
+query = "SELECT Year, Mortality_Rate FROM mortality_data"
+
+df = pd.read_sql_query(query, conn)
+
+#### Group by year and calculate the stats
+stats = df.groupby("Year")["Mortality_Rate"].agg(
+
+    mean="mean",
+    
+    std="std",
+    
+    range=lambda x: x.max() - x.min()
+)
+
+print(stats)
+
+#### Close the database connection
+conn.close()
+
+Path to the Python code in Colab platform:
+
+Copy of Welcome To Colab - Colab
+
+
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
 To be completed
