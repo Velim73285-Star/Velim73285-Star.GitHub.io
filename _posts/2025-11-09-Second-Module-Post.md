@@ -465,9 +465,7 @@ Complete an example with storing data in a relational database. The example uses
  
  • Saving the cleaned UNICEF dataset into the SQLite database.
 
-** The Python code
-
-Work done in Python to create the DB
+** Work done in Python to create the SQlite DB
 
 import pandas as pd
 
