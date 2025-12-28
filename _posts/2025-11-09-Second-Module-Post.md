@@ -466,6 +466,7 @@ Complete an example with storing data in a relational database. The example uses
  • Saving the cleaned UNICEF dataset into the SQLite database.
 
 ** The Python code
+
 Work done in Python to create the DB
 
 import pandas as pd
@@ -473,12 +474,15 @@ import pandas as pd
 import sqlite3
 
 ** Load the Ms Excel dataset
+
 df = pd.read_excel("Mortality_rate_Final.xlsx")
 
 ** Connect to SQLite database
+
 conn = sqlite3.connect("unicef.db")
 
 ** Save dataset into SQLite (replace table Mortality_rate_Final.xlsx with mortality_data)
+
 df.to_sql("mortality_data", conn, if_exists="replace", index=False)
 
 import sqlite3
@@ -486,6 +490,7 @@ import sqlite3
 import pandas as pd
 
 ** Connect to database called Unicef
+
 conn = sqlite3.connect("unicef.db")
 
 ** Create a cursor object: A cursor object in Python is an interface to interact with a database. it allows one to execute SQL queries, fetch results, and manage transactions through a connection. It acts as a bridge between your Python code and the database engine, whether you’re using SQLite, MySQL, or another supported database
@@ -493,6 +498,7 @@ conn = sqlite3.connect("unicef.db")
 cursor = conn.cursor()
 
 ** Querying the database: Example 1: Average mortality rate per country 
+
 cursor.execute("""
 
 SELECT Region, AVG(mortality_rate) AS avg_rate
@@ -518,17 +524,21 @@ import sqlite3
 import pandas as pd
 
 ** Connect to the database
+
 conn = sqlite3.connect("unicef.db")
 
 ** Create a cursor
+
 cursor = conn.cursor()
 
 ** Example 2: Calculate the stats on a variable called Mortality_Rate
+
 import sqlite3
 
 import pandas as pd
 
 ** Connect to the database
+
 conn = sqlite3.connect("unicef.db")
 
 ** Use table 'mortality_data' and numeric variable 'Mortality_Rate'
@@ -538,6 +548,7 @@ query = "SELECT Year, Mortality_Rate FROM mortality_data"
 df = pd.read_sql_query(query, conn)
 
 ** Group by year and calculate the stats
+
 stats = df.groupby("Year")["Mortality_Rate"].agg(
 
     mean="mean",
@@ -550,6 +561,7 @@ stats = df.groupby("Year")["Mortality_Rate"].agg(
 print(stats)
 
 ** Close the database connection
+
 conn.close()
 
 ## 3.	What exactly have I learnt and how?
