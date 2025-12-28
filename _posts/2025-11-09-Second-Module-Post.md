@@ -461,9 +461,9 @@ To be completed
 
 Complete an example with storing data in a relational database. The example uses SQLite and includes the following parts:
 
-    • Installing SQLite and setting a relational database with Python.
+• Installing SQLite and setting a relational database with Python.
  
-    • Saving the cleaned UNICEF dataset into the SQLite database.
+• Saving the cleaned UNICEF dataset into the SQLite database.
 
 ** Work done in Python to create the SQlite DB
 
