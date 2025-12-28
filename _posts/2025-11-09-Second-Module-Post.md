@@ -447,7 +447,7 @@ Enrolments (linking students to courses, exam boards, teachers, and scores).
 
 
 ### 2.6.2 The database design
-Microsoft Access database was selected to design the database for this exercise, which is a desktop-based relational database management system (RDBMS) that helps users create, manage, and analyse structured data using tables, queries, forms, and reports.
+Microsoft Access database was selected to design the database for this exercise, which is a desktop-based relational database management system (RDBMS) that helps users create, manage, and analyse structured data using tables, queries, forms, and reports.https://github.com/Velim73285-Star/Velim73285-Star.GitHub.io/blob/main/_posts/2025-11-09-Second-Module-Post.md
 
 <img width="888" height="467" alt="image" src="https://github.com/user-attachments/assets/b5fe6d0e-ab5a-4faf-a211-9394501f1645" />
 
@@ -460,37 +460,39 @@ To be completed
 ### 2.8 Unit 9: Seminar activity
 
 Complete an example with storing data in a relational database. The example uses SQLite and includes the following parts:
+
  • Installing SQLite and setting a relational database with Python.
+ 
  • Saving the cleaned UNICEF dataset into the SQLite database.
 
-#### The Python code
+** The Python code
 Work done in Python to create the DB
 
 import pandas as pd
 
 import sqlite3
 
-#### Load the Ms Excel dataset
+** Load the Ms Excel dataset
 df = pd.read_excel("Mortality_rate_Final.xlsx")
 
-#### Connect to SQLite database
+** Connect to SQLite database
 conn = sqlite3.connect("unicef.db")
 
-#### Save dataset into SQLite (replace table Mortality_rate_Final.xlsx with mortality_data)
+** Save dataset into SQLite (replace table Mortality_rate_Final.xlsx with mortality_data)
 df.to_sql("mortality_data", conn, if_exists="replace", index=False)
 
 import sqlite3
 
 import pandas as pd
 
-#### Connect to database called Unicef
+** Connect to database called Unicef
 conn = sqlite3.connect("unicef.db")
 
-#### Create a cursor object: A cursor object in Python is an interface to interact with a database. it allows one to execute SQL queries, fetch results, and manage transactions through a connection. It acts as a bridge between your Python code and the database engine, whether you’re using SQLite, MySQL, or another supported database
+** Create a cursor object: A cursor object in Python is an interface to interact with a database. it allows one to execute SQL queries, fetch results, and manage transactions through a connection. It acts as a bridge between your Python code and the database engine, whether you’re using SQLite, MySQL, or another supported database
 
 cursor = conn.cursor()
 
-#### Querying the database: Example 1: Average mortality rate per country 
+** Querying the database: Example 1: Average mortality rate per country 
 cursor.execute("""
 
 SELECT Region, AVG(mortality_rate) AS avg_rate
@@ -515,27 +517,27 @@ import sqlite3
 
 import pandas as pd
 
-#### Connect to the database
+** Connect to the database
 conn = sqlite3.connect("unicef.db")
 
-#### Create a cursor
+** Create a cursor
 cursor = conn.cursor()
 
-#### Example 2: Calculate the stats on a variable called Mortality_Rate
+** Example 2: Calculate the stats on a variable called Mortality_Rate
 import sqlite3
 
 import pandas as pd
 
-#### Connect to the database
+** Connect to the database
 conn = sqlite3.connect("unicef.db")
 
-#Use table is 'mortality_data' and numeric variable 'Mortality_Rate'
+** Use table 'mortality_data' and numeric variable 'Mortality_Rate'
 
 query = "SELECT Year, Mortality_Rate FROM mortality_data"
 
 df = pd.read_sql_query(query, conn)
 
-#### Group by year and calculate the stats
+** Group by year and calculate the stats
 stats = df.groupby("Year")["Mortality_Rate"].agg(
 
     mean="mean",
@@ -547,13 +549,8 @@ stats = df.groupby("Year")["Mortality_Rate"].agg(
 
 print(stats)
 
-#### Close the database connection
+** Close the database connection
 conn.close()
-
-Path to the Python code in Colab platform:
-
-Copy of Welcome To Colab - Colab
-
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
