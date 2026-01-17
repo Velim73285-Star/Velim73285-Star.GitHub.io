@@ -563,7 +563,7 @@ print(stats)
 conn.close()
 
 ### 2.9 Unit 10: Evaluate the security requirements of an API
-Security requirements specification for a REST API enabling Python connectivity to XML, JSON, and SQL. This specification targets a RESTful data exchange API used by Python clients to share data, perform scraping like retrieval, and connect to XML/JSON files and SQL databases. It balances interoperability with strong controls for confidentiality, integrity, availability, and compliance to the data regulatory frames.
+Security requirements specification for a REST API enabling Python connectivity to XML, JSON, and SQL. This specification targets a RESTful data exchange API used by Python clients to share data, perform scraping like retrieval, and connect to XML/JSON files and SQL databases. It balances interoperability with strong controls for confidentiality, integrity, availability, and compliance to the data regulatory frameworks.
 ### Scope and assumptions
 1.	System context where Python client(s) interacting with a REST API that reads/writes XML/JSON payloads and executes SQL operations via a backend data layer.
 
