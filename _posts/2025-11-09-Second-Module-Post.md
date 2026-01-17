@@ -576,33 +576,33 @@ Brief functional security requirements specification which mitigates against any
 
 #### 1. Authentication and authorisation
    
-•	Strong Authentication that enforces OAuth 2.0 client credentials or JWT-based authorisation with short-lived tokens; support mTLS for high-trust integrations.
+•	Strong authentication that enforces OAuth 2.0 client credentials or JWT-based authorisation with short-lived tokens; support mTLS for high-trust integrations.
 
 #### 2. Data protection
    
-•	Implement transport security that require TLS 1.2+ with modern cipher suites; HSTS and TLS-only endpoints; no plaintext fallbacks.
+•	Implement transport security that require TLS 1.2+ with modern cipher suites, HSTS, TLS only endpoints, and no plaintext fallbacks.
 
-•	Encryption at rest that will encrypt databases, backups, and object storage; manage keys via a KMS with rotation and access controls.
+•	Encryption at rest that will encrypt databases, backups, and object storage, manage keys via a KMS with rotation and access controls.
 
 #### 3. Input validation and parsing
    
-•	Use schema validation to validate XML/JSON against schemas (XSD/JSON Schema) server-side; reject unknown fields by default.
+•	Use schema validation to validate XML/JSON against schemas (XSD/JSON Schema) server side and reject unknown fields by default.
 
-•	Use safe parsing where one disables XML external entities (XXE), DTDs, and entity expansion; limit payload size and depth.
+•	Use safe parsing where one disables XML external entities (XXE), DTDs, and entity expansion, and limit payload size and depth.
 
 #### 4. Output controls and privacy
    
-•	Implement data minimisation where you only return necessary fields and support field-level filtering.
+•	Implement data minimisation where you only return necessary fields and support field level filtering.
 
 #### 5. Abuse prevention and scraping controls
     
-•	Use rate limiting where this is implemented per-client and per-IP limits; burst control with token buckets and adaptive throttling under load.
+•	Use rate limiting where this is implemented per client and per IP limits, burst control with token buckets and adaptive throttling under load.
 
 #### 6. XML/JSON specific controls
     
-•	Normalize inputs to prevent signature bypass or duplicate key ambiguity.
+•	Normalise inputs to prevent signature bypass or duplicate key ambiguity.
 
-•	Reject overly compressed payloads (zip bombs); cap decompression ratios.
+•	Reject overly compressed payloads (zip bombs) and cap decompression ratios.
 
 
 ## 3.	What exactly have I learnt and how?
