@@ -562,6 +562,40 @@ print(stats)
 
 conn.close()
 
+### 2.9 Unit 10: Evaluate the security requirements of an API
+Security requirements specification for a REST API enabling Python connectivity to XML, JSON, and SQL. This specification targets a RESTful data exchange API used by Python clients to share data, perform scraping like retrieval, and connect to XML/JSON files and SQL databases. It balances interoperability with strong controls for confidentiality, integrity, availability, and compliance to the data regulatory frames.
+
+### Scope and assumptions
+1.	System context where Python client(s) interacting with a REST API that reads/writes XML/JSON payloads and executes SQL operations via a backend data layer.
+
+2.	Data sensitivity has potentially personal and regulated data; assume moderate to high sensitivity.
+
+3.	Threat model looks at external attackers, misconfigured clients, malicious scraping, insider misuse, supply chain risks, and data exfiltration via weak controls.
+
+Brief functional security requirements specification which mitigates against any risks associated with the API for enabling data sharing, scraping and connectivity between a Python program code and file formats in XML, JSON and SQL.
+
+1.	Authentication and authorisation
+•	Strong Authentication that enforces OAuth 2.0 client credentials or JWT-based authorisation with short-lived tokens; support mTLS for high-trust integrations.
+
+2.	Data protection
+•	Implement transport security that require TLS 1.2+ with modern cipher suites; HSTS and TLS-only endpoints; no plaintext fallbacks.
+•	Encryption at rest that will encrypt databases, backups, and object storage; manage keys via a KMS with rotation and access controls.
+
+3.	Input validation and parsing
+•	Use schema validation to validate XML/JSON against schemas (XSD/JSON Schema) server-side; reject unknown fields by default.
+•	Use safe parsing where one disables XML external entities (XXE), DTDs, and entity expansion; limit payload size and depth.
+
+4.	Output controls and privacy
+•	Implement data minimisation where you only return necessary fields and support field-level filtering.
+
+5.	Abuse prevention and scraping controls
+•	Use rate limiting where this is implemented per-client and per-IP limits; burst control with token buckets and adaptive throttling under load.
+
+6.	XML/JSON specific controls
+•	Normalize inputs to prevent signature bypass or duplicate key ambiguity.
+•	Reject overly compressed payloads (zip bombs); cap decompression ratios.
+
+
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
 To be completed
