@@ -715,6 +715,55 @@ Brief functional security requirements specification which mitigates against any
 
 •	Reject overly compressed payloads (zip bombs) and cap decompression ratios.
 
+### 2.9 Unit 10: Evaluate the security requirements of an API
+
+Security requirements specification for a REST API enabling Python connectivity to XML, JSON, and SQL. This specification targets a RESTful data exchange API used by Python clients to share data, perform scraping like retrieval, and connect to XML/JSON files and SQL databases. It balances interoperability with strong controls for confidentiality, integrity, availability, and compliance to the data regulatory frameworks.
+
+#### 2.9.1 Scope and assumptions
+1.	System context where Python client(s) interacting with a REST API that reads/writes XML/JSON payloads and executes SQL operations via a backend data layer.
+
+2.	Data sensitivity has potentially personal and regulated data; assume moderate to high sensitivity.
+
+3.	Threat model looks at external attackers, misconfigured clients, malicious scraping, insider misuse, supply chain risks, and data exfiltration via weak controls.
+   
+Brief functional security requirements specification which mitigates against any risks associated with the API for enabling data sharing, scraping and connectivity between a Python program code and file formats in XML, JSON and SQL.
+
+1.	Authentication and authorisation
+   
+•	Strong authentication that enforces OAuth 2.0 client credentials or JWT-based authorisation with short-lived tokens; support mTLS for high-trust integrations.
+
+2.	Data protection
+   
+•	Implement transport security that require TLS 1.2+ with modern cipher suites, HSTS, TLS only endpoints, and no plaintext fallbacks.
+
+•	Encryption at rest that will encrypt databases, backups, and object storage, manage keys via a KMS with rotation and access controls.
+
+3.	Input validation and parsing
+   
+•	Use schema validation to validate XML/JSON against schemas (XSD/JSON Schema) server side and reject unknown fields by default.
+
+•	Use safe parsing where one disables XML external entities (XXE), DTDs, and entity expansion, and limit payload size and depth.
+
+4.	Output controls and privacy
+   
+•	Implement data minimisation where you only return necessary fields and support field level filtering.
+
+5.	Abuse prevention and scraping controls
+    
+•	Use rate limiting where this is implemented per client and per IP limits, burst control with token buckets and adaptive throttling under load.
+
+6.	XML/JSON specific controls
+   
+•	Normalise inputs to prevent signature bypass or duplicate key ambiguity.
+
+•	Reject overly compressed payloads (zip bombs) and cap decompression ratios.
+
+### 2.10 Unit 11: Submission Brief for Executive Summary
+The assessment was an executive summary of a report on the completed design and build of a logical database based on the team project report that was submitted at the end of Unit 6. The executive summary included designing and implementing a database, summaries of all parts of the team project report, individual findings based on the project team report, recommendations, and conclusions. The executive summary of the individual report is detailed below.
+
+GreenMart Retail Ltd currently operates with fragmented data systems that reduce the quality, accuracy, and reliability of business reporting. The dataset (retail_data.csv) used to develop the SQL database models in a retail environment with one million records and over a hundred variables. It covers customer information that includes transactional data, product details, promotional information, and customer behaviour metrics. The dataset uses structured data since the data is organised, searchable, and more dependable to extract insights. This report presents an integrated relational database design and ETL pipeline to consolidate sales, inventory, and customer information into a unified data environment. A critical evaluation demonstrates how data management, cleaning, and modelling practices address existing gaps and enable strategic impact and decision making for GreenMart Retail Ltd.
+
+
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
