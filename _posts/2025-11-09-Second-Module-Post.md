@@ -720,7 +720,7 @@ The assessment was an executive summary of a report on the completed design and 
 
 GreenMart Retail Ltd currently operates with fragmented data systems that reduce the quality, accuracy, and reliability of business reporting. The dataset (retail_data.csv) used to develop the SQL database models in a retail environment with one million records and over a hundred variables. It covers customer information that includes transactional data, product details, promotional information, and customer behaviour metrics. The dataset uses structured data since the data is organised, searchable, and more dependable to extract insights. This report presents an integrated relational database design and ETL pipeline to consolidate sales, inventory, and customer information into a unified data environment. A critical evaluation demonstrates how data management, cleaning, and modelling practices address existing gaps and enable strategic impact and decision making for GreenMart Retail Ltd.
 
-
+The individual executive summary report was developed and submitted for grading by 19 January 2026.
 
 ## 3.	What exactly have I learnt and how?
 ### 3.1 What have I learnt from this module?
