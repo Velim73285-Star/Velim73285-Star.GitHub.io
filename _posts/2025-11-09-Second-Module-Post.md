@@ -504,21 +504,65 @@ Mourby, M., Gowans, H., Aidinlis, S., Smith, H. and Kaye, J., 2019. Governance o
 
 Stalla-Bourdillon, S., Pearce, H. and Tsakalakis, N., 2018. The GDPR: A game changer for electronic identification schemes? The case study of Gov. UK Verify. Computer Law & Security Review, 34(4), pp.784-805.
 
+### 2.7.3 Peer Response to Daniel Eduardo Lopez
+Mena, D., 2025 argues that “In a world where technology increasingly shapes our lives, the balance between safeguarding public security and protecting individual privacy has become more difficult to maintain. The right to privacy and the freedom of expression are foundational rights that individuals in almost all countries believe are protected and guaranteed by their governments. Mexico’s Constitution explicitly safeguards the right to privacy.” This is a valid argument since there is huge amount of personal data processed at different platforms globally and the affected individuals all believe that their personal data is protected while it is not always the case in some instances.
 
+The post by Daniel Eduardo Lopez provides a clear comparative structure where similarities and differences between GDPR and LFPDPPP are discussed in a straightforward way. The coverage of enforcement bodies is identified as EDPB for GDPR and INAI for LFPDPPP and this demonstrates awareness of institutional frameworks. The post also recognises the influence that the GDPR serves as a benchmark for other jurisdictions and this is an insightful and relevant observation.
 
+Key issues of improvement on the post include critically engaging the implications of the similarities and differences between GDPR and LFPDPPP. Daniel should also explore powers, effectiveness, or limitations of the EDPB and INAI as enforcement bodies for the frameworks and this misses an opportunity to critically assess institutional strength. The conclusion is missing key findings and reflections on broader implications for global data governance based on the two frameworks.
 
+In comparing GDPR and LFPDPPP, it becomes clear that while both frameworks preserve privacy as a fundamental right, their scope and enforcement diverge significantly. GDPR’s extraterritorial reach and strong sanctioning powers make it a global benchmark, whereas LFPDPPP remains more territorially limited and focused on private entities. This contrast illustrates how regional legal traditions shape data protection, but also how global standards like GDPR influence national legislation.
 
+### References
+Chavarría-Mora, E., 2025. (Lack of) Patterns in Commitment: Data Protection in the Latin America and Caribbean Personal Data Protection Laws. Social Media+ Society, 11(2), p.20563051251337206.
 
+Demetzou, K., Zanfir-Fortuna, G. and Vale, S.B., 2023. The thin red line: Refocusing data protection law on ADM, a global perspective with lessons from case-law. Computer Law & Security Review, 49, p.105806.
 
+Esteves, B. and Verborgh, R., 2025. Lifting the Cage of Consent: A Techno-Legal Perspective on Evolvable Trust Relationships. arXiv preprint arXiv:2512.03674.
 
+LÓPEZ, F., 2020. Privacy of Personal Data. Journal of Information Technologies and Communications, pp.4-11.
 
+Mena, D., 2025. Eyes Everywhere: Unpacking the Digital Surveillance State in Mexico and the Legal Blind Spots. University of Miami Inter-American Law Review, 57(1), p.195.
 
+Schneider, I., 2020. Democratic governance of digital platforms and artificial intelligence?: Exploring governance models of China, the US, the EU and Mexico. JeDEM-eJournal of eDemocracy and Open Government, 12(1), pp.1-24.
 
+### 2.7.4 Peer Response to Fiaz Ali
+According to Kuner et al. (2020), “any processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union should be carried out in accordance with the regulation, regardless of whether the processing itself takes place within the Union”. The post from Fiaz Ali breaks down the strengths, weaknesses, and areas for improvement for both the GDPR and Trinidad and Tobago Data Protection Act, 2011. 
 
+The post shows a clear comparative framing where the comparison of GDPR with Trinidad and Tobago’s Data Protection Act are highlighted indicating similarities for example, risk-based approach, technical safeguards) and differences the differences in precision and  enforcement. The analysis rightly emphasises that GDPR’s strength lies not only in its prescriptive measures but also in its accountability and enforcement tools. The post also shows a clear distinction between structured exemptions in GDPR and incomplete implementation in Trinidad and Tobago’s Data Protection Act.
 
+Highlighting cultural and economic context should be something to look at in future when comparing the two frameworks, since GDPR operates in a region with strong regulatory traditions and resources, while Trinidad’s framework reflects a different socio-economic reality. Expand on accountability mechanisms: It is also important to note that GDPR stresses on documentation, DPIAs (Data Protection Impact Assessments), and breach notification and this could be contrasted with Trinidad’s requirements to show the maturity gap more concretely.
 
+Overall, Fiaz's post is insightful and well-structured while it rightly emphasises GDPR’s precision, prescriptive guidance, and enforcement strength. It is evident that both laws share a risk-based foundation and emphasise on technical and organizational safeguards, but their maturity and enforcement diverge sharply. GDPR represents a highly systematised, outcome-driven model with clear accountability, while Trinidad’s Act reflects an evolving framework constrained by institutional and operational limitations.
 
+### References
+Bakare¹, S.S., Adeniyi, A.O., Akpuokwe, C.U. and Eneh⁴, N.E., 2024. Data privacy laws and compliance: a comparative review of the EU GDPR and USA regulations.
+Greenleaf, G., 2021. Global tables of data privacy laws and bills (January 2021).
+Hartzog, W. and Richards, N., 2020. Privacy's constitutional moment and the limits of data protection. BCL Rev., 61, p.1687.
+Kuner, C., Bygrave, L., Docksey, C. and Drechsler, L., 2020. The EU general data protection regulation: a commentary. Update. Sel. Artic.(May 4, 2021).
+Smith, T. and Stamatakis, N., 2021. Cyber-victimization trends in Trinidad & Tobago: the results of an empirical research. The International Journal of Cybersecurity Intelligence and Cybercrime, 4(1), pp.46-63.
 
+### 2.7.4 Summary Post
+The collaborative discussion was based on the topic “Compare the rules of the GDPR in particular, with relation to the securing of personal data rule, with either similar compliance laws within your country of residence, or with the ICO in the UK”. Cervi, G.V., 2022, ask a question “why is the EU capable of regulating the digital environment and how is it able to exert regulatory influence outside its boundaries”? To answer this question directly, one has observed and learned that the EU’s internal market appeal, its credibility as a regulator and enforcer, and the timing of its regulatory actions in line with evolving policy needs has enabled the EU to exert regulatory influence in a unilateral and indirect way across the globe.  
+
+Two peer responses were received for the collaboration discussion. The first was from Daniel Lopez who supported the use of the dimensional matrix to compare GDPR and POPIA frameworks. He indicated that this matrix provides a quick way to distinguish the main differences between the two frameworks. Daniel suggested that it is important to enhance the critical aspect of the analysis because he considered it to be superficial.
+
+The second peer response was from Fiaz Ali, and he indicated that the comparative matrix offers a strong foundation for understanding the differences between POPIA and the GDPR frameworks. Faiz response also expanded on the analysis by providing more details on mature data protection practices, implementation of robust data governance frameworks, applying strict data minimisation principles, and maintaining up to date Records of Processing Activities (RoPAs). His response suggested key issues in strengthening the technical and organisational security controls for example, encryption, multi factor authentication, and continuous threat monitoring.
+
+Summary of learning from unit 8 to 10 includes learnings from examining compliance frameworks with regards to data management in respect of rights of individuals and obligations of organisation to stakeholders. In unit 9, there was a deep-rooted learning from the concepts and theories that included the Database Management Systems (DBMS), flat files, relational databases like SQL, PostgreSQL, Oracle, and  Non-relational databases. Lastly in unit 10, analysis and evaluation of Application Programming Interface (APIs) were explored and how APIs facilitate data parsing and inter process communication. The security requirements to enable robust functionality of APIs including challenges and issues involved in the use of APIs were elaborated.
+
+To sum up, data protection regulation sets the rules of the game, databases are the playing field, and APIs are the channels of interaction. Together, they form a triangle of governance, storage, and access. A secure, well-architected system respects regulation, protects data at its core, and exposes it responsibly through APIs.
+
+### References
+Cervi, G.V., 2022. Why and how does the EU rule global digital policy: An empirical analysis of EU regulatory influence in data protection laws. Digital Society, 1(2), p.18.
+
+Kaminski, M.E., 2021. The right to explanation, explained. In Research handbook on information law and governance (pp. 278-299). Edward Elgar Publishing.
+
+Team, I.G.P., 2020. EU general data protection regulation (GDPR)–an implementation and compliance guide. IT Governance Ltd.
+
+Wachter, S., 2020. Affinity profiling and discrimination by association in online behavioural advertising. Berkeley Technology Law Journal, 35(2), pp.367-430.
+
+Yanamala, A.K.Y., Suryadevara, S. and Kalli, V.D.R., 2023. Evaluating the impact of data protection regulations on AI development and deployment. International Journal of Advanced Engineering Technologies and Innovations, 1(01), pp.319-353.
 
 ### 2.8 Unit 9: Seminar activity
 
