@@ -482,6 +482,27 @@ Rachmad, Y.E., 2025. Privacy vs Transparency: The Regulatory Dilemma in CBDC Imp
 
 Williamson, S.M. and Prybutok, V., 2024. Balancing privacy and progress: a review of privacy challenges, systemic oversight, and patient perceptions in AI-driven healthcare. Applied Sciences, 14(2), p.675.
 
+### 2.7.2 Peer Response to Mattia Russo 
+Mattia Russo’s post highlights key issues around the collection and processing of personal data. The post also points out the challenges organisations face in complying with both EU GDPR and UK GDPR frameworks, particularly around dual compliance obligations, regulatory divergence, and inconsistent implementation of risk based safeguards. (Christen, P. et al. 2020) argue that although large parts of the general population are aware of digital privacy issues in principle, in their daily life most citizens seem to be willing to accept the terms of service of digital services or software without noticing the impact. Based on this argument, it important to note that there is  divergence between declared intentions to disclose personal information and actual behaviour from the data owners. The analysis identifies preventive measures that organisations could adopt to mitigate these risks and strengthen compliance.
+
+Key incidents and challenges identified include cross-border data transfer complexity where organisations struggle with dual compliance obligations and adequacy requirements. There is also a challenge of inconsistent implementation of safeguards due to the risk based flexibility in UK GDPR that leads to uneven protection. A bigger challenge of resource constraints for smaller organisations is also identified where limited budgets hinder adoption of advanced technical measures within smaller organisations.
+
+There are preventative measures that can be further explored around encryption and pseudonymisation to enforce mandatory application for sensitive data to reduce re-identification risks. Both frameworks can also propose and promote automated data minimisation tools to ensure only necessary data is collected and retained by organisations across Europe. It is also key for organisations to adopt  Standard Contractual Clauses (SCCs), Binding Corporate Rules (BCRs), and encryption for cross-border transfers. Above the already mentioned preventative measures, it is key that  staff training and awareness campaigns are adopted where regular trainings are conducted to ensure employees understand proportionality and accountability obligations.
+
+To sum up, preventive measures such as strong technical safeguards, structured organisational practices, and harmonised governance frameworks could have mitigated the incidents highlighted in Russo’s report. While proportionality offers flexibility, organisations must balance this with consistent enforcement to avoid compliance gaps. Embedding privacy into design, operations, and governance remains the most effective way to ensure resilience against regulatory divergence and resource constraints.
+
+### References
+Addis, M.C. and Kutar, M., 2018. The general data protection regulation (GDPR), emerging technologies and UK organisations: awareness, implementation and readiness.
+
+Butterworth, M., 2018. The ICO and artificial intelligence: The role of fairness in the GDPR framework. Computer Law & Security Review, 34(2), pp.257-268.
+
+Christen, P., Ranbaduge, T. and Schnell, R., 2020. Regulatory Frameworks. In Linking Sensitive Data: Methods and Techniques for Practical Privacy-Preserving Information Sharing (pp. 27-45). Cham: Springer International Publishing.
+
+Goddard, M., 2017. The EU General Data Protection Regulation (GDPR): European regulation that has a global impact. International Journal of Market Research, 59(6), pp.703-705.
+
+Mourby, M., Gowans, H., Aidinlis, S., Smith, H. and Kaye, J., 2019. Governance of academic research data under the GDPR, lessons from the UK. International Data Privacy Law, 9(3), pp.192-206.
+
+Stalla-Bourdillon, S., Pearce, H. and Tsakalakis, N., 2018. The GDPR: A game changer for electronic identification schemes? The case study of Gov. UK Verify. Computer Law & Security Review, 34(4), pp.784-805.
 
 
 
