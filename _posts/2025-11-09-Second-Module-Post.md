@@ -537,9 +537,13 @@ Overall, Fiaz's post is insightful and well-structured while it rightly emphasis
 
 ### References
 Bakare¹, S.S., Adeniyi, A.O., Akpuokwe, C.U. and Eneh⁴, N.E., 2024. Data privacy laws and compliance: a comparative review of the EU GDPR and USA regulations.
+
 Greenleaf, G., 2021. Global tables of data privacy laws and bills (January 2021).
+
 Hartzog, W. and Richards, N., 2020. Privacy's constitutional moment and the limits of data protection. BCL Rev., 61, p.1687.
+
 Kuner, C., Bygrave, L., Docksey, C. and Drechsler, L., 2020. The EU general data protection regulation: a commentary. Update. Sel. Artic.(May 4, 2021).
+
 Smith, T. and Stamatakis, N., 2021. Cyber-victimization trends in Trinidad & Tobago: the results of an empirical research. The International Journal of Cybersecurity Intelligence and Cybercrime, 4(1), pp.46-63.
 
 ### 2.7.4 Summary Post
