@@ -722,12 +722,55 @@ GreenMart Retail Ltd currently operates with fragmented data systems that reduce
 
 The individual executive summary report was developed and submitted for grading by 19 January 2026.
 
+### 2.11 Unit 12: Submission of the individual e-Portfolio
+
+Submission of the individual e-Portfolio and the reflection section based on unit 1 to 12 learning of the module.
+
 ## 3.	What exactly have I learnt and how?
+
+The module has equipped me with both technical and strategic skills to handle the challenges of big data in modern organizations.
+
 ### 3.1 What have I learnt from this module?
-To be completed
+
+•	How to understand, manage, and critically analyse large-scale data systems,
+
+•	Learning on different big data concepts, 
+
+•	Use and application of technologies, 
+
+•	Storage formats, 
+
+•	Data wrangling, 
+
+•	Security measures and regulatory frameworks, 
+
+•	Cloud services, 
+
+•	Introduction to machine learning. 
 
 ### 3.2 The how part of learning the above
-To be completed
+
+•	Hands-on practical work from unit 1 to 12,
+
+•	Project based learning and seminars,
+
+•	Critical reflection and collaboration discussions,
+
+•	Blended learning,
+
+•	Research, assessment preparation and development of high quality submissions.
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
-To be completed
+
+•	Data wrangling: preparing retail or analytics datasets for dashboards,
+
+•	Data storage and formats, designing hybrid OLTP/OLAP systems,
+
+•	Security and compliance: ensuring ethical governance in South African retail data,
+
+•	Data visualization and presentation: creating stakeholder-ready reports and ER diagrams,
+
+•	Cloud and Application Programming Interface (API): scaling workloads across operational and analytical systems,
+
+•	Basics on Machine Learning: predictive analytics for customer behaviour.
+
