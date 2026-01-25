@@ -756,21 +756,21 @@ The module has equipped me with both technical and strategic skills to handle th
 
 •	Critical reflection and collaboration discussions,
 
-•	Blended learning,
+•	Blended learning excluding face-to-face,
 
 •	Research, assessment preparation and development of high quality submissions.
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
 
-•	Data wrangling: preparing retail or analytics datasets for dashboards,
+•	Data wrangling: Preparing retail or analytics datasets for dashboards,
 
-•	Data storage and formats, designing hybrid OLTP/OLAP systems,
+•	Data storage and formats: Designing hybrid OLTP/OLAP systems,
 
-•	Security and compliance: ensuring ethical governance in South African retail data,
+•	Security and compliance: Ensuring ethical governance in South African retail data,
 
-•	Data visualization and presentation: creating stakeholder-ready reports and ER diagrams,
+•	Data visualization and presentation: Creating stakeholder-ready reports and ER diagrams,
 
-•	Cloud and Application Programming Interface (API): scaling workloads across operational and analytical systems,
+•	Cloud and Application Programming Interface (API): Scaling workloads across operational and analytical systems,
 
-•	Basics on Machine Learning: predictive analytics for customer behaviour.
+•	Basics on Machine Learning: Predictive analytics for customer behaviour.
 
