@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Deciphering Big Data
+title: Numerical Analysis
 subtitle: Each post has a subtitle
 categories: Modules
-tags: [Github, Modules, Python]
+tags: [Github, Modules, Python, R]
 ---
