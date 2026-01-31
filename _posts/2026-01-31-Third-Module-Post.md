@@ -17,3 +17,18 @@ tags: [Github, Modules, Python, R]
 
 •	The opportunity to take a reflective and independent approach to the learning process.
 
+## 2.	The artefacts created during the module
+### 2.1 Unit 1
+This unit explored the importance of statistics, which are found everywhere in business, in sports, in health, in law, and other sectors. Statistics are often included in reports to add credibility, but sometimes the numbers could be presented in such a way that they are misleading. The unit focused on the following learning:
+
+•	Know about different interfaces and packages used in R.
+
+•	Importing and saving Data in R.
+
+•	Explain the importance of statistics to business.
+
+•	Explore how data can be summarised in different formats.
+
+•	Understand different types of measurement scales.
+
+•	Determine levels of measurement and performing descriptive statistics analysis in R.
