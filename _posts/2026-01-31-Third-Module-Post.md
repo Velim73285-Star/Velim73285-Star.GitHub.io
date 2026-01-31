@@ -32,3 +32,16 @@ This unit explored the importance of statistics, which are found everywhere in b
 •	Understand different types of measurement scales.
 
 •	Determine levels of measurement and performing descriptive statistics analysis in R.
+
+## 3.	What exactly have I learnt and how?
+To be completed
+
+### 3.1 What have I learnt from this module?
+To be completed
+
+### 3.2 The how part of learning the above
+To be completed
+
+## 4.	Professional skills gained and enhanced as a result of the module 
+
+
