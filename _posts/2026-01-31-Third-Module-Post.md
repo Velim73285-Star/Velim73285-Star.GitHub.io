@@ -67,7 +67,43 @@ table(Covid19_India_Jan20_Mar20$State.UnionTerritory)
 #### Find the state with the maximum frequency
 which.max(table(Covid19_India_Jan20_Mar20$State.UnionTerritory))
 
+### Using R commands, determine and record the following
+•	How many total variables (columns) are in this dataset?
 
+There are 7 variables
+
+•	How many total observations (rows) are in this dataset
+
+There are 270 observations
+
+•	What are the names of all variables in the dataset?
+
+The names of the variables in the dataset are Sno, Date, State.UnionTerritory, ConfirmedIndianNationa, ConfirmedForeignNational, Cured, and Deaths.
+
+•	How many variables are in numeric format?
+
+There are 5 variables that are numeric (Sno, ConfirmedIndianNationa, ConfirmedForeignNational, Cured, and Deaths.
+
+•	How many variables are in character/text format?
+
+There are 2 variables that are character (Date, State.UnionTerritory)
+
+•	How many variables are in date format?
+
+There are 0 variables that are date format because the date variable in the dataset is classified as factor in R.
+
+### Task 1.2 Data Related information	
+•	How many unique states/union territories are represented in the dataset?
+
+There are 27 unique states/union territories in the dataset
+
+•	What is the date range covered by this dataset?
+
+The date range is 2020-01-30 to 2020-03-21
+
+•	Which state appears most frequently in the dataset?
+
+The state that appears most frequently in the dataset is Kerala with 52 observations
 
 ## 3.	What exactly have I learnt and how?
 To be completed
