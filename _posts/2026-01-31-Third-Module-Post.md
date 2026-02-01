@@ -32,10 +32,41 @@ Dataset: COVID-19 India Cases (January 2020 - March 2020)Source: This dataset co
 3.	Conduct an initial exploration of the dataset structure
 
 ### Task 1.1: Basic Dataset Information
-R code to answer the questions below
+### R code to answer the questions below
 
-* Upload dataset called Covid19_India_Jan20_Mar20.csv in R
+#### Upload dataset called Covid19_India_Jan20_Mar20.csv in R
   Covid19_India_Jan20_Mar20 <- read.csv("Covid19_India_Jan20_Mar20.csv")
+
+#### List the variables in a dataset
+names(Covid19_India_Jan20_Mar20)
+
+#### Getting the number of observations in a dataset
+nrow(Covid19_India_Jan20_Mar20)
+
+#### To check the variables format in a dataset
+str(Covid19_India_Jan20_Mar20)
+
+#### To check how many unique states/union territories are represented in the dataset
+length(unique(Covid19_India_Jan20_Mar20$State.UnionTerritory))
+
+unique(Covid19_India_Jan20_Mar20$State.UnionTerritory)
+
+#### Convert factor Date variable to a date format variable in the dataset
+Covid19_India_Jan20_Mar20$Date <- as.Date( as.character(Covid19_India_Jan20_Mar20$Date),
+
+  format = "%d-%m-%Y"   # or "%Y-%m-%d" 
+  
+)
+
+#### To check date range covered by this dataset
+range(Covid19_India_Jan20_Mar20$Date)
+
+#### To check which state appears most frequently in the dataset using frequency table
+table(Covid19_India_Jan20_Mar20$State.UnionTerritory)
+
+#### Find the state with the maximum frequency
+which.max(table(Covid19_India_Jan20_Mar20$State.UnionTerritory))
+
 
 
 ## 3.	What exactly have I learnt and how?
