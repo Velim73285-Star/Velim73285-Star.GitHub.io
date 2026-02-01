@@ -31,7 +31,7 @@ Dataset: COVID-19 India Cases (January 2020 - March 2020)Source: This dataset co
    
 3.	Conduct an initial exploration of the dataset structure
 
-### Task 1.1: Basic Dataset Information
+### Task 1.1: Basic dataset information
 ### R code to answer the questions below
 
 #### Upload dataset called Covid19_India_Jan20_Mar20.csv in R
@@ -78,7 +78,7 @@ There are 270 observations
 
 •	What are the names of all variables in the dataset?
 
-The names of the variables in the dataset are Sno, Date, State.UnionTerritory, ConfirmedIndianNationa, ConfirmedForeignNational, Cured, and Deaths.
+The names of the variables in the dataset are: Sno, Date, State.UnionTerritory, ConfirmedIndianNationa, ConfirmedForeignNational, Cured, and Deaths.
 
 •	How many variables are in numeric format?
 
