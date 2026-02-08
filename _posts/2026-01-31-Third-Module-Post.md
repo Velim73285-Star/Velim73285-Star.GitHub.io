@@ -105,6 +105,49 @@ The date range is 2020-01-30 to 2020-03-21
 
 The state that appears most frequently in the dataset is Kerala with 52 observations
 
+### Unit 2: Data activity 2
+Using the COVID-19 India Dataset (January 2020 - March 2020), perform the following frequency analysis activities to understand patterns in early pandemic reporting across Indian states. 
+
+### 2.1	Questions and answers
+1.	Create a frequency table to count how many daily reports showed recoveries versus no recoveries during this period. Use the table() command. 
+
+#### Load the dataset into R
+> Covid19_India_Jan20_Mar20 <- read.csv("Covid19_India_Jan20_Mar20.csv")
+
+> View(Covid19_India_Jan20_Mar20)
+
+#### Create a frequency table: TRUE if recoveries > 0, FALSE otherwise
+> freq_table <- table(Covid19_India_Jan20_Mar20$Cured > 0)
+
+> cat("\n\nFrequency of Daily Reports (Recoveries vs No Recoveries):\n")
+ 
+print(freq_table)
+
+ <img width="756" height="74" alt="image" src="https://github.com/user-attachments/assets/adec6296-b3c3-40cc-8e8e-1781bfde2201" />
+
+2.	Calculate percentages to understand what proportion of daily state reports included recovery cases. 
+#### Convert to proportions (percentages) 
+> percent_table <- prop.table(freq_table) * 100
+
+> cat("\n\nPercentage of Daily Reports (Recoveries vs No Recoveries):\n")
+
+print(percent_table)
+
+<img width="770" height="70" alt="image" src="https://github.com/user-attachments/assets/1b3b1616-c81f-4937-870e-65ba35e49735" />
+
+3.	Create a binary variable called has_recovery that indicates whether any recoveries (cured cases) were reported. 
+#### Creating a variable has_recovery from a variables cured
+>  Covid19_India_Jan20_Mar20$has_recovery <- Covid19_India_Jan20_Mar20$Cured > 0
+
+#### Convert logical TRUE/FALSE into a binary of 1/0
+> Covid19_India_Jan20_Mar20$has_recoverybinary <- as.integer(Covid19_India_Jan20_Mar20$Cured > 0)
+
+Table output for the binary variable called has_recovery
+
+<img width="940" height="570" alt="image" src="https://github.com/user-attachments/assets/29488a9d-34fd-45e3-8b5b-e5460069fd3b" />
+
+Notes: (0 = No recoveries reported and 1 = Recoveries reported)
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
