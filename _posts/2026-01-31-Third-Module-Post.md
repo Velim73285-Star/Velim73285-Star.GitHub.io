@@ -148,6 +148,11 @@ Table output for the binary variable called has_recovery
 
 Notes: (0 = No recoveries reported and 1 = Recoveries reported)
 
+
+
+
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
