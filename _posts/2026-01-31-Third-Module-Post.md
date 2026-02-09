@@ -125,7 +125,8 @@ print(freq_table)
 
  <img width="756" height="74" alt="image" src="https://github.com/user-attachments/assets/adec6296-b3c3-40cc-8e8e-1781bfde2201" />
 
-2.	Calculate percentages to understand what proportion of daily state reports included recovery cases. 
+2.	Calculate percentages to understand what proportion of daily state reports included recovery cases.
+   
 #### Convert to proportions (percentages) 
 > percent_table <- prop.table(freq_table) * 100
 
@@ -135,7 +136,8 @@ print(percent_table)
 
 <img width="770" height="70" alt="image" src="https://github.com/user-attachments/assets/1b3b1616-c81f-4937-870e-65ba35e49735" />
 
-3.	Create a binary variable called has_recovery that indicates whether any recoveries (cured cases) were reported. 
+3.	Create a binary variable called has_recovery that indicates whether any recoveries (cured cases) were reported.
+   
 #### Creating a variable has_recovery from a variables cured
 >  Covid19_India_Jan20_Mar20$has_recovery <- Covid19_India_Jan20_Mar20$Cured > 0
 
@@ -147,6 +149,277 @@ Table output for the binary variable called has_recovery
 <img width="940" height="570" alt="image" src="https://github.com/user-attachments/assets/29488a9d-34fd-45e3-8b5b-e5460069fd3b" />
 
 Notes: (0 = No recoveries reported and 1 = Recoveries reported)
+
+### 2.2.2	Seminar 2 on 10 February 2026
+### 2.2.2.1 An article by Dong, Y. (2023)
+Using the article by Dong, Y. (2023) ‘Descriptive statistics and its applications’, Highlights in Science, Engineering and Technology, 47, pp. 16–23 to answer the following questions.
+
+a)	What is the primary purpose of descriptive statistics, and how does it differ from other statistical methods?
+
+The primary purpose of descriptive statistics is to provide a clear, concise summary of a dataset’s main features. Instead of working with raw numbers, descriptive statistics organise and present data using measures like mean, median, mode, standard deviation, frequency tables, and graphs. This makes complex datasets easier to understand and communicate to others. Descriptive statistics focuses only on describing and summarising the data at hand and does not attempt to generalise beyond the dataset or make any predictions. It uses sample data to make inferences about a larger population, and it also involves hypothesis testing, confidence intervals, and regression analysis.
+
+b)	According to the paper's analysis of housing prices in Beijing (Table 2), what were the key factors that contributed to the increase in housing prices between 2012 and 2015? Explain how the descriptive statistics helped identify these factors.
+
+In the paper’s analysis of housing prices in Beijing (Table 2), the descriptive statistics highlighted the following factors that contributed to the increase in housing prices between 2012 and 2015:
+
+Average Price Increase: The mean housing price rose from 336.727 in 2012 to 477.521 in 2015, showing a significant upward trend.
+
+Living Space Growth: The average area of homes increased from 102.523  to 123.94, indicating larger housing units were being built and sold.
+
+More bedrooms and dining rooms: The mean number of bedrooms rose from 2.126 to 2.415, and dining rooms from 1.34 to 1.559, suggesting improved housing quality and facilities.
+
+Taller buildings: The average floor number increased from 14.099 to 15.342, reflecting a trend toward high-rise construction, which correlated with rising prices.
+
+Descriptive statistics provided a straightforward way to identify which variables were changing significantly and how those changes aligned with the observed increase in housing prices.
+
+c)	Explain the difference between mean, median, and mode. Given the sample: 13, 15, 17, 15, 20, 15, 18, calculate all three measures of central tendency.
+
+#### Difference Between Mean, Median, and Mode
+
+1.	Mean: The arithmetic average and is calculated by adding all values together and divide by the number of observations.
+	
+2.	Median: The middle value when the data is ordered either in an ascending order or descending order. If there’s an even number of values, the median is the average of the two middle ones.
+   
+3.	Mode: The value that occurs most frequently in the dataset.
+
+#### Sample data is: 13,15,17,15,20,15,18
+#### Calculations
+1.	Mean = 16.14
+   
+2.	Median = 15 when the data ordered in an ascending order: 13,15,15,15,17,18,20
+   
+3.	Mode = 15  since the value 15 appears 3 times.
+
+d)	What are the main limitations of descriptive statistics as identified in the paper? Why is descriptive statistics alone not sufficient for comprehensive statistical analysis?
+
+In the paper, the author highlights several limitations of descriptive statistics and explains why they are not sufficient on their own for comprehensive statistical analysis:
+
+•	No predictive power: Descriptive statistics can only summarise existing data; they cannot forecast future values or trends. For example, they can show that housing prices rose between 2012 and 2015, but they cannot predict what will happen in 2016.
+
+•	Restricted scope: They provide a snapshot of the dataset but cannot establish causal relationships or deeper insights. For instance, descriptive measures can show averages and variability but not explain why those changes occurred.
+
+•	Time consuming data collection: The paper notes that gathering raw data for descriptive statistics can be lengthy and complex, especially when multiple sources are involved.
+
+•	Insufficient for comprehensive analysis: A single descriptive table is never enough to fully understand a dataset. Researchers often need to move beyond descriptive summaries to inferential methods (like regression models) to draw broader conclusions.
+
+e)	Based on Table 3 and Table 4 in the stock market analysis section, explain how descriptive statistics (particularly mean values) helped researchers determine the relationship between trust levels and stock market volatility during COVID-19.
+
+#### Insights from table 3
+
+Table 3 presents descriptive statistics for variables such as market volatility, case growth rate, and trust (both societal and governmental). For example, the mean trust score was 31.09 for societal trust and 39.31 for government trust. These averages provided a baseline understanding of how trust levels varied across countries during the pandemic.
+
+#### Insights from table 4
+Table 4 compares countries with high trust versus low trust. The mean market volatility was 0.0179 in high-trust countries and 0.0176 in low-trust countries, showing only a small difference. However, the mean case growth rate was 0.0420 in high-trust countries versus 0.0674 in low-trust countries. This difference suggested that countries with higher trust experienced lower growth in COVID-19 cases, which in turn correlated with lower volatility in their stock markets.
+
+Descriptive statistics helped where the mean values acted as a tool to highlight differences between high-trust and low-trust countries, showing that higher trust was associated with lower case growth and steadier markets during COVID-19.
+
+### 2.2.2.2 Data analysis activity
+Using this small covid-19 dataset, perform the following activities:
+
+a.	Calculate and interpret measures of central tendency and dispersion for COVID-19 cases across Indian states during January-March 2020.
+
+#### R code to calculate the measures of measures of central tendency and dispersion
+
+#### Read the dataset
+covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
+
+#### Extract Confirmed Indian National cases
+confirmed_cases <- covid_data$ConfirmedIndianNational
+
+#### Central Tendency
+mean_cases <- mean(confirmed_cases, na.rm = TRUE)
+
+median_cases <- median(confirmed_cases, na.rm = TRUE)
+
+mode_cases <- as.numeric(names(sort(table(confirmed_cases), decreasing = TRUE)[1]))
+
+#### Dispersion
+range_cases <- range(confirmed_cases, na.rm = TRUE)
+
+variance_cases <- var(confirmed_cases, na.rm = TRUE)
+
+sd_cases <- sd(confirmed_cases, na.rm = TRUE)
+
+#### Print results
+cat("Mean:", mean_cases, "\n")
+
+cat("Median:", median_cases, "\n")
+
+cat("Mode:", mode_cases, "\n")
+
+cat("Range:", range_cases[1], "to", range_cases[2], "\n")
+
+cat("Variance:", variance_cases, "\n")
+
+cat("Standard Deviation:", sd_cases, "\n")
+
+#### Measures of central tendency
+a)	Mean =  5.6 cases
+
+On average, each state entry reported about 6 confirmed cases. This is inflated by hotspots like Maharashtra and Kerala states.
+
+b)	Median = 3 cases
+
+Half of the entries reported 3 or fewer cases. This reflects the long level in Kerala and isolated detections elsewhere.
+
+c)	Mode = 1 cases 
+
+The most common value was 1 across all the states.
+
+#### Measures of dispersion
+a)	Variance = 69.5
+
+High variance due to clustering since most states had very few cases, but Kerala, Maharashtra, and Delhi had much higher counts.
+
+b)	Standard Deviation = 8.3
+
+Standard deviation is higher relative to the mean, indicating uneven spread of the cases across the states.
+
+c)	Range = 60 
+
+The maximum = 60 in which is in Maharashtra and the minimum = 0 in several states. This shows the wide disparity between hotspots and states with no or minimal cases.
+
+b.	Create appropriate visualizations:
+
+#### Histograms with density curves for each variable
+
+#### R code to create histograms with density curves
+
+#### Read the dataset
+covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
+
+####  Identify numeric columns
+numeric_vars <- c("ConfirmedIndianNational", "ConfirmedForeignNational", "Cured", "Deaths")
+
+####  Loop through each numeric variable and plot histogram with density curve
+for (var in numeric_vars) {
+
+  ####  Extract data
+  data <- covid_data[[var]]
+  
+  ####  Open PNG device (optional: saves plots as files)
+  png(paste0("hist_density_", var, ".png"))
+  
+  ####  Histogram
+  hist(data,
+  
+       main = paste("Histogram with Density Curve for", var),
+       
+       xlab = var,
+       
+       col = "lightblue",
+       
+       breaks = 20,
+       
+       probability = TRUE)  # scale to probability for density
+  
+  ####  Add density curve
+  lines(density(data, na.rm = TRUE), col = "red", lwd = 2)
+  
+  ####  Close PNG device
+  
+  dev.off()
+  
+}
+
+<img width="750" height="708" alt="image" src="https://github.com/user-attachments/assets/ea131533-0b36-4ee3-a49e-a0b58f8198eb" />
+
+<img width="750" height="690" alt="image" src="https://github.com/user-attachments/assets/d582f8e6-31ad-403c-af1c-6ecdddcf11a2" />
+
+<img width="796" height="696" alt="image" src="https://github.com/user-attachments/assets/1ea0f853-8640-400d-862c-082f97df220f" />
+
+<img width="851" height="693" alt="image" src="https://github.com/user-attachments/assets/af429268-9445-4a37-9aa0-3dbd8b760a69" />
+
+#### Boxplots to identify outliers
+
+#### R code to create boxplots
+
+#### Read the dataset
+covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
+
+#### Numeric variables to visualize
+numeric_vars <- c("ConfirmedIndianNational", "ConfirmedForeignNational", "Cured", "Deaths")
+
+#### Save all boxplots in one PNG file
+png("covid_boxplots.png", width = 1000, height = 800)
+
+#### Arrange plots in 2x2 grid
+par(mfrow = c(2, 2))
+
+#### Loop through variables
+for (var in numeric_vars) {
+
+  data <- covid_data[[var]]
+  
+  #### Boxplot
+  boxplot(data,
+  
+          main = paste("Boxplot of", var),
+          
+          ylab = var,
+          
+          col = "lightgreen")
+  
+  #### Add grid for readability
+  grid()
+  
+}
+
+#### Close PNG device
+dev.off()
+
+<img width="991" height="750" alt="image" src="https://github.com/user-attachments/assets/c279de19-b420-49a9-89bb-e909db3ea996" />
+
+#### Violin plots to show distribution shape
+
+#### R code to create violin plots
+
+#### Install vioplot if not already installed
+if(!require(vioplot)) install.packages("vioplot")
+
+library(vioplot)
+
+#### Read the dataset
+covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
+
+#### Numeric variables
+numeric_vars <- c("ConfirmedIndianNational", "ConfirmedForeignNational", "Cured", "Deaths")
+
+#### Save violin plots in one PNG file
+png("covid_violinplots.png", width = 1000, height = 800)
+
+#### Arrange plots in 2x2 grid
+par(mfrow = c(2, 2))
+
+#### Loop through variables
+for (var in numeric_vars) {
+
+  data <- covid_data[[var]]
+  
+  #### Violin plot
+  vioplot(data,
+  
+          names = var,
+          
+          col = "lightblue",
+          
+          main = paste("Violin Plot of", var))
+          
+    grid()
+    
+}
+
+dev.off()
+
+<img width="940" height="880" alt="image" src="https://github.com/user-attachments/assets/109b246a-8f59-415b-84e5-0726c9263de2" />
+
+a)	ConfirmedIndianNational plot is strong right skew, with most values clustered at low counts but a long tail up to 60.
+
+b)	ConfirmedForeignNational plot is mostly zeros, with isolated spikes from Rajasthan and Haryana.
+
+c)	Cured plot is sparse distribution, concentrated at 0 with occasional clusters.
+
+d)	Deaths plot is almost entirely 0, with rare non-zero values showing as thin tails.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
