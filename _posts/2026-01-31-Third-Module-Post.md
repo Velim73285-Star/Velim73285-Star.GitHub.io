@@ -160,13 +160,13 @@ b)	According to the paper's analysis of housing prices in Beijing (Table 2), wha
 
 In the paper’s analysis of housing prices in Beijing (Table 2), the descriptive statistics highlighted the following factors that contributed to the increase in housing prices between 2012 and 2015:
 
-Average Price Increase: The mean housing price rose from 336.727 in 2012 to 477.521 in 2015, showing a significant upward trend.
+• Average Price Increase: The mean housing price rose from 336.727 in 2012 to 477.521 in 2015, showing a significant upward trend.
 
-Living Space Growth: The average area of homes increased from 102.523  to 123.94, indicating larger housing units were being built and sold.
+• Living Space Growth: The average area of homes increased from 102.523  to 123.94, indicating larger housing units were being built and sold.
 
-More bedrooms and dining rooms: The mean number of bedrooms rose from 2.126 to 2.415, and dining rooms from 1.34 to 1.559, suggesting improved housing quality and facilities.
+• More bedrooms and dining rooms: The mean number of bedrooms rose from 2.126 to 2.415, and dining rooms from 1.34 to 1.559, suggesting improved housing quality and facilities.
 
-Taller buildings: The average floor number increased from 14.099 to 15.342, reflecting a trend toward high-rise construction, which correlated with rising prices.
+• Taller buildings: The average floor number increased from 14.099 to 15.342, reflecting a trend toward high-rise construction, which correlated with rising prices.
 
 Descriptive statistics provided a straightforward way to identify which variables were changing significantly and how those changes aligned with the observed increase in housing prices.
 
