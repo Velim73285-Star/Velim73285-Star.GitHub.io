@@ -222,14 +222,14 @@ covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
 #### Extract Confirmed Indian National cases
 confirmed_cases <- covid_data$ConfirmedIndianNational
 
-#### Central Tendency
+#### Measure of central tendency
 mean_cases <- mean(confirmed_cases, na.rm = TRUE)
 
 median_cases <- median(confirmed_cases, na.rm = TRUE)
 
 mode_cases <- as.numeric(names(sort(table(confirmed_cases), decreasing = TRUE)[1]))
 
-#### Dispersion
+#### Measure of dispersion
 range_cases <- range(confirmed_cases, na.rm = TRUE)
 
 variance_cases <- var(confirmed_cases, na.rm = TRUE)
@@ -294,7 +294,7 @@ for (var in numeric_vars) {
   ####  Open PNG device (optional: saves plots as files)
   png(paste0("hist_density_", var, ".png"))
   
-  ####  Histogram
+  ####  Create the histogram
   hist(data,
   
        main = paste("Histogram with Density Curve for", var),
@@ -343,7 +343,7 @@ for (var in numeric_vars)
 
   data <- covid_data[[var]]
   
-  #### Boxplot
+  #### Create boxplot
   boxplot(data,
   
           main = paste("Boxplot of", var),
@@ -386,7 +386,7 @@ for (var in numeric_vars) {
 
   data <- covid_data[[var]]
   
-  #### Violin plot
+  #### Create violin plot
   vioplot(data,
   
           names = var,
@@ -402,6 +402,14 @@ for (var in numeric_vars) {
 dev.off()
 
 <img width="940" height="880" alt="image" src="https://github.com/user-attachments/assets/430e6b6d-75be-4ff6-b19b-52e50aae1aef" />
+
+a)	ConfirmedIndianNational plot is strong right skew, with most values clustered at low counts but a long tail up to 60.
+
+b)	ConfirmedForeignNational plot is mostly zeros, with isolated spikes from Rajasthan and Haryana.
+
+c)	Cured plot is sparse distribution, concentrated at 0 with occasional clusters.
+
+d)	Deaths plot is almost entirely 0, with rare non-zero values showing as thin tails.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
