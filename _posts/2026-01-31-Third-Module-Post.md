@@ -172,7 +172,7 @@ Descriptive statistics provided a straightforward way to identify which variable
 
 c)	Explain the difference between mean, median, and mode. Given the sample: 13, 15, 17, 15, 20, 15, 18, calculate all three measures of central tendency.
 
-#### Difference Between Mean, Median, and Mode
+#### Difference between Mean, Median, and Mode
 1.	Mean: The arithmetic average and is calculated by adding all values together and divide by the number of observations.
    
 2.	Median: The middle value when the data is ordered either in an ascending order or descending order. If there’s an even number of values, the median is the average of the two middle ones.
