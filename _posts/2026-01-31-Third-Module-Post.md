@@ -222,14 +222,14 @@ covid_data <- read.csv("Covid19_India_Jan20-Mar20.csv")
 #### Extract Confirmed Indian National cases
 confirmed_cases <- covid_data$ConfirmedIndianNational
 
-#### Measure of central tendency
+#### Measures of central tendency
 mean_cases <- mean(confirmed_cases, na.rm = TRUE)
 
 median_cases <- median(confirmed_cases, na.rm = TRUE)
 
 mode_cases <- as.numeric(names(sort(table(confirmed_cases), decreasing = TRUE)[1]))
 
-#### Measure of dispersion
+#### Measures of dispersion
 range_cases <- range(confirmed_cases, na.rm = TRUE)
 
 variance_cases <- var(confirmed_cases, na.rm = TRUE)
