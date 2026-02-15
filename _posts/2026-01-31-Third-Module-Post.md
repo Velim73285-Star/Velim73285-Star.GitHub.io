@@ -415,7 +415,7 @@ d)	Deaths plot is almost entirely 0, with rare non-zero values showing as thin t
 #### 2.3.1 Data analysis and results
 Using the COVID-19 India Dataset (January 2020 - March 2020), perform the following activities.
 
-1.	Create a binary variable called has_deaths that indicates whether any deaths were reported:  
+1. Create a binary variable called has_deaths that indicates whether any deaths were reported:  
 
 •	Value = 1 (or TRUE) if Deaths > 0
 
@@ -436,8 +436,8 @@ View(covid_data)
 #### Table showing the new binary variable called has_deaths
 <img width="940" height="609" alt="image" src="https://github.com/user-attachments/assets/02f84528-616c-41e0-a01b-68854a72baca" />
 
-2.	Create a frequency table using the table() command to analyse death reporting patterns.
-3.	
+2. Create a frequency table using the table() command to analyse death reporting patterns.
+
 #### Load the dataset
 covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
 
@@ -450,7 +450,7 @@ table(covid_data$has_deaths)
 #### Table showing death reporting patterns
 <img width="402" height="70" alt="image" src="https://github.com/user-attachments/assets/e146289f-a544-4cce-8225-294fcc6d04fc" />
 
-3.	Convert to a factor variable with appropriate labels ("No Deaths", "Deaths Reported").
+3. Convert to a factor variable with appropriate labels ("No Deaths", "Deaths Reported").
    
 #### Load the dataset
 covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
@@ -480,7 +480,7 @@ View(covid_data)
 #### Table showing factor variable with levels ("No Deaths", "Deaths Reported"). 
 <img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/81a53aaa-72e9-4d3a-a647-4a7f64688ae3" />
 
-4.	Create a categorical variable called case_level based on total confirmed cases (Indian + Foreign nationals):  
+4. Create a categorical variable called case_level based on total confirmed cases (Indian + Foreign nationals):  
 •	No Cases = 0 cases
 
 •	Low Cases = 1-5 cases 
@@ -514,7 +514,7 @@ table(covid_data$case_level)
 #### Table showing categorised case levels 
 <img width="853" height="78" alt="image" src="https://github.com/user-attachments/assets/8569b725-1f66-4405-9fd4-5c238186a2be" />
 
-5.	Create a frequency table for the State/Union Territory variable to see which states had the most frequent reporting.
+5. Create a frequency table for the State/Union Territory variable to see which states had the most frequent reporting.
 
 #### Load the dataset
 covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
@@ -539,7 +539,7 @@ head(state_freq_df)
 #### Table showing frequencies per state 
 <img width="928" height="621" alt="image" src="https://github.com/user-attachments/assets/e054e828-eff7-423c-848d-ef6150a714b7" />
 
-6.	Identify the top 10 states with the highest number of daily reports in the dataset.
+6. Identify the top 10 states with the highest number of daily reports in the dataset.
 
 ####  Load the dataset
 covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
@@ -561,6 +561,8 @@ top10_states
 
 #### Table with states with the top 10 highest number of daily reports
 <img width="549" height="281" alt="image" src="https://github.com/user-attachments/assets/a3af7559-a4b1-4b77-b114-f3fefbd72fd5" />
+
+
 
 ## 3.	What exactly have I learnt and how?
 To be completed
