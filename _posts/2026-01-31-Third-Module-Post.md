@@ -411,6 +411,157 @@ c)	Cured plot is sparse distribution, concentrated at 0 with occasional clusters
 
 d)	Deaths plot is almost entirely 0, with rare non-zero values showing as thin tails.
 
+### 2.3	Unit 3: Data Management in R
+#### 2.3.1 Data analysis and results
+Using the COVID-19 India Dataset (January 2020 - March 2020), perform the following activities.
+
+1.	Create a binary variable called has_deaths that indicates whether any deaths were reported:  
+
+•	Value = 1 (or TRUE) if Deaths > 0
+
+•	Value = 0 (or FALSE) if Deaths = 0 
+
+#### Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+#### Create the binary variable
+covid_data$has_deaths <- ifelse(covid_data$Deaths > 0, 1, 0)
+
+#### Inspect the first few rows
+head(covid_data[, c("Deaths", "has_deaths")])
+
+#### Opens spreadsheet in a viewer style in RStudio 
+View(covid_data)
+
+#### Table showing the new binary variable called has_deaths
+<img width="940" height="609" alt="image" src="https://github.com/user-attachments/assets/02f84528-616c-41e0-a01b-68854a72baca" />
+
+2.	Create a frequency table using the table() command to analyse death reporting patterns.
+3.	
+#### Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+#### Create the binary variable
+covid_data$has_deaths <- ifelse(covid_data$Deaths > 0, 1, 0)
+
+#### Frequency table of death reporting
+table(covid_data$has_deaths)
+
+#### Table showing death reporting patterns
+<img width="402" height="70" alt="image" src="https://github.com/user-attachments/assets/e146289f-a544-4cce-8225-294fcc6d04fc" />
+
+3.	Convert to a factor variable with appropriate labels ("No Deaths", "Deaths Reported").
+   
+#### Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+#### Create the binary variable
+covid_data$has_deaths <- ifelse(covid_data$Deaths > 0, 1, 0)
+
+#### Convert to factor with labels
+covid_data$has_deaths <- factor(
+
+  covid_data$has_deaths,
+  
+  levels = c(0, 1),
+  
+  labels = c("No Deaths", "Deaths Reported")
+  
+)
+
+#### Inspect the result
+table(covid_data$has_deaths)
+
+head(covid_data[, c("Deaths", "has_deaths")])
+
+#### Spreadsheet-style viewer (RStudio only) 
+View(covid_data)
+
+#### Table showing factor variable with levels ("No Deaths", "Deaths Reported"). 
+<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/81a53aaa-72e9-4d3a-a647-4a7f64688ae3" />
+
+4.	Create a categorical variable called case_level based on total confirmed cases (Indian + Foreign nationals):  
+•	No Cases = 0 cases
+
+•	Low Cases = 1-5 cases 
+
+•	Medium Cases = 6-15 cases
+
+•	High Cases = 16+ cases 
+
+#### Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+#### Create a total confirmed cases variable
+covid_data$total_confirmed <- covid_data$ConfirmedIndianNational + covid_data$ConfirmedForeignNational
+
+#### Create the categorical variable case_level
+covid_data$case_level <- cut(
+
+  covid_data$total_confirmed,
+  
+  breaks = c(-Inf, 0, 5, 15, Inf),
+  
+  labels = c("No Cases", "Low Cases", "Medium Cases", "High Cases")
+  
+)
+
+#### Inspect the result
+head(covid_data[, c("ConfirmedIndianNational", "ConfirmedForeignNational", "total_confirmed", "case_level")])
+
+table(covid_data$case_level)
+
+#### Table showing categorised case levels 
+<img width="853" height="78" alt="image" src="https://github.com/user-attachments/assets/8569b725-1f66-4405-9fd4-5c238186a2be" />
+
+5.	Create a frequency table for the State/Union Territory variable to see which states had the most frequent reporting.
+
+#### Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+#### Frequency table for State/UnionTerritory
+state_freq <- table(covid_data$State.UnionTerritory)
+
+#### View the results
+state_freq
+
+#### Sort the table in descending order to see the most frequent states first
+sort(state_freq, decreasing = TRUE)
+
+#### Convert frequency table to dataset format 
+state_freq_df <- as.data.frame(state_freq) 
+
+#### View the dataset 
+head(state_freq_df) 
+
+     View(state_freq_df)
+
+#### Table showing frequencies per state 
+<img width="928" height="621" alt="image" src="https://github.com/user-attachments/assets/e054e828-eff7-423c-848d-ef6150a714b7" />
+
+6.	Identify the top 10 states with the highest number of daily reports in the dataset.
+
+####  Load the dataset
+covid_data <- read.csv("Covid19_India_Jan20_Mar20.csv", header = TRUE)
+
+####  Create frequency table for State/UnionTerritory
+state_freq <- table(covid_data$State.UnionTerritory)
+
+####  Convert to dataset format
+state_freq_df <- as.data.frame(state_freq)
+
+####  Sort by frequency in descending order
+state_freq_sorted <- state_freq_df[order(-state_freq_df$Freq), ]
+
+####  Select top 10 states
+top10_states <- head(state_freq_sorted, 10)
+
+####  View the result
+top10_states
+
+#### Table with states with the top 10 highest number of daily reports
+<img width="549" height="281" alt="image" src="https://github.com/user-attachments/assets/a3af7559-a4b1-4b77-b114-f3fefbd72fd5" />
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
