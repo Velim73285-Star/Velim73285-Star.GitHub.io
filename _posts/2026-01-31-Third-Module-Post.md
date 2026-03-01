@@ -434,6 +434,7 @@ head(covid_data[, c("Deaths", "has_deaths")])
 View(covid_data)
 
 #### Table showing the new binary variable called has_deaths
+
 <img width="940" height="609" alt="image" src="https://github.com/user-attachments/assets/02f84528-616c-41e0-a01b-68854a72baca" />
 
 2. Create a frequency table using the table() command to analyse death reporting patterns.
