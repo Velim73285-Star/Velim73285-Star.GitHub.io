@@ -584,6 +584,8 @@ barplot(state_counts,
         las = 2,            # Rotate axis labels for readability
         
         col = "steelblue")  # Add some color
+
+        
 <img width="876" height="706" alt="image" src="https://github.com/user-attachments/assets/ec3ca131-9ec7-4f4a-8dc6-d14d154c7e70" />
 
 2.	Using variables ConfirmedIndianNational and ConfirmedForeignNational, create a pie chart showing the distribution of case severity levels based on total confirmed cases.
