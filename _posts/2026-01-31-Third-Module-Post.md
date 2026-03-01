@@ -562,6 +562,105 @@ top10_states
 #### Table with states with the top 10 highest number of daily reports
 <img width="549" height="281" alt="image" src="https://github.com/user-attachments/assets/a3af7559-a4b1-4b77-b114-f3fefbd72fd5" />
 
+### 2.4	Unit 5: Producing plots and introducing calculus
+#### 2.4.1 Plotting activities to learn basic data visualization techniques  
+1.	Create a bar chart showing the frequency of COVID-19 reports by state/union territory. 
+
+#### R code to create the bar chart
+####  Load the dataset
+covid_data <- read.csv("Covid19_NewIndia_(Jan20 - Mar20).csv")
+####  Create a frequency table of reports by State/Union Territory
+state_counts <- table(covid_data$State.UnionTerritory)
+####  Plot a bar chart
+barplot(state_counts,
+
+        main = "Frequency of COVID-19 Reports by State/Union Territory",
+        
+        xlab = "State/Union Territory",
+        
+        ylab = "Number of Reports",
+        
+        las = 2,            # Rotate axis labels for readability
+        
+        col = "steelblue")  # Add some color
+<img width="876" height="706" alt="image" src="https://github.com/user-attachments/assets/ec3ca131-9ec7-4f4a-8dc6-d14d154c7e70" />
+
+2.	Using variables ConfirmedIndianNational and ConfirmedForeignNational, create a pie chart showing the distribution of case severity levels based on total confirmed cases.
+
+#### R code to create the pie chart
+#### Load the dataset
+covid_data <- read.csv("Covid19_NewIndia_(Jan20 - Mar20).csv")
+#### Calculate total confirmed cases by nationality
+total_indian <- sum(covid_data$ConfirmedIndianNational, na.rm = TRUE)
+
+total_foreign <- sum(covid_data$ConfirmedForeignNational, na.rm = TRUE)
+#### Create a vector of totals
+cases <- c(total_indian, total_foreign)
+#### Define labels
+labels <- c("Indian Nationals", "Foreign Nationals")
+#### Create pie chart
+pie(cases,
+
+    labels = paste(labels, cases),
+    
+    main = "Distribution of Confirmed COVID-19 Cases by Nationality",
+    
+    col = c("skyblue", "orange"))
+
+<img width="847" height="593" alt="image" src="https://github.com/user-attachments/assets/1b26817a-76ac-4461-8ac3-d3036412b4fe" />
+
+3.	Create a histogram showing the distribution of recovery numbers. 
+
+#### R code to create a histogram 
+#### Load the dataset
+covid_data <- read.csv("Covid19_NewIndia_(Jan20 - Mar20).csv")
+#### Create histogram of recovery numbers
+hist(covid_data$Cured,
+
+     main = "Distribution of COVID-19 Recoveries",
+     
+     xlab = "Number of Recoveries",
+     
+     ylab = "Frequency",
+     
+     col = "lightgreen",
+     
+     border = "black")
+
+<img width="873" height="626" alt="image" src="https://github.com/user-attachments/assets/b38729f2-dc09-4abc-86a7-19a6d69da39f" />
+
+4.	Create a line chart showing the trend of total cases over time.
+
+#### R code to create a histogram 
+
+#### Load the dataset
+covid_data <- read.csv("Covid19_NewIndia_(Jan20 - Mar20).csv")
+#### Convert Date column to proper Date format
+covid_data$Date <- as.Date(covid_data$Date, format = "%d-%m-%Y")
+#### Calculate total confirmed cases (Indian + Foreign)
+covid_data$TotalConfirmed <- covid_data$ConfirmedIndianNational + covid_data$ConfirmedForeignNational
+#### Aggregate totals by date
+daily_totals <- aggregate(TotalConfirmed ~ Date, data = covid_data, sum)
+#### Create line chart
+plot(daily_totals$Date, daily_totals$TotalConfirmed,
+
+     type = "l",                # Line chart
+     
+     col = "blue",              # Line color
+     
+     lwd = 2,                   # Line width
+     
+     main = "Trend of Total COVID-19 Cases Over Time",
+     
+     xlab = "Date",
+     
+     ylab = "Total Confirmed Cases")
+
+#### Add points for clarity
+points(daily_totals$Date, daily_totals$TotalConfirmed, col = "red", pch = 16)
+
+<img width="838" height="655" alt="image" src="https://github.com/user-attachments/assets/840f863b-3156-49a2-bb53-95d76d01ff88" />
+
 
 
 ## 3.	What exactly have I learnt and how?
