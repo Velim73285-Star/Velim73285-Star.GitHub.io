@@ -664,7 +664,32 @@ points(daily_totals$Date, daily_totals$TotalConfirmed, col = "red", pch = 16)
 
 <img width="838" height="655" alt="image" src="https://github.com/user-attachments/assets/840f863b-3156-49a2-bb53-95d76d01ff88" />
 
+### 2.4.2 Collaborative discussion
+#### Discussion Topic
+Imagine you have submitted a paper for publication (see Brown, 1994 in this week’s reading list). The editor has returned his comments saying that he is willing to accept the paper for publication on condition that Table 2 (see Brown, 1994) is changed. He feels that ‘it is difficult for the reader to understand, contains too much information and is too large.’ You now have to redo the table 2 and present some of the findings using plots and present your results in the forum. Reflect also upon your experiences of undertaking this task and what you have learnt. Share these reflections with your fellow students (no more than 500 words).
 
+#### Initial Post
+Divecha et al., 2023 argue that reading text matter can often get monotonous for the readers as well as the editors and reviewers. Using tables/charts or graphs effectively provides a break from textual content monotony as an opportunity to process and connect information between text and images. Based on this argument it is evident that graphs, charts, and tables can save readers’ time and energy, aid their understanding of an article, and reduce the word count of the main text. However, many graphics submitted and published in scientific journals fail to meet their potential and include mistakes that risk their clarity. 
+
+To meet the editor’s request, I restructured table 2 by grouping the 24 statements into themes and presenting the most striking findings with plots rather than a dense table. For example, discouraging factors such as workload (83% agreement), disruption of personal life (75%), and fear of litigation (69%) can be shown in a bar chart, immediately highlighting the strongest barriers to intrapartum care. Likewise, philosophical views such as support for community-based maternity care (71%) and enabling GPs to provide care throughout pregnancy and labour (92%) can be visualised in a pie chart or stacked bar chart, making the consensus clear at a glance. Undertaking this task taught me the importance of clarity and focus in data presentation. While the original table was comprehensive, it overwhelmed the reader with detail. By condensing the information into thematic categories and using visualisations, the key messages became far more accessible. I learned that effective communication in research is not just about completeness but about highlighting patterns and insights in ways that readers can quickly grasp. This exercise reinforced the value of graphical representation in conveying consensus and disagreement, and it reminded me that editorial feedback often pushes us toward more impactful storytelling with data. 
+
+<img width="804" height="352" alt="image" src="https://github.com/user-attachments/assets/7fbc56d8-c9ba-408f-99eb-34931eb244f1" />
+
+<img width="979" height="736" alt="image" src="https://github.com/user-attachments/assets/d6a17a94-fdc2-4302-9f43-9f3ababb7cf7" />
+
+In conclusion, condensing table 2 and presenting the findings with plots made the results far clearer and easier to interpret. Instead of overwhelming readers with 24 detailed statements, grouping them into themes and visualising the strongest patterns highlighted the key issues from the table. This task taught me that effective research communication requires balancing completeness with readability, and that visualisation is a powerful way to emphasise consensus and disagreement. Finally, simplifying the table and using plots improved clarity, impact, and accessibility of the findings.
+
+#### References
+Divecha, C.A., Tullu, M.S. and Karande, S., 2023. Utilizing tables, figures, charts and graphs to enhance the readability of a research paper. Journal of postgraduate medicine, 69(3), pp.125-131. 
+
+Hogan, A., Blomqvist, E., Cochez, M., d’Amato, C., Melo, G.D., Gutierrez, C., Kirrane, 
+S., Gayo, J.E.L., Navigli, R., Neumaier, S. and Ngomo, A.C.N., 2021. Knowledge graphs. ACM Computing Surveys (Csur), 54(4), pp.1-37. 
+
+Kabacoff, R., 2022. R in action: data analysis and graphics with R and Tidyverse. Simon and Schuster. 
+
+Siedlecki, S.L., 2023. Tables, Figures, and Graphs: How to Best Display Data. Clinical Nurse Specialist, 37(4), pp.160-163.
+
+Wong, D.M., 2023. The Wall Street Journal guide to information graphics: The dos and don'ts of presenting data, facts, and figures. WW Norton & Company.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
