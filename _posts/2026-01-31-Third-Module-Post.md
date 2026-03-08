@@ -691,6 +691,46 @@ Siedlecki, S.L., 2023. Tables, Figures, and Graphs: How to Best Display Data. Cl
 
 Wong, D.M., 2023. The Wall Street Journal guide to information graphics: The dos and don'ts of presenting data, facts, and figures. WW Norton & Company.
 
+#### Peer Response to Paul Sanderson
+Thank you Paul for producing a detailed post that walks the reader through the process step by step,  from preparing the data in Google Sheets, exporting to CSV, and importing into RStudio, to filtering and plotting. This transparency makes the post educational and informative.
+
+Wong, D.M., 2023 makes a case that “We live in a data driven world where the ability to create effective charts and graphs has become almost as indispensable as good writing.” This statement is true because with computer technology, anyone can create graphics, but a few know how to do it well and right. Most of the time we present a chart with visual tricks such as clashing colours thinking it will look pretty while not paying enough attention to passing the correct message to the reader.
+
+The inclusion of the exact formulas in the post used in Sheets and the R code snippets adds credibility and helps others replicate the process and you did not stop at the first plots, but you continued by refining labels, wrapping text, and adding values, which shows thoughtful engagement with data visualisation best practices. You explicitly tied the visualisation back to its purpose and supported decision-makers identify areas of improvement which grounds the technical work in real-world impact.
+
+In summary, your post demonstrates strong technical competence and a clear workflow, making it a solid piece for peers learning R and ggplot2. To elevate it further, you should generate in more narrative context and expand on the meaning of the results. This would transform the post from a technical walkthrough into a more impactful, stakeholder-ready analysis.
+
+#### References
+Divecha, C.A., Tullu, M.S. and Karande, S., 2023. Utilizing tables, figures, charts and graphs to enhance the readability of a research paper. Journal of postgraduate medicine, 69(3), pp.125-131.
+
+Hogan, A., Blomqvist, E., Cochez, M., d’Amato, C., Melo, G.D., Gutierrez, C., Kirrane, S., Gayo, J.E.L., Navigli, R., Neumaier, S. and Ngomo, A.C.N., 2021. Knowledge graphs. ACM Computing Surveys (Csur), 54(4), pp.1-37.
+
+Lim, D., Hohne, F., Li, X., Huang, S.L., Gupta, V., Bhalerao, O. and Lim, S.N., 2021. Large scale learning on non-homophilous graphs: New benchmarks and strong simple methods. Advances in neural information processing systems, 34, pp.20887-20902.
+
+Wong, D.M., 2023. The Wall Street Journal guide to information graphics: The dos and don'ts of presenting data, facts, and figures. WW Norton & Company.
+
+#### Peer Response to Tamim Al-Mutawa 
+Thank you Tamim for correctly identifying that the issue with table 2 is not the data itself but the way it was presented. Narrowing down to three core statistics (mean, n, p-value) makes the analysis much more digestible. 
+
+Data visualisation such as using bar charts and line charts have become popular in analysing data and making informed decisions. To analyse data, often people ask complex reasoning questions about charts involving arithmetic and logical operations (Kim et al, 2020). What I find particularly interesting in Kim et al. (2020) is the emphasis on how these visuals do not just present information, they invite complex reasoning. Readers often need to perform arithmetic (e.g., comparing values, calculating differences) and logical operations (e.g., identifying trends, evaluating significance) to interpret the charts correctly. This means that effective visualisation design is not only about aesthetics, but also about reducing cognitive load and guiding the reader toward accurate conclusions.
+
+In your post you did not oversimplify the analysis to the point of losing accuracy. Instead, you balanced accessibility with precision, which is exactly what editors and readers value.  Your reflection shows strong awareness of the editorial feedback loop where it is clear that editors often push for clarity and accessibility, not just statistical completeness, visuals can carry analytical weight more effectively than oversized tables, and simplification does not mean loss of consistency, but it means prioritising what the reader needs to know.
+
+While the analysis is strong, consider adding a short narrative paragraph that guides the reader through the key findings. For example: “Regions 1 and 5 consistently outperform the national average, while Region 4 lags slightly but not significantly.” This helps readers interpret the analysis much simpler.
+
+Overall, your revision of table 2 demonstrates a thoughtful response to editorial critique. The balance between simplification and statistical integrity is well struck, and the use of statistical tools make the findings more engaging. With a bit more narrative framing and attention to design details, the presentation could be even stronger.
+
+#### References
+Kabacoff, R., 2022. R in action: data analysis and graphics with R and Tidyverse. Simon and Schuster.
+
+Lim, D., Hohne, F., Li, X., Huang, S.L., Gupta, V., Bhalerao, O. and Lim, S.N., 2021. Large scale learning on non-homophilous graphs: New benchmarks and strong simple methods. Advances in neural information processing systems, 34, pp.20887-20902.
+
+Masry, A., Do, X.L., Tan, J.Q., Joty, S. and Hoque, E., 2022, May. Chartqa: A benchmark for question answering about charts with visual and logical reasoning. In Findings of the association for computational linguistics: ACL 2022 (pp. 2263-2279).
+
+Nguyen, T., Le, H., Quinn, T.P., Nguyen, T., Le, T.D. and Venkatesh, S., 2021. GraphDTA: predicting drug–target binding affinity with graph neural networks. Bioinformatics, 37(8), pp.1140-1147.
+
+Zhu, Y., Xu, Y., Yu, F., Liu, Q., Wu, S. and Wang, L., 2020. Deep graph contrastive representation learning. arXiv preprint arXiv:2006.04131.
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
