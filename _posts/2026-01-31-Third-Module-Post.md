@@ -731,6 +731,72 @@ Nguyen, T., Le, H., Quinn, T.P., Nguyen, T., Le, T.D. and Venkatesh, S., 2021. G
 
 Zhu, Y., Xu, Y., Yu, F., Liu, Q., Wu, S. and Wang, L., 2020. Deep graph contrastive representation learning. arXiv preprint arXiv:2006.04131.
 
+#### Summary Post 
+
+### 2.5	Unit 7: Parametric Tests (Using the Health_Data), to perform the following functions in R.
+
+1.	Find out mean, median and mode of variables sbp, dbp and income.
+#### R code to load the dataset 
+#### Install and load haven if not already installed
+install.packages("haven")
+
+library(haven)
+
+#### Read the SPSS .sav file
+Health_Data <- read_sav("Health_Data.sav")
+#### Inspect the dataset
+head(Health_Data)
+
+str(Health_Data)
+
+#### Mean
+mean_sbp <- mean(Health_Data$sbp, na.rm = TRUE)
+
+mean_dbp <- mean(Health_Data$dbp, na.rm = TRUE)
+
+mean_income <- mean(Health_Data$income, na.rm = TRUE)
+
+#### Median
+median_sbp <- median(Health_Data$sbp, na.rm = TRUE)
+
+median_dbp <- median(Health_Data$dbp, na.rm = TRUE)
+
+median_income <- median(Health_Data$income, na.rm = TRUE)
+
+#### Mode function (since R doesn’t have a built-in mode for numeric data)
+get_mode <- function(x) {
+
+  uniq_vals <- unique(x)
+  
+  uniq_vals[which.max(tabulate(match(x, uniq_vals)))]
+  
+}
+
+mode_sbp <- get_mode(Health_Data$sbp)
+
+mode_dbp <- get_mode(Health_Data$dbp)
+
+mode_income <- get_mode(Health_Data$income)
+
+#### Summarize results in a table
+results <- data.frame( 
+
+  Variable = c("SBP", "DBP", "Income"),
+  
+  Mean = c(mean_sbp, mean_dbp, mean_income),
+  
+  Median = c(median_sbp, median_dbp, median_income),
+  
+  Mode = c(mode_sbp, mode_dbp, mode_income)
+  
+)
+
+print(results)
+
+
+
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
