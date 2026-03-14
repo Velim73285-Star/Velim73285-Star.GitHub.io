@@ -802,6 +802,21 @@ DBP;	          82.77;        82.0;         	80
 
 Income;	        85 194.49;   	86 560.5;      79 774
 
+2.	Find out the five-figure summary of income variable and present it using a Boxplot.
+#### Five-number summary of income
+summary(Health_Data$income)
+#### Alternatively, explicitly:
+fivenum(Health_Data$income)
+#### Boxplot of income
+boxplot(Health_Data$income,
+
+        main = "Boxplot of Income",
+        
+        ylab = "Income",
+        
+        col = "lightblue",
+        
+        border = "darkblue")
 
 
 
