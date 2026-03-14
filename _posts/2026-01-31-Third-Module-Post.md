@@ -793,6 +793,14 @@ results <- data.frame(
 
 print(results)
 
+#### Table 1: Basic statistics results 
+Variable  	Mean	        Median	     Mode
+
+SBP	        127.73    	  123.0        	120
+
+DBP	        82.77      	  82.0         	80
+
+Income	    85 194.49   	86 560.5      79 774
 
 
 
