@@ -818,9 +818,6 @@ boxplot(Health_Data$income,
         
         border = "darkblue")
 
-
-
-
 ## 3.	What exactly have I learnt and how?
 To be completed
 
