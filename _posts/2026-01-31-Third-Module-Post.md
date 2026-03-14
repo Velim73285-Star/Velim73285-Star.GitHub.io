@@ -818,8 +818,6 @@ boxplot(Health_Data$income,
         
         border = "darkblue")
 
-
-
 3.	Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer. 
 #### Step 1: Clarify the variables
 •	sbp: Continuous variable (systolic blood pressure).
@@ -842,7 +840,7 @@ The suitable test depends on assumptions:
 #### R code to do the test hypothesis
 library(haven)
 
-# Read SPSS file correctly
+#### Read SPSS file correctly
 Health_data <- read_sav("Health_data.sav")
 
 Health_data <- read.sav("Health_data.sav")
@@ -850,10 +848,10 @@ Health_data <- read.sav("Health_data.sav")
 #### Independent samples t-test
 t.test(sbp ~ pepticulcer, data = Health_data, var.equal = TRUE)
 
-# If variances are unequal
+#### If variances are unequal
 t.test(sbp ~ pepticulcer, data = Health_data, var.equal = FALSE)
 
-# Non-parametric alternative (Mann-Whitney U test)
+#### Non-parametric alternative (Mann-Whitney U test)
 wilcox.test(sbp ~ pepticulcer, data = Health_data)
 
 #### Results
@@ -864,7 +862,7 @@ t = 1.2772,         df = 208,       p-value = 0.203
 
 Alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
 
-At 95 percent confidence interval: -2.89           11.80
+At 95 percent confidence interval: -2.89    to      11.80
 
 #### Sample estimates:
 mean in group 1       mean in group 2 
@@ -879,7 +877,7 @@ t = 1.2142,             df = 57.562,            p-value = 0.2296
 
 Alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
 
-At 95 percent confidence interval:  -2.89           11.80
+At 95 percent confidence interval:  -2.89   to     11.80
 
 #### Sample estimates:
 mean in group 1             mean in group 2  
