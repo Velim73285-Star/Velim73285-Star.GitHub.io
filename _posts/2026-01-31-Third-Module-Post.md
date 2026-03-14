@@ -818,7 +818,8 @@ boxplot(Health_Data$income,
         
         border = "darkblue")
 
-3.	Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer. 
+3.	Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
+   
 #### Step 1: Clarify the variables
 •	sbp: Continuous variable (systolic blood pressure).
 
@@ -831,7 +832,7 @@ This is essentially a comparison of mean systolic blood pressure between two ind
 
 •	Alternative hypothesis (H₁): There is a difference in mean systolic blood pressure between the two groups.
 
-The suitable test depends on assumptions:
+#### The suitable test depends on assumptions:
 
 •	If sbp is approximately normally distributed in each group and variances are equal → Independent samples t-test.
 
@@ -865,9 +866,9 @@ Alternative hypothesis: true difference in means between group 1 and group 2 is 
 At 95 percent confidence interval: -2.89    to      11.80
 
 #### Sample estimates:
-mean in group 1       mean in group 2 
+mean in group 1;      mean in group 2 
 
-    131.3171            126.8639 
+    131.3171;            126.8639 
 
 #### Welch Two Sample t-test
 
@@ -880,9 +881,9 @@ Alternative hypothesis: true difference in means between group 1 and group 2 is 
 At 95 percent confidence interval:  -2.89   to     11.80
 
 #### Sample estimates:
-mean in group 1             mean in group 2  
+mean in group 1;             mean in group 2  
 
-131.3171                     126.8639 
+131.3171;                    126.8639 
 
 ####  Wilcoxon rank sum test with continuity correction
 Data is based on sbp (systolic blood pressure) by pepticulcer
