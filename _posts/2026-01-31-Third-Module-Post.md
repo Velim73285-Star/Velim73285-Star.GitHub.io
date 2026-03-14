@@ -818,6 +818,84 @@ boxplot(Health_Data$income,
         
         border = "darkblue")
 
+
+
+3.	Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer. 
+#### Step 1: Clarify the variables
+•	sbp: Continuous variable (systolic blood pressure).
+
+•	pepticulcer: Categorical variable with two groups (Yes = presence, No = absence).
+
+This is essentially a comparison of mean systolic blood pressure between two independent groups.
+
+#### Step 2: Choose the hypothesis test
+•	Null hypothesis (H₀): There is no difference in mean systolic blood pressure between those with and without peptic ulcer.
+
+•	Alternative hypothesis (H₁): There is a difference in mean systolic blood pressure between the two groups.
+
+The suitable test depends on assumptions:
+
+•	If sbp is approximately normally distributed in each group and variances are equal → Independent samples t-test.
+
+•	If normality or equal variance assumptions are violated → Mann–Whitney U test (non-parametric alternative).
+
+#### R code to do the test hypothesis
+library(haven)
+
+# Read SPSS file correctly
+Health_data <- read_sav("Health_data.sav")
+
+Health_data <- read.sav("Health_data.sav")
+
+#### Independent samples t-test
+t.test(sbp ~ pepticulcer, data = Health_data, var.equal = TRUE)
+
+# If variances are unequal
+t.test(sbp ~ pepticulcer, data = Health_data, var.equal = FALSE)
+
+# Non-parametric alternative (Mann-Whitney U test)
+wilcox.test(sbp ~ pepticulcer, data = Health_data)
+
+#### Results
+#### Two Sample t-test
+Data is based on sbp (systolic blood pressure) by pepticulcer
+
+t = 1.2772,         df = 208,       p-value = 0.203
+
+Alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
+
+At 95 percent confidence interval: -2.89           11.80
+
+#### Sample estimates:
+mean in group 1       mean in group 2 
+
+    131.3171            126.8639 
+
+#### Welch Two Sample t-test
+
+Data is based on sbp (systolic blood pressure) by pepticulcer
+
+t = 1.2142,             df = 57.562,            p-value = 0.2296
+
+Alternative hypothesis: true difference in means between group 1 and group 2 is not equal to 0
+
+At 95 percent confidence interval:  -2.89           11.80
+
+#### Sample estimates:
+mean in group 1             mean in group 2  
+
+131.3171                     126.8639 
+
+####  Wilcoxon rank sum test with continuity correction
+Data is based on sbp (systolic blood pressure) by pepticulcer
+
+W = 3975.5,                         p-value = 0.1434
+
+Alternative hypothesis: true location shift is not equal to 0
+
+In conclusion, since the confidence interval spans both negative (-2.89) and positive (11.80) values, the evidence is inconclusive and the data do not show a clear association. The sample suggests that there might be a small difference, but statistically, we cannot rule out the possibility that there is no difference at all.
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
