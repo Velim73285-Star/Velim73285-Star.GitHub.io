@@ -732,6 +732,26 @@ Nguyen, T., Le, H., Quinn, T.P., Nguyen, T., Le, T.D. and Venkatesh, S., 2021. G
 Zhu, Y., Xu, Y., Yu, F., Liu, Q., Wu, S. and Wang, L., 2020. Deep graph contrastive representation learning. arXiv preprint arXiv:2006.04131.
 
 #### Summary Post 
+Based on all the posts from the collaboration discussion, it is notable that table II is rich with information, but the presentation raises challenges. Vessey I, 2021 reasons that “The fundamental aspect of the theory is that graphical and tabular representations may contain the same information, but they present that information in fundamentally different ways. Graphical representations emphasize spatial information while tables emphasize symbolic information.” My initial post pointed out  that condensing a dense table into thematic categories and visualising results with charts improves clarity, accessibility, and impact. It also highlighted how bar and pie charts can quickly show consensus or disagreement, saving readers time and reducing textual monotony. 
+
+One peer response was received from Julio Espinosa Rifelf for the collaboration discussion. Julio agreed with the value of graphics but raised methodological concerns about grouping 24-items into 5-themes without transparent mapping which risks subjectivity and violates reporting standards (STROBE). The visualization design that incudes issues like colour duplication, floating baselines, percentages not summing to 100% compromise interpretability and credibility of the data. Julio also stressed that accessibility must align with strict statistical reporting protocols to avoid misleading readers.
+
+I agree with Julio’s concerns about transparency and methodological rigor while my initial approach was about improved readability, Julio’s critique highlights the danger of oversimplification of data tables. To strengthen my original post, I will provide a clear mapping of which statements fall under each theme, ensuring reproducibility and compliance with reporting standards. I also need to refine chart design by using 100% stacked bar charts or consistent baselines, with a well-defined legend to avoid confusion. Lastly, I need to balance completeness with clarity where visuals complement, not replace, the full dataset, so that readers can trace back to the original detail if needed.
+
+Both my post and Julio’s emphasise the importance of clarity and accessibility in research communication. They also agree that visualizations are powerful tools for highlighting consensus and disagreement and the critique from Julio’s feedback reinforces my own reflection that editorial feedback pushes researchers toward more impactful storytelling.
+
+In conclusion, the discussions highlighted dual importance of clarity and rigor in research communication. I note and agree with the point that grouping items must be clearly explained to avoid subjectivity, and that chart design should follow strict reporting standards to ensure interpretability. All the perspectives from the discussion reinforce the fact that effective communication requires both engaging visuals and methodological precision and visual storytelling should enhance, not compromise, the accuracy of data.
+
+#### References
+Chen, C. and Ong, S.P., 2022. A universal graph deep learning interatomic potential for the periodic table. Nature Computational Science, 2(11), pp.718-728.
+
+Liu, Z., Zhang, H., Chen, Z., Wang, Z. and Ouyang, W., 2020. Disentangling and unifying graph convolutions for skeleton-based action recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 143-152).
+
+Pollock, D., Peters, M.D., Khalil, H., McInerney, P., Alexander, L., Tricco, A.C., Evans, C., de Moraes, É.B., Godfrey, C.M., Pieper, D. and Saran, A., 2023. Recommendations for the extraction, analysis, and presentation of results in scoping reviews. JBI evidence synthesis, 21(3), pp.520-532.
+
+Vessey, I., 2021. Cognitive fit: A theory‐based analysis of the graphs versus tables literature. Decision sciences, 22(2), pp.219-240.
+
+You, Y., Chen, T., Sui, Y., Chen, T., Wang, Z. and Shen, Y., 2020. Graph contrastive learning with augmentations. Advances in neural information processing systems, 33, pp.5812-5823.
 
 ### 2.5	Unit 7: Parametric Tests (Using the Health_Data), to perform the following functions in R.
 
