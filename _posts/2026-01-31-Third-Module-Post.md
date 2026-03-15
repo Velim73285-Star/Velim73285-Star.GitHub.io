@@ -838,7 +838,7 @@ boxplot(Health_Data$income,
         
         border = "darkblue")
 
-assets/images/banners/Boxplot of income.PNG
+https://raw.githubusercontent.com/Velim73285-Star/GitHub.io /main/assets/images/banners/Boxplot%20of%20income.PNG
    
 3.	Run a suitable hypothesis test to see if there is any association between systolic blood pressure and presence and absence of peptic ulcer.
    
