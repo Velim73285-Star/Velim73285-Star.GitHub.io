@@ -1102,7 +1102,7 @@ Vendor 3 mean = 27.71
 
 Critical value at 95% level
 
-F0.02.2.18 – 3.55
+F0.02.2.18 = 3.55
 
 Since the F= 20.11 which is > 3.55  we then we reject the null hypothesis and conclude that at the 95% confidence level, the ANOVA shows a significant difference in efficiency. Vendor 2 demonstrates the highest and statistically significant improvement in employee efficiency.
 
