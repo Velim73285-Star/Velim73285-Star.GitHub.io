@@ -924,8 +924,7 @@ Using the Health_Data, please perform the following functions in R:
 
 1.	Find out the mean, median and mode of ‘age’ variable.
    
-R code to answer the question.
-
+#### R code to answer the question.
 ####  Load required packages
 library(haven)   # for importing SPSS .sav files
 
@@ -961,7 +960,7 @@ cat("Median Age:", median_age, "\n")
 
 cat("Mode Age:", mode_age, "\n")
 
-Table 1: mean, median and mode for age
+#### Table 1: mean, median and mode for age
 Mean	  26.51
 Median	27
 Mode	  26
@@ -969,7 +968,6 @@ Mode	  26
 2.	Find out whether median diastolic blood pressure is same among diabetic and non-diabetic participants.
 
 #### R code to answer the question
-
 #### Load required packages
 library(haven)   # import SPSS .sav files
 
@@ -1024,8 +1022,8 @@ Conclusion, the p value is very high, above 0.05  and this means that there is n
 
 3.	Find out whether systolic BP is different across occupational group.
 
-#### R code to answer the question
-####Load required packages
+#### R code to answer the question.
+#### Load required packages
 
 library(haven)   (import SPSS .sav files)
 
