@@ -1073,18 +1073,23 @@ kruskal_result <- kruskal.test(sbp ~ factor(occupation), data = health_data)
 
 print(kruskal_result)
 
-#### Step 4: Visualization
-ggplot(health_data, aes(x = factor(occupation), y = sbp)) +
+   title = "Distribution of Systolic BP across Occupations")
 
-  geom_boxplot(fill = "skyblue") +
+	![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ Kruskal_Wallis_test_result.PNG)
   
-  labs(x = "Occupation", y = "Systolic BP",
-  
-       title = "Distribution of Systolic BP across Occupations")
+Kruskal-Wallis rank sum test
 
-	
+Data is sbp by factor (occupation)
 
+Kruskal-Wallis chi-squared = 0.77906, df = 3, p-value = 0.8545
 
+Conclusion, using the ANOVA output where the F value = 0.233 and p = 0.873, this means that when comparing mean systolic blood pressure (SBP) across the four occupational groups, the differences are not statistically significant. Using the Kruskal Wallis output, where the Chi squared = 0.779, df = 3, and p = 0.8545, this non parametric test does not assume normality and it also shows a very high p value, confirming that the median of SBP does not differ significantly across occupational groups.
+
+#### 2.6.2	Scenario-Based Exercise – 95% Confidence Interval
+
+An HR organisation wishes to introduce a new set of training programs to increase the work efficiency of their employees. To do this, the organisation hires 3 vendors such that each vendor will train a group of employees with a one-week program. It is assumed that the employees across the three groups have same work efficiencies before the start of the program. The following table summarises the scores obtained post the one-week training. Each group has 8 employees.
+
+Now, find out the mean efficiency of each vendor and determine which vendor shows a higher significance of improvement in employee efficiency statistically at the 95% level.
 
 
 ## 3.	What exactly have I learnt and how?
