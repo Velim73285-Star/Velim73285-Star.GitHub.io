@@ -961,9 +961,11 @@ cat("Median Age:", median_age, "\n")
 cat("Mode Age:", mode_age, "\n")
 
 #### Table 1: mean, median and mode for age
-Mean	  26.51
-Median	27
-Mode	  26
+Mean = 26.51
+
+Median = 27
+
+Mode = 26
 
 2.	Find out whether median diastolic blood pressure is same among diabetic and non-diabetic participants.
 
@@ -1010,9 +1012,9 @@ W = 3804.5, p-value = 0.7999
 
 alternative hypothesis: true location shift is not equal to 0
 
-Yes  	83
+Yes =	83
 
-No	  82
+No = 82
 
 Wilcoxon Test Statistic
 
@@ -1029,17 +1031,13 @@ library(haven)   (import SPSS .sav files)
 
 library(dplyr)   (data manipulation)
 
-library(ggplot2) (visualization)
-
 #### Import dataset
-
 health_data <- read_sav("Health_data.sav")
 
 #### Inspect variable names (optional)
 str(health_data)
 
 #### Step 1: Descriptive medians/means by occupation
-
 group_summary <- health_data %>%
 
   group_by(occupation) %>%
@@ -1066,12 +1064,9 @@ anova_result <- aov(sbp ~ factor(occupation), data = health_data)
 summary(anova_result)
 
 #### Step 3: Non-parametric alternative (Kruskal-Wallis test)
-
 kruskal_result <- kruskal.test(sbp ~ factor(occupation), data = health_data)
 
 print(kruskal_result)
-
-   title = "Distribution of Systolic BP across Occupations")
 
   ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
   
