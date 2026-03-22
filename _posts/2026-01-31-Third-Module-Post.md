@@ -1075,7 +1075,7 @@ print(kruskal_result)
 
    title = "Distribution of Systolic BP across Occupations")
 
-	![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
+  ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
   
 Kruskal-Wallis rank sum test
 
