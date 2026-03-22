@@ -1075,7 +1075,7 @@ print(kruskal_result)
 
    title = "Distribution of Systolic BP across Occupations")
 
-	![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ Kruskal_Wallis_test_result.PNG)
+	![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
   
 Kruskal-Wallis rank sum test
 
@@ -1091,6 +1091,20 @@ An HR organisation wishes to introduce a new set of training programs to increas
 
 Now, find out the mean efficiency of each vendor and determine which vendor shows a higher significance of improvement in employee efficiency statistically at the 95% level.
 
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Group_scores_per_vendor.PNG)
+
+#### Calculate mean efficiency per vendor
+Vendor 1 mean = 44.71 
+
+Vendor 2 mean = 51.00 
+
+Vendor 3 mean = 27.71 
+
+Critical value at 95% level
+
+F0.02.2.18 – 3.55
+
+Since the F= 20.11 which is > 3.55  we then we reject the null hypothesis and conclude that at the 95% confidence level, the ANOVA shows a significant difference in efficiency. Vendor 2 demonstrates the highest and statistically significant improvement in employee efficiency.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
