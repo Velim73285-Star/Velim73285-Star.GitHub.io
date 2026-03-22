@@ -916,6 +916,176 @@ Alternative hypothesis: true location shift is not equal to 0
 
 In conclusion, since the confidence interval spans both negative (-2.89) and positive (11.80) values, the evidence is inconclusive and the data do not show a clear association. The sample suggests that there might be a small difference, but statistically, we cannot rule out the possibility that there is no difference at all.
 
+### 2.6	Unit 8: Nonparametric tests
+
+#### 2.6.1	Data activity 
+
+Using the Health_Data, please perform the following functions in R:
+
+1.	Find out the mean, median and mode of ‘age’ variable.
+   
+R code to answer the question.
+
+####  Load required packages
+library(haven)   # for importing SPSS .sav files
+
+library(dplyr)   # for data manipulation
+
+#### Import the SPSS dataset
+health_data <- read_sav("Health_data.sav")
+
+#### Inspect the structure to confirm variable names
+str(health_data)
+
+#### Calculate mean and median
+mean_age <- mean(health_data$age, na.rm = TRUE)
+
+median_age <- median(health_data$age, na.rm = TRUE)
+
+# Mode function (since R has no built-in mode for numeric data)
+
+get_mode <- function(x) {
+
+  uniq_vals <- unique(x)
+  
+  uniq_vals[which.max(tabulate(match(x, uniq_vals)))]
+  
+}
+
+mode_age <- get_mode(na.omit(health_data$age))
+
+#### Display results
+cat("Mean Age:", mean_age, "\n")
+
+cat("Median Age:", median_age, "\n")
+
+cat("Mode Age:", mode_age, "\n")
+
+Table 1: mean, median and mode for age
+Mean	  26.51
+Median	27
+Mode	  26
+
+2.	Find out whether median diastolic blood pressure is same among diabetic and non-diabetic participants.
+
+#### R code to answer the question
+
+#### Load required packages
+library(haven)   # import SPSS .sav files
+
+library(dplyr)   # data manipulation
+
+library(coin)    # non-parametric median test
+
+#### Import dataset
+health_data <- read_sav("Health_data.sav")
+
+#### Inspect variable names to confirm
+str(health_data)
+
+#### Assuming variables are named:
+"dbp"      = diastolic blood pressure
+
+"diabetes" = 1 for diabetic, 0 for non-diabetic
+
+#### Step 1: Compare group medians
+health_data %>%
+
+  group_by(diabetes) %>%
+  
+  summarise(median_dbp = median(dbp, na.rm = TRUE))
+  
+#### Step 2: Formal median test
+median_test_result <- median_test(dbp ~ factor(diabetes),
+
+                                  data = health_data,
+                                  
+                                  distribution = "exact")
+                                  
+median_test_result
+
+Wilcoxon rank sum test with continuity correction
+
+Data is dbp by diabetes
+
+W = 3804.5, p-value = 0.7999
+
+alternative hypothesis: true location shift is not equal to 0
+
+Yes  	83
+
+No	  82
+
+Wilcoxon Test Statistic
+
+W = is 3804.5  and p-value is = 0.7999284
+
+Conclusion, the p value is very high, above 0.05  and this means that there is no statistically significant difference in diastolic blood pressure between diabetic and non diabetic participants in your dataset
+
+3.	Find out whether systolic BP is different across occupational group.
+
+#### R code to answer the question
+####Load required packages
+
+library(haven)   (import SPSS .sav files)
+
+library(dplyr)   (data manipulation)
+
+library(ggplot2) (visualization)
+
+#### Import dataset
+
+health_data <- read_sav("Health_data.sav")
+
+#### Inspect variable names (optional)
+str(health_data)
+
+#### Step 1: Descriptive medians/means by occupation
+
+group_summary <- health_data %>%
+
+  group_by(occupation) %>%
+  
+  summarise(
+  
+    mean_sbp   = mean(sbp, na.rm = TRUE),
+    
+    
+    median_sbp = median(sbp, na.rm = TRUE),
+    
+    sd_sbp     = sd(sbp, na.rm = TRUE),
+    
+    n          = n()
+    
+  )
+  
+print(group_summary)
+
+#### Step 2: Formal test
+#### If SBP is approximately normal, use one-way ANOVA
+anova_result <- aov(sbp ~ factor(occupation), data = health_data)
+
+summary(anova_result)
+
+#### Step 3: Non-parametric alternative (Kruskal-Wallis test)
+
+kruskal_result <- kruskal.test(sbp ~ factor(occupation), data = health_data)
+
+print(kruskal_result)
+
+#### Step 4: Visualization
+ggplot(health_data, aes(x = factor(occupation), y = sbp)) +
+
+  geom_boxplot(fill = "skyblue") +
+  
+  labs(x = "Occupation", y = "Systolic BP",
+  
+       title = "Distribution of Systolic BP across Occupations")
+
+	
+
+
+
 
 ## 3.	What exactly have I learnt and how?
 To be completed
