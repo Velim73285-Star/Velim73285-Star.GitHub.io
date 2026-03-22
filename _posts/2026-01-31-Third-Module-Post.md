@@ -942,7 +942,7 @@ mean_age <- mean(health_data$age, na.rm = TRUE)
 
 median_age <- median(health_data$age, na.rm = TRUE)
 
-# Mode function (since R has no built-in mode for numeric data)
+#### Mode function (since R has no built-in mode for numeric data)
 
 get_mode <- function(x) {
 
