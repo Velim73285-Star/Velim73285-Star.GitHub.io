@@ -1156,7 +1156,7 @@ table_result <- table(covid$Region, covid$Severity)
 
 print(table_result)    
 
-   
+ ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Cross_tabulation_table_for_case_severity.PNG)  
 
 ## 3.	What exactly have I learnt and how?
 To be completed
