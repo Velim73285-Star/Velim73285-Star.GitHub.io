@@ -918,7 +918,7 @@ In conclusion, since the confidence interval spans both negative (-2.89) and pos
 
 ### 2.6	Unit 8: Nonparametric tests
 
-#### 2.6.1	Data activity 
+#### 2.6.1	Data activity 6
 
 Using the Health_Data, please perform the following functions in R:
 
@@ -1098,6 +1098,65 @@ Critical value at 95% level
 F0.02.2.18 = 3.55
 
 Since the F= 20.11 which is > 3.55  we then we reject the null hypothesis and conclude that at the 95% confidence level, the ANOVA shows a significant difference in efficiency. Vendor 2 demonstrates the highest and statistically significant improvement in employee efficiency.
+
+### 2.7	Unit 9: Creating cross-tabulations and performing Chi-square analysis
+#### 2.7.1	Data Activity 7
+
+1.	Using variables State/UnionTerritory (grouped into regions) and ConfirmedIndianNational + ConfirmedForeignNational (grouped into case levels) create a cross-table showing the relationship between Region and Case Severity Level.
+
+#### R code to answer the question   
+
+covid <- read.csv("COVID_19_Indi_ataset_(January_2020_March_2020).csv")
+
+#### Define regions
+
+region_map <- list(
+
+  North = c("Delhi","Haryana","Punjab","Uttar Pradesh","Uttarakhand","Himachal Pradesh","Jammu and Kashmir","Chandigarh"),
+  
+  South = c("Kerala","Tamil Nadu","Karnataka","Andhra Pradesh","Telengana","Puducherry"),
+  
+  West = c("Rajasthan","Gujarat","Maharashtra","Goa"),
+  
+  East = c("West Bengal","Odisha","Bihar","Jharkhand"),
+  
+  Central = c("Madhya Pradesh","Chhattisgarh"),
+  
+  UnionTerritories = c("Union Territory of Ladakh","Union Territory of Jammu and Kashmir",
+  
+                       "Union Territory of Chandigarh","Pondicherry","Puducherry")
+                       
+)
+
+#### Add Region variable
+covid$Region <- sapply(covid$StateUnionTerritory, function(x) {
+
+  for (r in names(region_map)) {
+  
+    if (x %in% region_map[[r]]) return(r)
+    
+  }
+  
+  return("Other")
+  
+})
+
+#### Compute total cases
+covid$TotalCases <- covid$ConfirmedIndianNational + covid$ConfirmedForeignNational
+
+#### Categorize severity levels
+covid$Severity <- cut(covid$TotalCases,
+
+                      breaks = c(-Inf,5,15,Inf),
+                      
+                      labels = c("Low","Medium","High"))
+
+#### Cross-tabulation
+table_result <- table(covid$Region, covid$Severity)
+
+print(table_result)    
+
+   
 
 ## 3.	What exactly have I learnt and how?
 To be completed
