@@ -1158,6 +1158,28 @@ print(table_result)
 
  ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Cross_tabulation_table_for_case_severity.PNG)  
 
+2.	Using variables ConfirmedIndianNational + ConfirmedForeignNational (grouped into case levels) and variable: Cured (grouped into recovery status) create a cross-table showing the relationship between Case Severity Level and Recovery Status.
+
+#### R code to answer the question   
+
+#### Load dataset 
+covid <- read.csv("COVID_19_Indi_ataset_(January_2020_March_2020).csv")
+
+#### Compute total cases
+covid$TotalCases <- covid$ConfirmedIndianNational + covid$ConfirmedForeignNational
+
+#### Categorize case severity
+covid$CaseSeverity <- cut(covid$TotalCases, breaks = c(-Inf,5,15,Inf), labels = c("Low","Medium","High"))
+
+#### Categorize recovery status
+covid$RecoveryStatus <- cut(covid$Cured, breaks = c(-Inf,0,5,Inf), labels = c("None","Some","Many"))
+
+#### Cross‑tabulation
+table_result <- table(covid$CaseSeverity, covid$RecoveryStatus)
+
+print(table_result)
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
