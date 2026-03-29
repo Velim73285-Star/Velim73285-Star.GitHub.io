@@ -1179,6 +1179,7 @@ table_result <- table(covid$CaseSeverity, covid$RecoveryStatus)
 
 print(table_result)
 
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ Cross_tabulation_table_for_recovery_status.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
