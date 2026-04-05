@@ -1181,6 +1181,71 @@ print(table_result)
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Cross_tabulation_table_for_recovery_status.PNG)
 
+### 2.8	Unit 9: Correlation 
+#### 2.8.1	Data Activity 8
+Using the Health_Data, perform the following functions in R and the questions.
+
+1.	Find out correlation between systolic and diastolic BP.
+   
+#### R code to answer the question
+#### Install required packages if not already installed
+
+install.packages("readxl")
+
+#### Load library
+library(readxl)
+
+#### Read the Excel file
+health_data <- read_excel("Health_Data.xlsx")
+
+#### Inspect column names to confirm exact labels
+names(health_data)
+
+#### Extract systolic and diastolic BP columns
+systolic <- health_data$sbp
+
+diastolic <- health_data$dbp
+
+#### Compute Pearson correlation
+correlation <- cor(systolic, diastolic, method = "pearson")
+
+#### Print result
+print(correlation)
+
+#### Results
+Correlation coefficient between systolic and diastolic = 0.846808
+
+Conclusion: A correlation coefficient of 0.8468 between systolic blood pressure (SBP) and diastolic blood pressure (DBP) means there is a very strong positive linear relationship between the two variables.
+
+2.	Produce a scatter plot between systolic and diastolic BP.
+
+#### R code to answer the question
+#### Install required packages if not already installed
+
+install.packages("ggplot2")
+
+install.packages("readxl")
+
+#### Load libraries
+library(ggplot2)
+
+library(readxl)
+#### Read the Excel file
+health_data <- read_excel("Health_Data.xlsx")
+
+#### Create scatter plot
+ggplot(health_data, aes(x = sbp, y = dbp)) + geom_point(color = "blue", alpha = 0.6) + 
+
+geom_smooth(method = "lm", se = TRUE, color = "red") + labs(title = "Scatter Plot: Systolic vs Diastolic BP",
+
+       x = "Systolic BP (mmHg)",
+       
+       y = "Diastolic BP (mmHg)") +
+       
+  theme_minimal()
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot for_Systolic_Vs_Diastolic_BP.PNG)
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
