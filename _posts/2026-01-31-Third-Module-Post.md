@@ -1213,7 +1213,7 @@ correlation <- cor(systolic, diastolic, method = "pearson")
 print(correlation)
 
 #### Results
-Correlation coefficient between systolic and diastolic = 0.846808
+Correlation coefficient between systolic BP and diastolic BP = 0.846808
 
 Conclusion: A correlation coefficient of 0.8468 between systolic blood pressure (SBP) and diastolic blood pressure (DBP) means there is a very strong positive linear relationship between the two variables.
 
