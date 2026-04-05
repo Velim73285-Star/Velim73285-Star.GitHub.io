@@ -1068,7 +1068,7 @@ kruskal_result <- kruskal.test(sbp ~ factor(occupation), data = health_data)
 
 print(kruskal_result)
 
-  ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Kruskal_Wallis_test_result.PNG)
   
 Kruskal-Wallis rank sum test
 
@@ -1156,7 +1156,7 @@ table_result <- table(covid$Region, covid$Severity)
 
 print(table_result)    
 
- ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Cross_tabulation_table_for_case_severity.PNG)  
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Cross_tabulation_table_for_case_severity.PNG)  
 
 2.	Using variables ConfirmedIndianNational + ConfirmedForeignNational (grouped into case levels) and variable: Cured (grouped into recovery status) create a cross-table showing the relationship between Case Severity Level and Recovery Status.
 
@@ -1244,7 +1244,7 @@ geom_smooth(method = "lm", se = TRUE, color = "red") + labs(title = "Scatter Plo
        
   theme_minimal()
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot for_Systolic_Vs_Diastolic_BP.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_Systolic_Vs_Diastolic_BP.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
