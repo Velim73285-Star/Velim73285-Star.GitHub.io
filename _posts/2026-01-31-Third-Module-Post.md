@@ -1414,6 +1414,8 @@ Emily Shaibu’s response builds on my initial post by offering practical measur
 In conclusion, the discussion converges on the idea that p-values alone are insufficient for sound inference, while confidence intervals, when properly applied, provide richer insights into uncertainty and effect size. The responses reinforce arguments by suggesting stronger referencing and practical preventive measures, ultimately advocating for more transparent, nuanced, and scientifically robust statistical communication.
 
 #### References
+Di Leo, G. and Sardanelli, F., 2020. Statistical significance: p value, 0.05 threshold, and applications to radiomics, reasons for a conservative approach. European radiology experimental, 4(1), p.18.
+
 Imbens, G.W., 2021. Statistical significance, p-values, and the reporting of uncertainty. Journal of Economic Perspectives, 35(3), pp.157-174.
 
 Lakens, D., 2021. The practical alternative to the p value is the correctly used p- value. Perspectives on psychological science, 16(3), pp.639-648.
@@ -1421,8 +1423,6 @@ Lakens, D., 2021. The practical alternative to the p value is the correctly used
 Michel, M.C., Murphy, T.J. and Motulsky, H.J., 2020. New author guidelines for displaying data and reporting data analysis and statistical methods in experimental biology. Molecular Pharmacology, 97(1), pp.49-60.
 
 Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
-
-Di Leo, G. and Sardanelli, F., 2020. Statistical significance: p value, 0.05 threshold, and applications to radiomics, reasons for a conservative approach. European radiology experimental, 4(1), p.18.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
