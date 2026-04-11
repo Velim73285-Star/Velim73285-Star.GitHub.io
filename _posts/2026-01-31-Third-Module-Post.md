@@ -1037,7 +1037,7 @@ health_data <- read_sav("Health_data.sav")
 #### Inspect variable names (optional)
 str(health_data)
 
-#### Step 1: Descriptive medians/means by occupation
+#### Descriptive medians/means by occupation
 group_summary <- health_data %>%
 
   group_by(occupation) %>%
@@ -1057,13 +1057,13 @@ group_summary <- health_data %>%
   
 print(group_summary)
 
-#### Step 2: Formal test
+#### Formal test
 #### If SBP is approximately normal, use one-way ANOVA
 anova_result <- aov(sbp ~ factor(occupation), data = health_data)
 
 summary(anova_result)
 
-#### Step 3: Non-parametric alternative (Kruskal-Wallis test)
+#### Non-parametric alternative (Kruskal-Wallis test)
 kruskal_result <- kruskal.test(sbp ~ factor(occupation), data = health_data)
 
 print(kruskal_result)
@@ -1245,6 +1245,48 @@ geom_smooth(method = "lm", se = TRUE, color = "red") + labs(title = "Scatter Plo
   theme_minimal()
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_Systolic_Vs_Diastolic_BP.PNG)
+
+### 2.9	Unit 11: Regression Analysis
+#### 2.9.1	Data Activity 9
+Completion requirements
+
+Using the Health_Data, perform the following functions in R.
+
+1.	Perform simple linear regression analysis to find the population regression equation to predict the diastolic BP by systolic BP.
+
+#### R code to answer the question
+#### Load required library to read Excel files
+library(readxl)   
+
+#### Read the dataset
+data <- read_excel("Health_Data.xlsx")
+
+#### Inspect the dataset
+head(data)
+
+summary(data)
+
+#### Fit the regression model
+model <- lm(dbp ~ sbp, data = data)
+
+#### View regression results
+summary(model)
+
+#### Extract regression equation
+intercept <- coef(model)[1]
+
+slope <- coef(model)[2]
+
+cat("Population regression equation: Diastolic =", intercept, "+", slope, "* Systolic\n")
+
+#### Add predicted values
+data$Predicted_Diastolic <- predict(model, newdata = data)
+
+#### Results
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_Systolic_Vs_Diastolic_BP.PNG)
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_Systolic_Vs_Diastolic_BP.PNG)
+
 
 ## 3.	What exactly have I learnt and how?
 To be completed
