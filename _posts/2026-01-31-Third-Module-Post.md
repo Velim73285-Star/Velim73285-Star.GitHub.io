@@ -1333,7 +1333,7 @@ data$Predicted_Diastolic <- predict(model, newdata = data)
 •	The model is reliable, explaining most of the variation in diastolic BP, though not all where other factors also play a role.
 
 ### 2.9.2	Collaborative discussion
-### # Discussion Topic
+#### Discussion Topic
 When dealing with statistical data, particularly for decision-making purposes, misinterpretations can be a serious issue. For this collaborative discussion, read Greenland et al. (2016) and Tijssen, J. (2021) from this week’s reading and reflect on these questions:
 
 1.	Under what situations should confidence intervals not be reported?
