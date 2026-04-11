@@ -1287,6 +1287,37 @@ data$Predicted_Diastolic <- predict(model, newdata = data)
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Coefficients_table.PNG)
 
+2.	Interpret the findings of regression analysis at 5% level of significance.
+
+#### Hypotheses
+•	Null hypothesis (H₀): There is no linear relationship between systolic BP and diastolic BP (slope = 0).
+•	Alternative hypothesis (H₁): There is a linear relationship (slope ≠ 0).
+
+2.1	Coefficient significance
+•	The slope (0.496, p < 2e-16): The p-value is far below 0.05, so we reject  the null hypothesis. This is a strong evidence of a statistically significant positive relationship between systolic and diastolic BP.
+•	The intercept (19.41, p = 4.67e-11): Also significant, but its practical meaning is limited since systolic BP of 0 is not realistic.
+
+2.2	Residuals
+•	Range is from -16.8 to +19.2.
+•	The model’s predictions can be off by as much as 17–19 mmHg in either direction.
+•	Median residual = 0.18 implying that the  predictions are cantered well around the actual values.
+
+2.3	Coefficients table
+•	Intercept (19.41) and slope (0.496) are both statistically significant since the p-values < 0.001.
+•	The very small p-values mean the relationship between systolic and diastolic BP is highly unlikely to be due to chance.
+
+2.4	Model fit
+•	Residual Standard Error = 6.26 which means on average, predictions are off by about 6 mmHg.
+•	The R² = 0.717 which means about 72% of the variation in diastolic BP is explained by systolic BP.
+•	The adjusted R² = 0.716 is very close to R², confirming the model is strong and not overfitted.
+•	The F-statistic = 527.2 and p < 2.2e-16 which means that the overall regression model is highly significant.
+
+2.5	Conclusion at 5% significance
+•	The regression analysis shows a statistically significant and strong positive linear relationship between systolic and diastolic blood pressure.
+•	For every 1 mmHg increase in systolic BP, diastolic BP increases by about 0.5 mmHg.
+•	The model is reliable, explaining most of the variation in diastolic BP, though not all where other factors also play a role.
+
+
 
 ## 3.	What exactly have I learnt and how?
 To be completed
