@@ -1405,7 +1405,24 @@ Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistica
 Sharma, H., 2021. Statistical significance or clinical significance? A researcher's dilemma for appropriate interpretation of research results. Saudi Journal of Anaesthesia, 15(4), pp.431-434.
 
 #### Summary post
+The initial post and the two responses together highlight the ongoing debate about the interpretation of statistical results, particularly the use of p-values and confidence intervals (CIs). On my initial post I emphasized that while p-values have historically dominated reporting, they are often misinterpreted as measures of truth or importance, leading to oversimplified conclusions. Confidence intervals, though richer in conveying uncertainty and plausible effect sizes, can also be misused when reduced to a binary test of significance or when assumptions are violated (Tijssen, 2021 and Greenland et al., 2016). Based on the discussion it is evident that the best practice involves reporting effect sizes with confidence intervals, using p-values as supplementary indicators. The sample size was also mentioned as one key element to consider when reporting statistical results using confidence intervals and p-values.
 
+Paul Sanderson’s response on my initial post commended the clarity and structure of the post, particularly the discussion of how confidence intervals can be “reduced to a disguised p-value” and how p-values encourage dichotomous thinking. His main suggestion is to strengthen the referencing by ensuring all cited sources, such as Tijssen’s editorial, are included and by integrating more references directly into the body of the post. This suggestion from Paul has been considered and implemented on this summary post. 
+
+Emily Shaibu’s response builds on my initial post by offering practical measures to prevent misuse of confidence intervals and p-values. Emily recommends pre-registering analysis plans to ensure confidence intervals are interpreted as ranges of plausible effect sizes, enforcing reporting checklists like CONSORT and STROBE to encourage meaningful interpretation, and improving statistical education to emphasize compatibility rather than binary thresholds (Greenland et al., 2016). She also highlighted the importance of sensitivity analyses, such as bootstrap confidence intervals, when assumptions are doubtful, and stresses that p-values should always be reported alongside effect estimates and confidence intervals (Tijssen, 2021, Rafi and Greenland, 2020; and Lakens, 2021). The reflection from Emily’s response provides a need to put controls in place as to mitigate the misuse of confidence intervals and p-values in reporting statistical results.
+
+In conclusion, the discussion converges on the idea that p-values alone are insufficient for sound inference, while confidence intervals, when properly applied, provide richer insights into uncertainty and effect size. The responses reinforce arguments by suggesting stronger referencing and practical preventive measures, ultimately advocating for more transparent, nuanced, and scientifically robust statistical communication.
+
+#### References
+Imbens, G.W., 2021. Statistical significance, p-values, and the reporting of uncertainty. Journal of Economic Perspectives, 35(3), pp.157-174.
+
+Lakens, D., 2021. The practical alternative to the p value is the correctly used p- value. Perspectives on psychological science, 16(3), pp.639-648.
+
+Michel, M.C., Murphy, T.J. and Motulsky, H.J., 2020. New author guidelines for displaying data and reporting data analysis and statistical methods in experimental biology. Molecular Pharmacology, 97(1), pp.49-60.
+
+Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
+
+Di Leo, G. and Sardanelli, F., 2020. Statistical significance: p value, 0.05 threshold, and applications to radiomics, reasons for a conservative approach. European radiology experimental, 4(1), p.18.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
