@@ -1332,6 +1332,79 @@ data$Predicted_Diastolic <- predict(model, newdata = data)
 
 •	The model is reliable, explaining most of the variation in diastolic BP, though not all where other factors also play a role.
 
+### 2.9.2	Collaborative discussion
+### # Discussion Topic
+When dealing with statistical data, particularly for decision-making purposes, misinterpretations can be a serious issue. For this collaborative discussion, read Greenland et al. (2016) and Tijssen, J. (2021) from this week’s reading and reflect on these questions:
+
+1.	Under what situations should confidence intervals not be reported?
+   
+2.	Why is a p-value not always enough to report?
+
+#### Initial Post
+The interpretation of statistical results has long been a source of debate in scientific research, particularly around the use of p values and confidence intervals. Both Tijssen’s editorial (2021) and Greenland et al., guide (2016) emphasize that while these tools are central to statistical inference, they are often misunderstood and misapplied. P values have traditionally dominated reporting, yet they are frequently misinterpreted as measures of truth or importance, leading to oversimplified conclusions. Confidence intervals, on the other hand, offer richer insights by quantifying uncertainty and highlighting the range of plausible effect sizes, but they too can be misused if reduced to a binary test of significance. This reflection explores when confidence intervals may not be appropriate to report and why p values alone are insufficient for sound scientific inference.
+
+1. Situations where confidence intervals should not be reported
+   
+Confidence intervals are powerful tools for expressing uncertainty around effect estimates, but they can be misleading if used mechanically. As Tijssen points out, if confidence intervals are reported only to check whether the null value for example, (no difference or no treatment benefit) is included or excluded, then little is gained in terms of scientific interpretation. In such cases, the interval is reduced to a disguised p value, which undermines its real purpose of showing the range of plausible values compatible with the data. Greenland and colleagues also caution that confidence intervals depend on the validity of the underlying statistical model and assumptions. If those assumptions are violated such as biased sampling, inappropriate analysis choices, or selective reporting, the confidence interval loses its interpretive value. Thus, confidence intervals should not be reported when they are likely to be misused as a binary test of significance, or when the assumptions underpinning them are not credible. Instead, they should be reserved for contexts where uncertainty is embraced, and the full range of compatible effect sizes is meaningfully discussed.\
+
+2. Why a p-value is not always enough to report?
+   
+A p-value alone is insufficient because it does not measure the size, direction, or importance of an effect. As Tijssen emphasizes that p-values are driven by both sample size and effect magnitude, meaning that trivial differences can yield very small p-values in large studies, while meaningful effects may appear nonsignificant in small studies. Greenland et al. further highlight that p-values are often misinterpreted, for example, as the probability that the null hypothesis is true, or as evidence of no effect when nonsignificant. In reality, a p-value only reflects how unusual the observed data would be under a specific statistical model, and it cannot distinguish whether the discrepancy arises from the hypothesis being false, from random error, or from flawed assumptions. Reporting only p-values encourages dichotomous thinking (“significant” vs. “not significant”), which oversimplifies scientific inference. Confidence intervals, effect sizes, and contextual interpretation provide a richer picture by quantifying uncertainty and focusing attention on the magnitude and practical relevance of findings.
+
+In summary, the reflection underscores that confidence intervals and effect estimates provide richer, more meaningful insights than p values alone. Confidence intervals should not be reduced to a binary test of significance, nor used when assumptions are weak, but when applied correctly they highlight both the magnitude of effects and the uncertainty around them. P values, while historically entrenched, are insufficient on their own because they neither measure effect size nor guarantee meaningful interpretation. The best practice is to report effect sizes with confidence intervals, using p values only as supplementary indicators, thereby fostering more nuanced and scientifically sound conclusions.
+
+#### References
+Di Leo, G. and Sardanelli, F., 2020. Statistical significance: p-value, 0.05 threshold, and applications to radiomics reasons for a conservative approach. European radiology experimental, 4(1), p.18.
+
+Lakens, D., 2021. The practical alternative to the p-value is the correctly used p-value. Perspectives on psychological science, 16(3), pp.639-648.
+
+Long, J.A., 2024. Jtools: Analysis and presentation of social scientific data. Journal of Open Source Software, 9(101), p.6610.
+
+Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
+
+Sjoberg, D.D., Whiting, K., Curry, M., Lavery, J.A. and Larmarange, J., 2021. Reproducible summary tables with the gtsummary package. The R journal, 13(1), pp.570-580.
+
+#### Peer Response to Paul Sanderson
+Thank you so much Paul for providing an excellent post on the use of p-values and confidence intervals. Imbens, G.W., 2021 states that “The use of statistical significance and p-values has become a matter of substantial controversy in various fields using statistical methods. This has gone as far as some journals banning the use of indicators for statistical significance, or even any reports of p-values, and, in one case, any mention of confidence intervals.” Imbens’ statement is valid because the controversy around p-values and statistical significance stems from their widespread misuse and misinterpretation.
+
+You correctly highlighted the limitations of p-values and the growing emphasis on the use of confidence intervals, but it is also important to recognise that confidence intervals are not universally appropriate. Confidence intervals should not be reported when the underlying assumptions of the statistical model are violated, when the sample size is too small to yield meaningful ranges, or when the data are highly skewed or non-randomly selected. In such cases, the interval may give a false sense of precision or reliability. Similarly, confidence intervals may be misleading in exploratory analyses where multiple comparisons are made without correction, as they can exaggerate certainty in results that are tentative.
+
+On the other hand, a p-value alone is rarely sufficient to report because it only tells us whether the observed data are unusual under the null hypothesis. It does not convey the magnitude, direction, or practical importance of an effect. A small p-value may arise from trivial differences in very large samples, while a large p-value may obscure meaningful effects in small samples. Without additional context, such as effect sizes, confidence intervals, or subject-matter interpretation, p-values risk being misused as binary proof of discovery. This is why many journals now encourage researchers to supplement p-values with confidence intervals and transparent discussion of assumptions, ensuring that statistical evidence is interpreted in a way that reflects both uncertainty and practical relevance.
+
+In conclusion, while confidence intervals are often a valuable complement to p-values, they should not be reported when the assumptions underlying the statistical model are violated, when the sample size is too small to provide meaningful ranges, or when the data are biased in ways that make the interval misleading. At the same time, relying solely on p-values is insufficient because they do not convey the size, direction, or practical importance of an effect, and they can be influenced by sample size or model assumptions. Together, these points emphasize that neither confidence intervals nor p-values are universally adequate on their own; careful interpretation, transparency about assumptions, and contextual discussion are essential for meaningful statistical reporting.
+
+#### References
+Imbens, G.W., 2021. Statistical significance, p-values, and the reporting of uncertainty. Journal of Economic Perspectives, 35(3), pp.157-174.
+
+Kwak, S., 2023. Are only p-values less than 0.05 significant? A p-value greater than 0.05 is also significant!. Journal of lipid and atherosclerosis, 12(2), p.89.
+
+Lakens, D., 2021. The practical alternative to the p value is the correctly used p value. Perspectives on psychological science, 16(3), pp.639-648.
+
+Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
+
+#### Peer Response to Emily Shaibu
+Emily, you have articulated the tension between confidence intervals and p values very clearly. Your post highlights the practical pitfalls of reporting confidence intervals when assumptions are violated or data quality is compromised, and I agree that in those cases presenting a numeric interval risks misleading stakeholders with false precision. Greenland et al, 2016 are right to emphasize qualitative transparency over spurious quantification.
+
+I will add that your point about small sample sizes is especially important in applied contexts. A wide confidence interval does not just fail to inform bur it can actively distort interpretation if decision makers equate “wide” with “no effect.” The caution about instability in small studies reinforces the need to frame uncertainty narratively rather than numerically in those situations.
+
+On p-values, you have captured the core misinterpretations very well. The statement by Wasserstein and Lazar, 2016 was a watershed moment precisely because it reminded the field that statistical significance is not synonymous with scientific importance. As you note, the dichotomous mindset (“significant vs. not significant”) is deeply entrenched, and shifting toward effect sizes and intervals as the primary lens is a cultural as much as a technical change (Greenland, S., 2019).
+
+Your conclusion captures this balance well and transparent communication of uncertainty is more valuable than simplistic thresholds. It is the kind of framing that helps analysts move beyond ritualistic statistics toward genuinely informative reporting.
+
+In summary, Emily’s post underscores a critical principle in statistical reporting thereby indicating that numbers alone do not guarantee meaningful insight. Confidence intervals, while generally superior to p values in conveying both effect size and precision, should be withheld when assumptions are violated, data quality is poor, or sample sizes are too small to yield stable estimates. In such cases, presenting a confidence interval risks creating false certainty rather than clarifying uncertainty. Conversely, p values on their own are insufficient because they neither communicate effect magnitude nor practical relevance, and they are prone to widespread misinterpretation.
+
+#### References
+Greenland, S., Senn, S.J., Rothman, K.J., Carlin, J.B., Poole, C., Goodman, S.N. and Altman, D.G., 2016. Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations. European journal of epidemiology, 31(4), pp.337-350.
+
+Greenland, S., 2019. Valid p-values behave exactly as they should: Some misleading criticisms of p-values and their resolution with s-values. The American Statistician, 73 (sup1), pp.106-114.
+
+Lakens, D., 2021. The practical alternative to the p value is the correctly used p value. Perspectives on psychological science, 16(3), pp.639-648.
+
+Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
+
+Sharma, H., 2021. Statistical significance or clinical significance? A researcher's dilemma for appropriate interpretation of research results. Saudi Journal of Anaesthesia, 15(4), pp.431-434.
+
+#### Summary post
 
 
 ## 3.	What exactly have I learnt and how?
