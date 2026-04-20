@@ -1424,6 +1424,103 @@ Michel, M.C., Murphy, T.J. and Motulsky, H.J., 2020. New author guidelines for d
 
 Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistical science: replace confidence and significance by compatibility and surprise. BMC medical research methodology, 20(1), p.244.
 
+### 2.10	Unit 12: Bayesian Data Analysis
+#### 2.10.1	Baye's Probability Activity
+Calculate the following basic probabilities using the From the COVID-19 India dataset. 
+
+(a) The probability that a randomly selected report comes from Kerala: P(Kerala)
+#### R code to answer the question
+#### Load the dataset
+data <- read.csv("Covid19_India(Jan20-Mar20)_Bayesion.csv")
+#### Count total number of reports
+total_reports <- nrow(data)
+#### Count number of reports from Kerala
+kerala_reports <- sum(data$State.UnionTerritory == "Kerala")
+#### Calculate probability P(Kerala)
+P_Kerala <- kerala_reports / total_reports
+#### Print result
+cat("Probability that a randomly selected report is from Kerala:", P_Kerala, "\n")
+
+#### Answer: Probability that a randomly selected report is from Kerala = 0.1925926 
+
+(b) The probability that a randomly selected report shows recoveries: P(Recovery) 
+#### R code to answer the question
+#### Load the dataset
+data <- read.csv("Covid19_India(Jan20-Mar20)_Bayesion.csv")
+#### Count total number of reports
+total_reports <- nrow(data)
+#### Count number of reports with recoveries (Cured > 0)
+recovery_reports <- sum(data$Cured > 0)
+#### Calculate probability P(Recovery)
+P_Recovery <- recovery_reports / total_reports
+#### Print result
+cat("Probability that a randomly selected report shows recoveries:", P_Recovery, "\n")
+
+#### Answer: Probability that a randomly selected report shows recoveries = 0.2037037 
+
+(c) The probability that a Kerala report shows recoveries: P(Recovery | Kerala) 
+#### R code to answer the question
+#### Load the dataset
+data <- read.csv("Covid19_India(Jan20-Mar20)_Bayesion.csv")
+#### Subset only Kerala reports
+kerala_data <- subset(data, State.UnionTerritory == "Kerala")
+#### Count total Kerala reports
+total_kerala <- nrow(kerala_data)
+#### Count Kerala reports with recoveries (Cured > 0)
+kerala_recovery <- sum(kerala_data$Cured > 0)
+#### Calculate conditional probability P(Recovery | Kerala)
+P_Recovery_given_Kerala <- kerala_recovery / total_kerala
+#### Print result
+cat("Probability that a Kerala report shows recoveries:", P_Recovery_given_Kerala, "\n")
+
+#### Answer: Probability that a Kerala report shows recoveries = 0.3653846 
+
+(d) The probability that a Delhi report shows recoveries: P(Recovery | Delhi) 
+#### R code to answer the question
+#### Load the dataset
+data <- read.csv("Covid19_India(Jan20-Mar20)_Bayesion.csv")
+#### Subset only Delhi reports
+delhi_data <- subset(data, State.UnionTerritory == "Delhi")
+#### Count total Delhi reports
+total_delhi <- nrow(delhi_data)
+#### Count Delhi reports with recoveries (Cured > 0)
+delhi_recovery <- sum(delhi_data$Cured > 0)
+#### Calculate conditional probability P(Recovery | Delhi)
+P_Recovery_given_Delhi <- delhi_recovery / total_delhi
+#### Print result
+cat("Probability that a Delhi report shows recoveries:", P_Recovery_given_Delhi, "\n")
+
+#### Answer: Probability that a Delhi report shows recoveries = 0.4 
+
+(e) Using Bayes theorem, calculate: If a report shows patient recoveries, what is the probability that it came from Kerala? P(Kerala | Recovery)?
+
+#### R code to answer the question
+#### Load the dataset
+data <- read.csv("Covid19_India(Jan20-Mar20)_Bayesion.csv")
+#### Count total number of reports
+total_reports <- nrow(data)
+#### Count Kerala reports
+kerala_reports <- sum(data$State.UnionTerritory == "Kerala")
+#### Count recovery reports (Cured > 0)
+recovery_reports <- sum(data$Cured > 0)
+#### Count Kerala reports with recoveries
+kerala_recovery_reports <- sum(data$State.UnionTerritory == "Kerala" & data$Cured > 0)
+#### Apply Bayes theorem
+P(Kerala | Recovery) = P(Recovery | Kerala) * P(Kerala) / P(Recovery)
+
+P_Kerala <- kerala_reports / total_reports
+
+P_Recovery <- recovery_reports / total_reports
+
+P_Recovery_given_Kerala <- kerala_recovery_reports / kerala_reports
+
+P_Kerala_given_Recovery <- (P_Recovery_given_Kerala * P_Kerala) / P_Recovery
+
+#### Print result
+cat("Probability that a recovery report came from Kerala:", P_Kerala_given_Recovery, "\n")
+
+#### Answer: Probability that a recovery report came from Kerala = 0.3454545 
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
