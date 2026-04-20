@@ -1522,14 +1522,54 @@ cat("Probability that a recovery report came from Kerala:", P_Kerala_given_Recov
 #### Answer: Probability that a recovery report came from Kerala = 0.3454545 
 
 ## 3.	What exactly have I learnt and how?
-To be completed
+I have learnt to understand, apply, evaluate, and communicate mathematical and statistical methods in data science and R programming, both theoretically and practically, while
+
+developing reflective and independent learning skills.
+
 
 ### 3.1 What have I learnt from this module?
-To be completed
+•	A systematic grasp of the principles that underpin computing logic, data science, and R programming.
+
+•	The ability to apply mathematical and statistical techniques to solve problems and support decision-making.
+
+•	Skills to assess the validity, reliability, and usefulness of statistical analyses and numeric results.
+
+•	Competence in presenting findings clearly and persuasively to diverse audiences.
+
+•	Understanding of how computational tools are applied in practice, including contemporary challenges and ethical considerations.
+
+•	Development of reflective and self-directed learning habits.
 
 ### 3.2 The how part of learning the above
-To be completed
+•	Hands-on practical work from unit 1 to 12 of the module.
+
+•	Through theory: Studying foundational concepts in mathematics, statistics, and computing logic.
+
+•	Through practice: Applying programming using R and data-driven techniques to real datasets and problems.
+
+•	Through interpretation: Learning to read, critique, and make sense of outputs from R and data science tools.
+
+•	Through application: Exploring case studies and real-world scenarios where computational methods drive decisions.
+
+•	Through reflection: Engaging in independent study, critical thinking, and self-assessment to consolidate knowledge.
 
 ## 4.	Professional skills gained and enhanced as a result of the module 
-To be completed
+•	Data visualization and presentation: Creating stakeholder-ready reports.
+
+•	Analytical thinking: Ability to break down complex problems using mathematical and statistical reasoning.
+
+•	Data interpretation: Competence in reading, critiquing, and making sense of outputs from data science tools and R programming.
+
+•	Decision support: Applying quantitative methods to inform and strengthen decision-making processes.
+
+•	Critical evaluation: Assessing the reliability, validity, and limitations of statistical analyses.
+
+•	Communication skills: Presenting technical results clearly and persuasively to diverse audiences, including non-specialists.
+
+•	Technical proficiency: Practical experience with R programming, computational logic, and data-driven techniques.
+
+•	Reflective learning: Developing independence, adaptability, and self-awareness in approaching new problems.
+
+•	Real-world application awareness: Understanding how computational tools are used in industry and being mindful of contemporary issues for example ethics, bias, and sustainability.
+
 
