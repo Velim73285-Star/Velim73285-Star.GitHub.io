@@ -1426,7 +1426,7 @@ Rafi, Z. and Greenland, S., 2020. Semantic and cognitive tools to aid statistica
 
 ### 2.10	Unit 12: Bayesian Data Analysis
 #### 2.10.1	Baye's Probability Activity
-Calculate the following basic probabilities using the From the COVID-19 India dataset. 
+Calculate the following basic probabilities using the COVID-19 India dataset. 
 
 (a) The probability that a randomly selected report comes from Kerala: P(Kerala)
 #### R code to answer the question
