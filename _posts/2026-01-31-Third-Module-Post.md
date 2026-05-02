@@ -1522,8 +1522,7 @@ cat("Probability that a recovery report came from Kerala:", P_Kerala_given_Recov
 #### Answer: Probability that a recovery report came from Kerala = 0.3454545 
 
 ## 3.	What exactly have I learnt and how?
-I have learnt to understand, apply, evaluate, and communicate mathematical and statistical methods in data science and R programming, both theoretically and practically, while
-developing reflective and independent learning skills.
+I have learnt to understand, apply, evaluate, and communicate mathematical and statistical methods in data science using R programming, both theoretically and practically, while developing reflective and independent learning skills.
 
 
 ### 3.1 What have I learnt from this module?
