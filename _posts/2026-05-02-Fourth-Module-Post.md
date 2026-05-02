@@ -31,3 +31,24 @@ and organisation
 Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or Industry 5.0 on the sector in which you are involved or interested.
 
 ### Initial post
+
+
+
+
+
+
+
+
+
+## 3.	What exactly have I learnt and how?
+To be completed
+
+### 3.1 What have I learnt from this module?
+To be completed
+
+### 3.2 The how part of learning the above
+To be completed
+
+## 4.	Professional skills matrix and action plan (PDP)
+To be completed
+
