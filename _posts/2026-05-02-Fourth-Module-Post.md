@@ -26,7 +26,7 @@ tags: [Github, Modules, Python, R]
 and organisation
 
 ## 2.	The artefacts created during the module
-### 2.1 Collaborative Discussion
+### 2.1 Unit 1 – 3: Collaborative Discussion
 ### Discussion topic
 Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or Industry 5.0 on the sector in which you are involved or interested.
 
