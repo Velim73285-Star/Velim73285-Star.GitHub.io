@@ -109,6 +109,40 @@ c.	Kurtosis (outlier presence)
 
 •	Horsepower and acceleration show positive kurtosis, meaning heavier tails and more extreme values compared to normal.
 
+3.Correlation Heat Map.
+
+#### Python code to answer the question
+import pandas as pd
+
+import seaborn as sns
+
+import matplotlib.pyplot as plt
+
+#### Load dataset
+df = pd.read_csv("Unit02_uto-mpg.csv")
+
+#### Replace '?' with NaN and convert columns to numeric where possible
+df.replace("?", pd.NA, inplace=True)
+
+df = df.apply(pd.to_numeric, errors='ignore')
+
+#### Select only numeric columns
+numeric_df = df.select_dtypes(include=['number'])
+
+#### Compute correlation matrix
+corr_matrix = numeric_df.corr()
+
+#### Plot heatmap
+plt.figure(figsize=(10, 6))
+
+sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+
+plt.title("Correlation Heatmap - Unit02_uto-mpg Dataset")
+
+plt.show()
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Estimation_of_Skewness_and_Kurtosis.PNG)
+
 
 ## 3.	What exactly have I learnt and how?
 To be completed
