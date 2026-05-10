@@ -33,10 +33,30 @@ Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or
 ### Initial post
 
 
+### 2.2 Unit 2: Seminar Exploratory Data Analysis (EDA) tutorial 
+Apply EDA using the dataset Auto-mpg dataset (Unit02_uto-mpg.csv) and answer the following questions.
 
+1.	Identify missing values.
+   
+#### Python code to answer the question
+import pandas as pd
+#### Load the dataset
+df = pd.read_csv("Unit02_uto-mpg.csv")
+#### Replace '?' with NaN for proper missing value detection
+df.replace("?", pd.NA, inplace=True)
+#### Check for missing values in each column
+missing_summary = df.isnull().sum()
 
+print("Missing values per column:")
 
+print(missing_summary)
 
+#### Optionally, display rows with missing values
+print("\nRows with missing values:")
+
+print(df[df.isnull().any(axis=1)])
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
 
 
 
