@@ -162,6 +162,61 @@ Engine and size variables
 
 •	Horsepower and Weight (0.86) → More powerful cars are heavier.
 
+4.Scatter plot for different parameters.
+
+#### Python code to answer the question
+import pandas as pd
+
+import seaborn as sns
+
+import matplotlib.pyplot as plt
+
+#### Load dataset
+df = pd.read_csv("Unit02_uto-mpg.csv")
+
+#### Replace '?' with NaN and convert numeric columns properly
+df.replace("?", pd.NA, inplace=True)
+
+df = df.apply(pd.to_numeric, errors='ignore')
+
+#### Example scatter plots
+plt.figure(figsize=(12, 8))
+
+#### Scatter plot: mpg vs weight
+plt.subplot(2, 2, 1)
+
+sns.scatterplot(x="weight", y="mpg", data=df)
+
+plt.title("MPG vs Weight")
+
+#### Scatter plot: mpg vs horsepower
+plt.subplot(2, 2, 2)
+
+sns.scatterplot(x="horsepower", y="mpg", data=df)
+
+plt.title("MPG vs Horsepower")
+
+#### Scatter plot: mpg vs displacement
+plt.subplot(2, 2, 3)
+
+sns.scatterplot(x="displacement", y="mpg", data=df)
+
+plt.title("MPG vs Displacement")
+
+#### Scatter plot: mpg vs acceleration
+plt.subplot(2, 2, 4)
+
+sns.scatterplot(x="acceleration", y="mpg", data=df)
+
+plt.title("MPG vs Acceleration")
+
+plt.tight_layout()
+
+plt.show()
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Correlation_Heat_Map.PNG)
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
