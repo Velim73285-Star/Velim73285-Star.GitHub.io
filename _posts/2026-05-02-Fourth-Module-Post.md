@@ -143,6 +143,24 @@ plt.show()
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Correlation_Heat_Map.PNG)
 
+#### Key relationships 
+MPG (fuel efficiency)
+
+•	Strong negative correlations:
+
+o	Weight (-0.83), Displacement (-0.80), Horsepower (-0.78), Cylinders (-0.78). → This means heavier, larger, and more powerful cars consume more fuel.
+
+•	Positive correlations:
+
+o	Acceleration (0.42), Model year (0.58), Origin (0.56). → Newer models and cars from non-US origins (Europe/Asia) tend to be more fuel-efficient.
+
+Engine and size variables
+
+•	Cylinders and Displacement (0.95) → Larger engines almost always have more cylinders.
+
+•	Displacement and Weight (0.93) → Bigger engines are found in heavier cars.
+
+•	Horsepower and Weight (0.86) → More powerful cars are heavier.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
