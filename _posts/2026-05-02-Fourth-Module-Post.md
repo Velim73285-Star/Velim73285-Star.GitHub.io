@@ -36,7 +36,7 @@ Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or
 ### 2.2 Unit 2: Seminar Exploratory Data Analysis (EDA) tutorial 
 Apply EDA using the dataset Auto-mpg dataset (Unit02_uto-mpg.csv) and answer the following questions.
 
-1.Identify missing values.
+1. Identify missing values.
 #### Python code to answer the question
 import pandas as pd
 #### Load the dataset
