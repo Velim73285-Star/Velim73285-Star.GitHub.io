@@ -141,7 +141,7 @@ plt.title("Correlation Heatmap - Unit02_uto-mpg Dataset")
 
 plt.show()
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Estimation_of_Skewness_and_Kurtosis.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Correlation_Heat_Map.PNG)
 
 
 ## 3.	What exactly have I learnt and how?
