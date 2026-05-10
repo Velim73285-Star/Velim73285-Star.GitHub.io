@@ -59,12 +59,12 @@ print(df[df.isnull().any(axis=1)])
 
 2.Estimate Skewness and Kurtosis.
 
-####Python code to answer the question
+#### Python code to answer the question
 import pandas as pd
 
 from scipy.stats import skew, kurtosis
 
-####Load dataset
+#### Load dataset
 df = pd.read_csv("Unit02_uto-mpg.csv")
 #### Replace '?' with NaN and convert columns to numeric where possible
 df.replace("?", pd.NA, inplace=True)
