@@ -57,7 +57,42 @@ print(df[df.isnull().any(axis=1)])
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
 
+2.Estimate Skewness and Kurtosis.
 
+####Python code to answer the question
+import pandas as pd
+
+from scipy.stats import skew, kurtosis
+
+####Load dataset
+df = pd.read_csv("Unit02_uto-mpg.csv")
+#### Replace '?' with NaN and convert columns to numeric where possible
+df.replace("?", pd.NA, inplace=True)
+
+df = df.apply(pd.to_numeric, errors='ignore')
+
+#### Select only numeric columns
+numeric_cols = df.select_dtypes(include=['number']).columns
+
+#### Calculate skewness and kurtosis for each numeric column
+results = {}
+
+for col in numeric_cols:
+
+    results[col] = {
+    
+        "Skewness": skew(df[col].dropna()),
+        
+        "Kurtosis": kurtosis(df[col].dropna())
+        
+    }
+
+#### Display results
+for col, stats in results.items():
+
+    print(f"{col}: Skewness = {stats['Skewness']:.3f}, Kurtosis = {stats['Kurtosis']:.3f}")
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
