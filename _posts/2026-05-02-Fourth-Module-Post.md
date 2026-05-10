@@ -94,6 +94,22 @@ for col, stats in results.items():
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Estimation_of_Skewness_and_Kurtosis.PNG)
 
+#### Key findings 
+a.Skewness tells us whether a dataset’s distribution is tilted to one side, while Kurtosis tells us how heavy or light the tails are compared to a normal distribution. Together, they describe the shape of the data beyond just mean and variance.
+
+b.Skewness (asymmetry of distribution)
+
+• Most variables show mild positive skewness (mpg, cylinders, displacement, horsepower, weight, acceleration, origin).  This means their distributions lean slightly to the right, with a longer tail of higher values.
+
+•	Model year has skewness close to 0, indicating a nearly symmetric distribution.
+
+c.	Kurtosis (outlier presence)
+
+•	Negative kurtosis for mpg, cylinders, displacement, weight, model year, origin. These means the variables has a flatter distribution than normal, with fewer extreme outliers.
+
+•	Horsepower and acceleration show positive kurtosis, meaning heavier tails and more extreme values compared to normal.
+
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
