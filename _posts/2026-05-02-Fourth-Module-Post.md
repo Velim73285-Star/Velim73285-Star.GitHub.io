@@ -217,6 +217,7 @@ plt.show()
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_different_parameters.PNG)
 
 
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
