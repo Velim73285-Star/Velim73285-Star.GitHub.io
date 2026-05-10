@@ -249,6 +249,44 @@ MPG vs Acceleration
 
 •	This suggests that acceleration is not a primary driver of fuel efficiency.
 
+5.Replace categorical values with numerical values (i.e., America 1, Europe 2, etc.). Affected variables are (origin and car name)
+
+#### Python code to answer the question
+import pandas as pd
+
+from sklearn.preprocessing import LabelEncoder
+
+#### Load dataset
+df = pd.read_csv("Unit02_uto-mpg.csv")
+
+#### Encode 'origin' column
+#### Map origin codes (1=America, 2=Europe, 3=Asia)
+origin_map = {
+
+    1: "America",
+    
+    2: "Europe",
+    
+    3: "Asia"
+    
+}
+
+#### Replace numeric codes with text labels, then re-map to numeric codes
+
+df["origin"] = df["origin"].replace(origin_map)
+
+df["origin"] = df["origin"].replace({"America": 1, "Europe": 2, "Asia": 3})
+
+#### Encode 'car name' column using LabelEncoder
+
+encoder = LabelEncoder()
+
+df["car name"] = encoder.fit_transform(df["car name"])
+
+#### Show first 10 rows to verify changes
+print(df.head(10))
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Table_showing_first_10_rows_with_changes.PNG)
 
 
 ## 3.	What exactly have I learnt and how?
