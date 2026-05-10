@@ -55,7 +55,7 @@ print("\nRows with missing values:")
 
 print(df[df.isnull().any(axis=1)])
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
 
 
 
