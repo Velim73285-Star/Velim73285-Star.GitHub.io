@@ -288,7 +288,6 @@ print(df.head(10))
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Table_showing_first_10_rows_with_changes.PNG)
 
-
 ## 3.	What exactly have I learnt and how?
 To be completed
 
