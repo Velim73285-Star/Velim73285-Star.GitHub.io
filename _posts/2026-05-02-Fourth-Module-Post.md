@@ -92,7 +92,7 @@ for col, stats in results.items():
 
     print(f"{col}: Skewness = {stats['Skewness']:.3f}, Kurtosis = {stats['Kurtosis']:.3f}")
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Estimation_of_Skewness_and_Kurtosis.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
