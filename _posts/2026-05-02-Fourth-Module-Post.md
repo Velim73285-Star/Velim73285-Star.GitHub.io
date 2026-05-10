@@ -216,6 +216,39 @@ plt.show()
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_for_different_parameters.PNG)
 
+#### Key findings
+MPG vs Weight
+
+•	Shows a strong negative relationship.
+
+•	Heavier cars consistently achieve lower fuel efficiency.
+
+•	Confirms that vehicle weight is a major driver of mpg.
+
+MPG vs Horsepower
+
+•	A negative correlation.
+
+•	Cars with higher horsepower tend to consume more fuel, reducing mpg.
+
+•	This confirms that powerful engines trade off efficiency for performance.
+
+MPG vs Displacement
+
+•	Again, a negative relationship.
+
+•	Larger engine displacement corresponds to lower mpg.
+
+•	Reinforces the link between engine size and fuel consumption.
+
+MPG vs Acceleration
+
+•	The relationship is weaker and less clear compared to the others.
+
+•	Shows a slight positive trend, meaning that cars with quicker acceleration may show somewhat better mpg, but the effect is not strong.
+
+•	This suggests that acceleration is not a primary driver of fuel efficiency.
+
 
 
 ## 3.	What exactly have I learnt and how?
