@@ -319,7 +319,7 @@ plt.plot(x, mymodel, color='red')
 
 plt.show()
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot and_the_line_of_linear_regression.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_linear_regression_line.PNG)
 
 Pearsons correlation: -0.759
 
