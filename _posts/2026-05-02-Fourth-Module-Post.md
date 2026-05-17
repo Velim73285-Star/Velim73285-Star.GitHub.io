@@ -35,7 +35,7 @@ Industry 4.0 has transformed the electricity sector through digitalization, IoT,
 
 #### Impact of Industry 4.0 failures in the electricity industry in South Africa
 
-1. Customer implications
+1.Customer implications
    
 •	Service disruption: Rolling blackouts left households without power for extended periods, affecting daily life, healthcare facilities, and digital connectivity.
 
@@ -43,7 +43,7 @@ Industry 4.0 has transformed the electricity sector through digitalization, IoT,
 
 •	Social impact: Vulnerable communities were disproportionately affected, with small businesses and schools unable to function during outages.
 
-2. Economic cost
+2.Economic cost
    
 •	GDP impact: South Africa’s GDP was significantly reduced in 2022 due to record-high power cuts, directly linked to failures in asset management and digital monitoring systems.
 
@@ -51,7 +51,7 @@ Industry 4.0 has transformed the electricity sector through digitalization, IoT,
 
 •	Investment deterrent: Persistent system failures discouraged foreign investment, as energy reliability is a key factor in economic competitiveness.
 
-3. Reputational cost
+3.Reputational cost
    
 •	Utility credibility: Eskom’s reputation as a reliable power provider was severely damaged, both domestically and internationally.
 
