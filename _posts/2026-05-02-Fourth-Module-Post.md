@@ -320,6 +320,7 @@ plt.plot(x, mymodel, color='red')
 plt.show()
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Table_showing_first_10_rows_with_changes.PNG)
+
 Pearsons correlation: -0.759
 
 ## 3.	What exactly have I learnt and how?
