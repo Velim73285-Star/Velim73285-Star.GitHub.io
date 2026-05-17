@@ -34,6 +34,7 @@ Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or
 Industry 4.0 has transformed the electricity sector through digitalization, IoT, and predictive analytics, but failures in these information systems have had severe consequences. A notable example is South Africa’s 2022–2023 electricity crisis, where inadequate asset management and digital monitoring failures contributed to widespread blackouts, causing major customer disruption, economic losses, and reputational damage to Eskom (Eskom report, 2022-2023).
 
 #### Impact of Industry 4.0 failures in the electricity industry in South Africa
+
 1. Customer implications
    
 •	Service disruption: Rolling blackouts left households without power for extended periods, affecting daily life, healthcare facilities, and digital connectivity.
@@ -133,9 +134,9 @@ I only received one peer response, and it was from Paul. His response is warm, s
 In conclusion, Industry 4.0 brought efficiency but also exposed vulnerabilities in South Africa’s electricity sector. The crisis underscored the need for resilient digital systems and robust asset management. Eskom’s subsequent reforms and technological upgrades demonstrate a corrective path, aligning with Industry 5.0’s emphasis on sustainability, ethical AI, and human-centric innovation. This trajectory positions South Africa for a more stable and future-ready energy ecosystem.
 
 #### References 
-Eskom sustains a reliable power supply as generation performance strengthens - Eskom (Media Statements) (Accessed on 17 May 2026).
+Eskom sustains a reliable power supply as generation performance strengthens-Eskom (Media Statements) (Accessed on 17 May 2026).
 
-From the desk of the President - Monday, 06 October 2025 | The Presidency (Accessed on 17 May 2026).
+From the desk of the President - Monday, 06 October 2025-The Presidency (Accessed on 17 May 2026).
 
 Mazhar, T., Shahzad, T., Rehman, A.U. and Hamam, H., 2025. Integration of smart grid with industry 5.0: applications, challenges and solutions. Measurement: Energy, 5, p.100031.
 
