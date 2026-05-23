@@ -535,6 +535,69 @@ Weak negative correlation: The coefficient (−0.0997) is very close to zero. Th
 
 Not statistically significant: The p value (0.11) is greater than the common threshold of 0.05. This means the observed correlation could easily be due to random variation in the data rather than a real underlying relationship. This means, the null hypothesis of “no correlation.” Cannot be rejected.
 
+#### Task B: Regression analysis
+
+Perform linear regression, where the independent variable is the mean population of each country (from 2001 to 2021) and dependent variable is mean per capita GDP (from 2001 to 2021). Be prepared to discuss your agreed results during the seminar session.
+
+#### Python code to answer the question
+#### importing the libraries 
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+from sklearn.linear_model import LinearRegression
+
+#### Prepare variables
+X = merged_clean[["Mean_Population"]].values
+
+y = merged_clean["Mean_PerCapita_GDP"].values
+
+#### Fit regression
+model = LinearRegression()
+
+model.fit(X, y)
+
+#### Sort values for plotting
+X_sorted = np.sort(X, axis=0)
+
+y_pred_sorted = model.predict(X_sorted)
+
+#### Scatter plot
+plt.figure(figsize=(10,6))
+
+sns.scatterplot(x=merged_clean["Mean_Population"], y=merged_clean["Mean_PerCapita_GDP"])
+
+#### Plot regression line (smooth)
+plt.plot(X_sorted, y_pred_sorted, color="red", linewidth=2, label="Regression Line")
+
+plt.xscale("log")
+
+plt.yscale("log")
+
+plt.xlabel("Mean Population (2001–2021, log scale)")
+
+plt.ylabel("Mean Per Capita GDP (2001–2021, log scale)")
+
+plt.title("Linear Regression: Population vs Per Capita GDP")
+
+plt.legend()
+
+plt.show()
+
+#### Print regression coefficients
+print("Intercept:", model.intercept_)
+
+print("Slope:", model.coef_[0])
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Mean_Popultion_Vs_Mean_GPD.PNG)
+
+Intercept: 15456.464474541826
+
+Slope: −0.0000025249
+
+Y(Estimate) =15456.464 −0.0000025249⋅X
 
 
 ## 3.	What exactly have I learnt and how?
