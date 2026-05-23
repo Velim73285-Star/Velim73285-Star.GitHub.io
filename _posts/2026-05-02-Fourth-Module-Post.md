@@ -597,7 +597,7 @@ Intercept: 15456.464474541826
 
 Slope: −0.0000025249
 
-Y(Estimate) =15456.464 −0.0000025249⋅X
+Y(Estimate) = 15456.464 − 0.0000025249 ⋅ X
 
 
 ## 3.	What exactly have I learnt and how?
