@@ -591,7 +591,7 @@ print("Intercept:", model.intercept_)
 
 print("Slope:", model.coef_[0])
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Mean_Popultion_Vs_Mean_GPD.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Lenear_Regression_Population_Vs_GDP.PNG)
 
 Intercept: 15456.464474541826
 
