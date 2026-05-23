@@ -516,7 +516,7 @@ corr, p_value = pearsonr(merged["Mean_Population"], merged["Mean_PerCapita_GDP"]
 
 print(f"Pearson Correlation Coefficient: {corr:.4f}, p-value: {p_value:.4e}")
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scatter_plot_linear_regression_line.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Mean_Popultion_Vs_Mean_GPD.PNG)
 
 The plot suggests that economic prosperity per person is inversely related to population size. Larger populations do not automatically translate into higher average wealth, in fact, the opposite trend is visible.
 
