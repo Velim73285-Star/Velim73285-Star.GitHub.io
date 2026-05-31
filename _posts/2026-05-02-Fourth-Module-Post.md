@@ -599,6 +599,51 @@ Slope: −0.0000025249
 
 Y(Estimate) = 15456.464 − 0.0000025249 ⋅ X
 
+### 2.5 Unit 5: e-Portfolio Activity: Jaccard Distance/Dissimilarity Calculations
+
+Provided with a table that shows pathological test results for three individuals. Calculate Jaccard distance/dissimilarity for the following pairs:
+•	(Jack, Mary)
+•	(Jack, Jim)
+•	(Jim, Mary)
+
+#### Python code to use in answering the questions
+import pandas as pd
+
+from sklearn.metrics import jaccard_score
+
+#### Load the excel dataset
+df = pd.read_excel("Pathological_test_results.xlsx")
+
+#### Select only the test result columns from the dataset (Test-1 to Test-4)
+
+test_cols = ["Test-1", "Test-2", "Test-3", "Test-4"]
+
+#### Convert categorical values (P, N, A) into binary presence/absence where P = 1 (positive), N/A = 0 (not positive)
+binary_df = df[test_cols].applymap(lambda x: 1 if x == "P" else 0)
+
+#### Map names to their corresponding binary vectors
+vectors = {row["Name"]: binary_df.loc[idx].values 
+
+           for idx, row in df.iterrows()}
+           
+#### Function to compute Jaccard distance
+def jaccard_distance(vec1, vec2):
+
+    return 1 - jaccard_score(vec1, vec2)
+    
+#### List of pairs to compare
+pairs = [("Jack", "Mary"), ("Jack", "Jim"), ("Jim", "Mary")]
+
+#### Calculate and display results based on the pairs provided
+for a, b in pairs:
+
+    dist = jaccard_distance(vectors[a], vectors[b])
+    
+    print(f"Jaccard distance between {a} and {b}: {dist:.3f}")
+
+#### Results
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Lenear_Regression_Population_Vs_GDP.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
