@@ -602,6 +602,7 @@ Y(Estimate) = 15456.464 − 0.0000025249 ⋅ X
 ### 2.5 Unit 5: e-Portfolio Activity: Jaccard Distance/Dissimilarity Calculations
 
 Provided with a table that shows pathological test results for three individuals. Calculate Jaccard distance/dissimilarity for the following pairs:
+
 •	(Jack, Mary)
 
 •	(Jack, Jim)
