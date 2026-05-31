@@ -646,7 +646,7 @@ for a, b in pairs:
 
 #### Results
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Lenear_Regression_Population_Vs_GDP.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Jaccard_distance_results.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
