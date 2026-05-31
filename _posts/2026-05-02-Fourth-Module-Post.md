@@ -603,7 +603,9 @@ Y(Estimate) = 15456.464 − 0.0000025249 ⋅ X
 
 Provided with a table that shows pathological test results for three individuals. Calculate Jaccard distance/dissimilarity for the following pairs:
 •	(Jack, Mary)
+
 •	(Jack, Jim)
+
 •	(Jim, Mary)
 
 #### Python code to use in answering the questions
