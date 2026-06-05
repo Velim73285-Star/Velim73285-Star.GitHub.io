@@ -657,6 +657,12 @@ The assignment is designed to assess the students’ ability to apply machine le
 
 Each group conducted an independent analysis based on their assigned approach and then contributed to a comparative discussion on the effectiveness of each method.
 
+•	Track 1: Classical ML (Regression & Clustering) -	Price prediction, demand trends, customer segmentation
+
+•	Track 2:	Deep Learning (Neural Networks, CNNs) - Image-based analysis, text-based sentiment analysis, demand forecasting
+
+•	Track 3:	Advanced ML (Self-Supervised Learning, NAS)	 - Anomaly detection, outlier detection, emerging trend identification
+
 
 
 
