@@ -764,7 +764,7 @@ df["cluster_mapped"] = df["cluster"].map(mapping)
 print(accuracy_score(df["species_encoded"], df["cluster_mapped"]))
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix_1.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix1.PNG)
 
 Accuracy score is 0.8866666666666667 = 88.7%
 
@@ -831,7 +831,7 @@ plt.ylabel("Feature 2 (scaled)")
 
 plt.show()
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix_2.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix2.PNG)
 
 Row 1 (Wine class 1): All zeros and this suggests that none of the samples labelled as class 1 were included in this matrix output. This might be due to how the confusion matrix was generated (possibly an extra dimension or misalignment).
 
