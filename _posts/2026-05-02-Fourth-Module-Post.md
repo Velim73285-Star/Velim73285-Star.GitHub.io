@@ -764,7 +764,7 @@ df["cluster_mapped"] = df["cluster"].map(mapping)
 print(accuracy_score(df["species_encoded"], df["cluster_mapped"]))
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Jaccard_distance_results1.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
 
 Accuracy score is 0.8866666666666667 = 88.7%
 
