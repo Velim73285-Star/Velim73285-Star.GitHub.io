@@ -701,7 +701,7 @@ Finalisation of work allocation and presentation on the following tasks:
 •	Planning of the development of the hybrid model by the responsible person. 
 
 ### Unit 6: Seminar for K-Means clustering tutorial
-#### Task A: Iris data
+#### Task A: Iris dataset
 Perform K-Means clustering on the dataset, iris.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns because the K-Means algorithm involves the calculation of Euclidian distance. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of species – setosa, versicolour, and verginica.
 
 #### Python code to answer the question
@@ -776,7 +776,7 @@ Row 3 (Virginica): Out of 50 virginica samples, 14 were correctly grouped, but 3
 
 The accuracy of is 88.7% means that after remapping cluster labels to species, nearly 9 out of 10 flowers were correctly grouped.
 
-#### Task B: Wine data
+#### Task B: Wine dataset
 Perform K-Means clustering on the dataset, wine.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns like in the previous task. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of wines – 1, 2, and 3.
 
 #### Python code to answer the question
@@ -831,6 +831,7 @@ plt.ylabel("Feature 2 (scaled)")
 
 plt.show()
 
+#### Results
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix2.PNG)
 
 Row 1 (Wine class 1): All zeros and this suggests that none of the samples labelled as class 1 were included in this matrix output. This might be due to how the confusion matrix was generated (possibly an extra dimension or misalignment).
@@ -851,7 +852,57 @@ Row 4 (Wine class 4) has [0, 48, 0, 0]: This means 48 wines were placed into clu
 
 This means K-Means clustering did a good job of rediscovering the natural grouping of wines, even though it had no knowledge of the original labels. The clusters roughly correspond to the true wine classes, but not perfectly because some overlap and misclassification occur because K-Means is unsupervised and does not optimize for label.
 
+#### Task C: Weather AUS dataset
+Perform K-Means clustering on the dataset, weatherAUS.csv (from the Kaggle site). The details about this data can be found here. Again, you will have to remove a few columns from this data and make it useful for clustering. Play with a range of values of K, from, K=2 to K=6 and try to visualise the results of clustering using two-dimensional scatter plots.
 
+#### Python code to answer the question
+#### Load the libraries
+import pandas as pd
+
+from sklearn.cluster import KMeans
+
+from sklearn.preprocessing import StandardScaler
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+#### Load dataset
+df = pd.read_csv("Unit06_weatherAUS.csv")
+
+#### Drop non-numeric or irrelevant columns, remove 'Date', 'Location', and categorical yes/no columns
+df_clean = df.drop(columns=["Date", "Location", "RainToday", "RainTomorrow"], errors="ignore")
+
+#### Handle missing values (drop or impute)
+df_clean = df_clean.dropna()
+
+#### Standardize features
+scaler = StandardScaler()
+
+X_scaled = scaler.fit_transform(df_clean)
+
+##### Apply K-Means clustering for K=2 to K=6
+for k in range(2, 7):
+
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    
+    clusters = kmeans.fit_predict(X_scaled)
+    
+#### Visualize results using first two features
+plt.figure(figsize=(8,6))
+
+sns.scatterplot(x=X_scaled[:,0], y=X_scaled[:,1], hue=clusters, palette="Set1")
+
+plt.title(f"K-Means Clustering (K={k}) on WeatherAUS Dataset")
+
+plt.xlabel("Feature 1 (scaled)")
+
+plt.ylabel("Feature 2 (scaled)")
+
+plt.show()
+
+#### Results
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K-Means_ScatterPlot.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
