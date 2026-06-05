@@ -901,7 +901,7 @@ plt.ylabel("Feature 2 (scaled)")
 plt.show()
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K-Means_ScatterPlot.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K_Means_Clustering_K6.PNGG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
