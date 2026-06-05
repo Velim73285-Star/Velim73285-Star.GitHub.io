@@ -700,6 +700,82 @@ Finalisation of work allocation and presentation on the following tasks:
 
 •	Planning of the development of the hybrid model by the responsible person. 
 
+###.6 Unit 6: Seminar for K-Means clustering tutorial
+#### Task A: Iris data
+Perform K-Means clustering on the dataset, iris.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns because the K-Means algorithm involves the calculation of Euclidian distance. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of species – setosa, versicolour, and verginica.
+
+#### Python code to answer the question
+#### Load libraries
+import pandas as pd
+
+from sklearn.cluster import KMeans
+
+from sklearn.metrics import confusion_matrix, accuracy_score
+
+from sklearn.preprocessing import LabelEncoder
+
+#### Load dataset
+df = pd.read_csv("Unit06_iris.csv")
+
+#### Drop the 'species' column for clustering since K-Means uses Euclidean distance
+X = df.drop(columns=["species"])
+
+#### Apply K-Means clustering with K=3
+kmeans = KMeans(n_clusters=3, random_state=42)
+
+df["cluster"] = kmeans.fit_predict(X)
+
+#### Encode species labels numerically for comparison
+le = LabelEncoder()
+
+df["species_encoded"] = le.fit_transform(df["species"])
+
+#### Compare clusters with actual species labels
+print("Confusion Matrix:")
+
+print(confusion_matrix(df["species_encoded"], df["cluster"]))
+
+print("\nAccuracy Score (after optimal label matching):")
+
+#### Compare clusters with actual species labels
+from sklearn.cluster import KMeans # Ensure KMeans is imported
+
+kmeans = KMeans(n_clusters=3, random_state=42)
+
+df["cluster"] = kmeans.fit_predict(X)
+
+print("Confusion Matrix:")
+
+print(confusion_matrix(df["species_encoded"], df["cluster"]))
+
+print("\nAccuracy Score (after optimal label matching):")
+
+#### K-Means cluster labels are arbitrary; remap them for best alignment and create mapping based on majority vote per cluster
+mapping = {}
+
+for cluster in range(3):
+
+    true_labels = df[df["cluster"] == cluster]["species_encoded"]
+    
+    mapping[cluster] = true_labels.mode()[0]
+    
+df["cluster_mapped"] = df["cluster"].map(mapping)
+
+print(accuracy_score(df["species_encoded"], df["cluster_mapped"]))
+
+#### Results
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Jaccard_distance_results1.PNG)
+
+Accuracy score is 0.8866666666666667 = 88.7%
+
+Row 1 (Setosa): All 50 setosa samples were assigned to a single cluster and this is  perfect separation.
+Row 2 (Versicolor): Out of 50 versicolor samples, 47 were correctly grouped, and only 3 were misclassified. This shows K-Means did a strong job on this task.
+
+Row 3 (Virginica): Out of 50 virginica samples, 14 were correctly grouped, but 36 were misclassified as versicolor.
+
+The accuracy of is 88.7% means that after remapping cluster labels to species, nearly 9 out of 10 flowers were correctly grouped.
+
+
 
 
 ## 3.	What exactly have I learnt and how?
