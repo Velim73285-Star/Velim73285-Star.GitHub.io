@@ -700,7 +700,7 @@ Finalisation of work allocation and presentation on the following tasks:
 
 •	Planning of the development of the hybrid model by the responsible person. 
 
-###.6 Unit 6: Seminar for K-Means clustering tutorial
+### Unit 6: Seminar for K-Means clustering tutorial
 #### Task A: Iris data
 Perform K-Means clustering on the dataset, iris.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns because the K-Means algorithm involves the calculation of Euclidian distance. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of species – setosa, versicolour, and verginica.
 
@@ -769,12 +769,87 @@ print(accuracy_score(df["species_encoded"], df["cluster_mapped"]))
 Accuracy score is 0.8866666666666667 = 88.7%
 
 Row 1 (Setosa): All 50 setosa samples were assigned to a single cluster and this is  perfect separation.
+
 Row 2 (Versicolor): Out of 50 versicolor samples, 47 were correctly grouped, and only 3 were misclassified. This shows K-Means did a strong job on this task.
 
 Row 3 (Virginica): Out of 50 virginica samples, 14 were correctly grouped, but 36 were misclassified as versicolor.
 
 The accuracy of is 88.7% means that after remapping cluster labels to species, nearly 9 out of 10 flowers were correctly grouped.
 
+#### Task B: Wine data
+Perform K-Means clustering on the dataset, wine.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns like in the previous task. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of wines – 1, 2, and 3.
+
+#### Python code to answer the question
+#### Load libraries
+import pandas as pd
+
+from sklearn.cluster import KMeans
+
+from sklearn.preprocessing import StandardScaler
+
+from sklearn.metrics import confusion_matrix
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+#### Load dataset
+df = pd.read_csv("Unit06_wine.csv")
+
+#### Separate features and labels and then remove label column
+X = df.drop("Wine", axis=1)   
+
+y = df["Wine"]                
+
+#### Standardize features for for distance-based algorithms
+scaler = StandardScaler()
+
+X_scaled = scaler.fit_transform(X)
+
+#### Apply K-Means clustering with K=3
+kmeans = KMeans(n_clusters=3, random_state=42)
+
+clusters = kmeans.fit_predict(X_scaled)
+
+#### Compare clusters with true labels
+conf_mat = confusion_matrix(y, clusters)
+
+print("Confusion Matrix (Wine classes vs KMeans clusters):")
+
+print(conf_mat)
+
+#### Visualize cluster distribution
+plt.figure(figsize=(8,6))
+
+sns.scatterplot(x=X_scaled[:,0], y=X_scaled[:,1], hue=clusters, palette="Set1")
+
+plt.title("K-Means Clustering (K=3) on Wine Dataset")
+
+plt.xlabel("Feature 1 (scaled)")
+
+plt.ylabel("Feature 2 (scaled)")
+
+plt.show()
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
+
+Row 1 (Wine class 1): All zeros and this suggests that none of the samples labelled as class 1 were included in this matrix output. This might be due to how the confusion matrix was generated (possibly an extra dimension or misalignment).
+
+Row 2 (Wine class 2) has [0, 0, 59, 0]: All 59 wines of class 2 were placed into cluster 2.
+
+Row 3 (Wine class 3) has [65, 3, 3, 0]: This means out of 71 wines of class 3:
+
+•	65 were placed into cluster 0
+
+•	3 into cluster 1
+
+•	3 into cluster 2
+
+Row 4 (Wine class 4) has [0, 48, 0, 0]: This means 48 wines were placed into cluster 1. This likely corresponds to class 1 wines.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
+
+This means K-Means clustering did a good job of rediscovering the natural grouping of wines, even though it had no knowledge of the original labels. The clusters roughly correspond to the true wine classes, but not perfectly because some overlap and misclassification occur because K-Means is unsupervised and does not optimize for label.
 
 
 
