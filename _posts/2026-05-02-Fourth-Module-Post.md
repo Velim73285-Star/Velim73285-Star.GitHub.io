@@ -764,7 +764,7 @@ df["cluster_mapped"] = df["cluster"].map(mapping)
 print(accuracy_score(df["species_encoded"], df["cluster_mapped"]))
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix_1.PNG)
 
 Accuracy score is 0.8866666666666667 = 88.7%
 
@@ -831,7 +831,7 @@ plt.ylabel("Feature 2 (scaled)")
 
 plt.show()
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix_2.PNG)
 
 Row 1 (Wine class 1): All zeros and this suggests that none of the samples labelled as class 1 were included in this matrix output. This might be due to how the confusion matrix was generated (possibly an extra dimension or misalignment).
 
@@ -847,7 +847,7 @@ Row 3 (Wine class 3) has [65, 3, 3, 0]: This means out of 71 wines of class 3:
 
 Row 4 (Wine class 4) has [0, 48, 0, 0]: This means 48 wines were placed into cluster 1. This likely corresponds to class 1 wines.
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K-Means_ScatterPlot.PNG)
 
 This means K-Means clustering did a good job of rediscovering the natural grouping of wines, even though it had no knowledge of the original labels. The clusters roughly correspond to the true wine classes, but not perfectly because some overlap and misclassification occur because K-Means is unsupervised and does not optimize for label.
 
