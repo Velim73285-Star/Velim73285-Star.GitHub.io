@@ -901,7 +901,13 @@ plt.ylabel("Feature 2 (scaled)")
 plt.show()
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K_Means_Clustering_K6.PNGG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K_Means_Clustering_K6.PNG)
+
+Six clusters discovered => The algorithm grouped the weather data into six distinct clusters, each represented by a different colour. These clusters represent groups of observations with similar weather characteristics (e.g., temperature, humidity, rainfall patterns).
+
+Cluster overlap => Some clusters overlap or sit close together, which suggests that certain weather patterns share similarities. Others are more distinct, showing clearer separation.
+
+Unsupervised insight => K-Means doesn’t know the “true” weather outcomes (like rain/no rain). It simply groups data points by similarity. The fact that you see distinct regions means the dataset has natural structure that can be exploited for analysis.
 
 ## 3.	What exactly have I learnt and how?
 To be completed
