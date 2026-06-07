@@ -910,7 +910,7 @@ Finalisation of work allocation and presentation on the following tasks:
 
 •	Planning of the development of the hybrid model by the responsible person. 
 
-#### The Google Colab notebook for the sentiment analysis is on the link below: 
+#### The Google Colab notebook for the sentiment analysis is in the link below: 
 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
