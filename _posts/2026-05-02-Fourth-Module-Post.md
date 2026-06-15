@@ -912,6 +912,51 @@ Finalisation of work allocation and presentation on the following tasks:
 #### The Google Colab notebook for the sentiment analysis is in the link below: 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
+### 2.8 Unit 7: Formative activities - e-Portfolio activity
+#### Exercise 1 using simple perceptron
+#### Results:
+•	With weights [0.7, 0.1], the sum is 34.0, so the step function outputs 1 and the perceptron does not fire.
+
+•	With weights [-0.7, 0.1], the sum is -29.0, so the step function outputs 0 and the perceptron fires.
+
+The code is a minimal perceptron model built with NumPy, showing how inputs and weights interact through a dot product and a step activation function to produce binary outputs. It highlights how changing weights or inputs alters the decision outcome.
+
+#### Exercise 2 using perceptron and the AND operator
+#### Results:
+The code shows how a simple neural network can learn to classify inputs through weight updates.
+
+Final weights after training, the weights converge to [0.5, 0.5].
+
+Classification results are:
+
+[0,0] => 0
+
+[0,1] => 0
+
+[1,0] => 0
+
+[1,1] => 1
+
+In summary, the code trains a perceptron to learn the AND logic gate using NumPy arrays, weight updates, and a step activation function. It demonstrates how a simple neural network can adjust weights iteratively until it correctly classifies all inputs.
+
+#### Exercise 3 using multi-layer perceptron
+
+The code is a complete implementation of a feedforward neural network with backpropagation in NumPy, designed to learn the XOR logic function. The training loop runs for 400,000 epochs, progressively reducing the error. The error decreases from 0.5 to 0.008, showing convergence.
+
+#### Results:
+
+Predictions after training are close to the XOR outputs:
+
+[0,0] => 0
+
+[0,1] => 1
+
+[1,0] => 1
+
+[1,1] => 0
+
+The network successfully learns the XOR function, which a single-layer perceptron cannot solve. This code builds and trains a two-layer neural network using NumPy to solve the XOR problem, demonstrating forward propagation, error calculation, backpropagation, and weight updates across multiple epochs. It highlights how multi-layer networks can handle non-linear problems that single-layer perceptrons cannot.
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
