@@ -978,7 +978,7 @@ Calculating cost with gradient descent and learning rate
 #### Results:
 Changing the iteration count and learning rate in the gradient descent code directly affects how quickly and accurately the algorithm converges to the minimum cost. With low iterations and a high learning rate, the updates to m and b are too aggressive, which can cause the algorithm to overshoot the optimal values and miss the global minimum. On the contrary, a small learning rate with many iterations produces smoother, more stable convergence but requires more computation. The ideal balance is to select a learning rate that allows steady progress toward minimizing cost while keeping the number of iterations low enough to be efficient. In practice, this means tuning both parameters, so the cost decreases consistently without alternating or diverging, achieving the goal of reaching the minimum cost with minimal iterations.
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K_Means_Clustering_K6.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_CurvesPNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
