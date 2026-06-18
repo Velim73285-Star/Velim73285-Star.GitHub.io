@@ -957,6 +957,29 @@ Predictions after training are close to the XOR outputs:
 
 The network successfully learns the XOR function, which a single-layer perceptron cannot solve. This code builds and trains a two-layer neural network using NumPy to solve the XOR problem, demonstrating forward propagation, error calculation, backpropagation, and weight updates across multiple epochs. It highlights how multi-layer networks can handle non-linear problems that single-layer perceptrons cannot.
 
+### 2.9 Unit 8 – 10: Collaborative Discussion
+#### Discussion topic
+Read/listen to the article by Hutson (2021) in Nature on Robo-writers. This week, post your thoughts on the risks and benefits of the use AI writers at different levels, from administrative work to creative writing. You should demonstrate that you understand the topic covered and ensure you use references to academic literature (journals, books, reports, etc.).
+
+#### Initial Post
+To be populated
+
+### 2.10 Unit 8: Formative activities - e-Portfolio activity
+Read the Mayo, 2017 article and then run the tutorial: gradient_descent_cost _function.ipynb. Change the iteration number and learning rate and observe how cost decreases.
+
+Calculating cost with gradient descent and learning rate
+
+•	Change the iteration and learning rate values and see the impact on cost.
+
+•	Low iteration values with high learning rate (i.e. big steps) may lead to miss the global minimum
+
+•	Goal is to reach minimum cost with minimum iteration
+
+#### Results:
+Changing the iteration count and learning rate in the gradient descent code directly affects how quickly and accurately the algorithm converges to the minimum cost. With low iterations and a high learning rate, the updates to m and b are too aggressive, which can cause the algorithm to overshoot the optimal values and miss the global minimum. On the contrary, a small learning rate with many iterations produces smoother, more stable convergence but requires more computation. The ideal balance is to select a learning rate that allows steady progress toward minimizing cost while keeping the number of iterations low enough to be efficient. In practice, this means tuning both parameters, so the cost decreases consistently without alternating or diverging, achieving the goal of reaching the minimum cost with minimal iterations.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/K_Means_Clustering_K6.PNG)
+
 ## 3.	What exactly have I learnt and how?
 To be completed
 
