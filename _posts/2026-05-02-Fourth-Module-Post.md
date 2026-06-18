@@ -780,7 +780,8 @@ plt.ylabel("Feature 2 (scaled)")
 plt.show()
 
 #### Results
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix22.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Confusion_Matrix22.PNG).
+
 
 Row 1 (Wine class 1): All zeros and this suggests that none of the samples labelled as class 1 were included in this matrix output. This might be due to how the confusion matrix was generated (possibly an extra dimension or misalignment).
 
