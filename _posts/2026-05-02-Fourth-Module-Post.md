@@ -981,6 +981,31 @@ Changing the iteration count and learning rate in the gradient descent code dire
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_Curves.PNG)
 
+### 2.11 Unit 9: Formative activity - e-Portfolio Activity: CNN Model Activity
+1. Read the Wall (2019) article and record your thoughts on the ethical and social implications of this CNN technology.
+
+Facial recognition (FR) technology is increasingly deployed by law enforcement, corporations, and even the military. While it promises enhanced security and efficiency, Wall (2019) highlights serious ethical and social risks. These concerns center on bias, civil liberties, and accountability, raising questions about whether society is prepared to manage such powerful tools responsibly.
+
+#### Summary of ethical and social implications
+a)	Algorithmic bias => the FR systems misidentify women with darker skin at higher rates due to datasets dominated by white males. This perpetuates systemic discrimination and risks biased outcomes.
+
+b)	Civil liberties => London trials showed 80% false matches, undermining trust in justice systems. Citizens scanned without consent, such as Ed Bridges, face infringements on privacy and rights.
+
+c)	Predictive policing => biased datasets can amplify racial disparities, particularly in contexts where minority groups are already overrepresented in prison populations.
+
+d)	Surveillance society => widespread adoption risks normalizing mass surveillance, frightening free expression and protest as individuals fear being tracked or misidentified.
+
+e)	Corporate responsibility => Amazon’s refusal to take responsibility contrasts with Salesforce’s ethical stance against police use. This raises critical questions about corporate accountability in AI deployment.
+
+f)	Global regulation => experts call for multi-stakeholder oversight to ensure fair datasets and unbiased algorithms. Without regulation, FR risks becoming a tool of oppression in both civilian and military contexts across the globe.
+
+In conclusion, facial recognition offers potential security benefits but threatens justice, privacy, and civil rights. Until bias is eliminated and strong legal frameworks are established, FR should remain under strict scrutiny and limited deployment.
+
+2. Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognition.ipynb - and review different sections of the algorithm. Change the input image for prediction by changing the value of this variable - plt.imshow(x_test[16] - from 16 to value of your choice (1-15) and see whether the model predicts correctly.
+
+Table 1 below shows indices 1 – 15 and a summary of textual feedback (predicted vs actual labels) from the model predictions. The results show that out of 15 test images, the CNN correctly classified 10 and misclassified 5, giving about 66.7% accuracy from the sample dataset. This indicates the model has learned useful features and can recognize several categories well but still struggles with visually similar classes like trucks vs automobiles or frogs vs ships.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_Curves.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
