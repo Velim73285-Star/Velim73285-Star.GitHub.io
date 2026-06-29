@@ -982,7 +982,7 @@ Changing the iteration count and learning rate in the gradient descent code dire
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_Curves.PNG)
 
 ### 2.11 Unit 9: Formative activity - e-Portfolio Activity: CNN Model Activity
-1. Read the Wall (2019) article and record your thoughts on the ethical and social implications of this CNN technology.
+Q1. Read the Wall (2019) article and record your thoughts on the ethical and social implications of this CNN technology.
 
 Facial recognition (FR) technology is increasingly deployed by law enforcement, corporations, and even the military. While it promises enhanced security and efficiency, Wall (2019) highlights serious ethical and social risks. These concerns center on bias, civil liberties, and accountability, raising questions about whether society is prepared to manage such powerful tools responsibly.
 
@@ -1001,7 +1001,7 @@ f)	Global regulation => experts call for multi-stakeholder oversight to ensure f
 
 In conclusion, facial recognition offers potential security benefits but threatens justice, privacy, and civil rights. Until bias is eliminated and strong legal frameworks are established, FR should remain under strict scrutiny and limited deployment.
 
-2. Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognition.ipynb - and review different sections of the algorithm. Change the input image for prediction by changing the value of this variable - plt.imshow(x_test[16] - from 16 to value of your choice (1-15) and see whether the model predicts correctly.
+Q2. Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognition.ipynb - and review different sections of the algorithm. Change the input image for prediction by changing the value of this variable - plt.imshow(x_test[16] - from 16 to value of your choice (1-15) and see whether the model predicts correctly.
 
 Table 1 below shows indices 1 – 15 and a summary of textual feedback (predicted vs actual labels) from the model predictions. The results show that out of 15 test images, the CNN correctly classified 10 and misclassified 5, giving about 66.7% accuracy from the sample dataset. This indicates the model has learned useful features and can recognize several categories well but still struggles with visually similar classes like trucks vs automobiles or frogs vs ships.
 
