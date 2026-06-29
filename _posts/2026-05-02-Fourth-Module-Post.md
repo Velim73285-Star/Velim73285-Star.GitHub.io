@@ -1005,7 +1005,7 @@ Q2. Run this CNN model - Convolutional Neural Networks (CNN) - Object Recognitio
 
 Table 1 below shows indices 1 – 15 and a summary of textual feedback (predicted vs actual labels) from the model predictions. The results show that out of 15 test images, the CNN correctly classified 10 and misclassified 5, giving about 66.7% accuracy from the sample dataset. This indicates the model has learned useful features and can recognize several categories well but still struggles with visually similar classes like trucks vs automobiles or frogs vs ships.
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_Curves.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Textual_feedback.PNG)
 
 ## 3.	What exactly have I learnt and how?
 To be completed
