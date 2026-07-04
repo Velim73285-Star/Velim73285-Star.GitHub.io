@@ -24,7 +24,7 @@ tags: [Github, Modules, Python, R]
 •	Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team rolesand organisation
 
 ## 2.	The artefacts created during the module
-### 2.1 Unit 1 – 3: Collaborative Discussion
+### 2.1 Units 1 – 3: Collaborative Discussion
 ### Discussion topic
 Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or Industry 5.0 on the sector in which you are involved or interested.
 
@@ -859,7 +859,7 @@ Cluster overlap => Some clusters overlap or sit close together, which suggests t
 
 Unsupervised insight => K-Means doesn’t know the “true” weather outcomes (like rain/no rain). It simply groups data points by similarity. The fact that you see distinct regions means the dataset has natural structure that can be exploited for analysis.
 
-### 2.7 Unit 1 - 6: Team project artefacts  
+### 2.7 Units 1 - 6: Team project artefacts  
 #### Airbnb Business Analysis Using a Data Science Approach
 #### Background
 Since 2008, guests and hosts have used Airbnb to expand on travelling possibilities and present more unique, personalised ways of experiencing the world. The Airbnb dataset AB_NYC_2019.csv along with its description was accessed from Kaggle. This dataset describes the listing activity and metrics in NYC, NY for 2019,  including host information, geographical availability, and key metrics to support predictions and insights.
@@ -910,6 +910,7 @@ Finalisation of work allocation and presentation on the following tasks:
 •	Presentation of demand modelling and results by the responsible person,
 
 •	Planning of the development of the hybrid model by the responsible person. 
+
 #### The Google Colab notebook for the sentiment analysis is in the link below: 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
@@ -958,12 +959,105 @@ Predictions after training are close to the XOR outputs:
 
 The network successfully learns the XOR function, which a single-layer perceptron cannot solve. This code builds and trains a two-layer neural network using NumPy to solve the XOR problem, demonstrating forward propagation, error calculation, backpropagation, and weight updates across multiple epochs. It highlights how multi-layer networks can handle non-linear problems that single-layer perceptrons cannot.
 
-### 2.9 Unit 8 – 10: Collaborative Discussion
+### 2.9 Units 8 – 10: Collaborative Discussion
 #### Discussion topic
 Read/listen to the article by Hutson (2021) in Nature on Robo-writers. This week, post your thoughts on the risks and benefits of the use AI writers at different levels, from administrative work to creative writing. You should demonstrate that you understand the topic covered and ensure you use references to academic literature (journals, books, reports, etc.).
 
 #### Initial Post
-To be populated
+AI writers rely on large language models (LLMs) trained on massive datasets to understand context, grammar, and style, enabling them to produce coherent text quickly and efficiently. ChatGPT, fine-tuned from GPT 3.5, demonstrates improved natural language understanding, efficiency, and adaptability (Rudolph and Tan, 2023). AI writers excel in routine, low-stakes tasks where scalability and accuracy are valuable, but they carry significant risks such as misinformation, bias, and reduced creativity when applied to high-stakes domains requiring originality, accountability, and trust.
+
+AI writers improve efficiency in administrative tasks by automating routine communications, enhance accessibility for non-native speakers and individuals with disabilities, and support creative writing by acting as collaborative partners that generate prompts, stylistic variations, and plot ideas.
+
+The development of AI-based writing tools necessitates an expansion of the conventional definition of plagiarism (Hartwell and Aull, 2021). The major risk as noted by Hutson (2021) is that AI writers lack  understanding where AI generates text without true comprehension, which can lead to possible but incorrect or misleading statements. AI writers risk amplifying biases embedded in their training data, producing discriminatory or skewed outputs, and creating an accountability gap. Unlike human authors, they cannot be held responsible for errors, ethical breaches, or harmful narratives.
+
+Trust in AI writing depends on explainability and accountability. While administrative uses are relatively safe due to easy verification, creative and academic applications pose risks to originality, credibility, and ethics. The key challenge is not adoption itself but identifying appropriate contexts where AI suits routine support tasks, whereas high-stakes domains require strong human oversight.
+
+#### References
+Hartwell, K. and Aull, L., 2021. Automated text-matching and writing-assistance tools. Assessing Writing, 50, p.100562.
+
+Hutson, M., 2021. Robo-writers: the rise and risks of language-generating AI.
+
+https://www.sciencedirect.com/science/article/abs/pii/S1075293523000600. (Accessed on 18 June 2026).
+
+Ippolito, D., Yuan, A., Coenen, A. and Burnam, S., 2022. Creative writing with an ai-powered writing assistant: Perspectives from professional writers. arXiv preprint arXiv:2211.05030.
+
+Kendall, G. and Teixeira da Silva, J.A., 2024. Risks of abuse of large language models, like ChatGPT, in scientific publishing: authorship, predatory publishing, and paper mills. Learned Publishing, 37(1).
+
+Rudolph, J., Tan, S. and Tan, S., 2023. ChatGPT: Unsubstantiated claims or the end of traditional assessments in higher education?. Journal of applied learning & teaching, 6(1), pp.342-363.
+
+Su, Y., Lin, Y. and Lai, C., 2023. Collaborating with ChatGPT in argumentative writing classrooms. Assessing Writing, 57, p.100752.
+
+#### Peer Response to Daniel Eduardo Lopez
+Thank you Daniel for raising critical points about large-scale language models that deserve emphasis. Recent developments in natural language generation (NLG) using neural language models have brought us closer than ever to the goal of building AI-powered creative writing tools (Ippolito et al., 2022). 
+
+You correctly highlighted the remarkable capabilities of systems like GPT 3, which can perform diverse tasks such as translation, grammar correction, and even code generation without explicit task-specific training. However, you stressed that this fluency does not equate to genuine comprehension, as these models rely on statistical associations rather than causal reasoning and this limitation is captured in the “stochastic parrots” critique.
+
+Equally important are the risks you identified that include the reproduction of biases embedded in training data, leading to harmful stereotypes or toxic outputs; the cloudiness of these models, which makes bias correction extremely difficult; and the broader societal concerns around malicious use, lack of transparency in training data, and potential leakage of sensitive information. Biermann et al., 2022 argue that language models are approaching human-like text generation capabilities, with large-scale models like GPT-3 and Jurassic-1 writing natural language on a level which has convinced most writers that AI has now passed the training test.
+
+In summary, your post highlights the dual nature of large-scale language models, while they demonstrate extraordinary versatility and fluency, they also embody profound limitations and risks. Their lack of true comprehension, susceptibility to bias, and potential for misuse highlight the urgent need for transparency, accountability, and ethical safeguards in their development and deployment.
+
+#### References
+Biermann, O.C., Ma, N.F. and Yoon, D., 2022, June. From tool to companion: Storywriters want AI writers to respect their personal values and writing strategies. In Proceedings of the 2022 ACM Designing Interactive Systems Conference (pp. 1209-1227).
+
+Gero, K.I., Long, T. and Chilton, L.B., 2023, April. Social dynamics of AI support in creative writing. In Proceedings of the 2023 CHI conference on human factors in computing systems (pp. 1-15).
+
+Ippolito, D., Yuan, A., Coenen, A. and Burnam, S., 2022. Creative writing with an ai-powered writing assistant: Perspectives from professional writers. arXiv preprint arXiv:2211.05030.
+
+#### Peer Response to Paul Sanderson
+This is a strong and detailed post, thank you Paul for this write-up. 
+
+Your post draws attention to both the impressive capabilities and the serious risks of Large Language Models. You identified the benefits thereby noting their versatility in producing diverse forms of text from creative writing like stories and songs to technical outputs such as manuals, code, and legal summaries. Their ability to adapt responses to the style and tone of input makes them appear empathetic and user-friendly, which has expanded their use in customer service, role-playing, and even risk detection. Yang et al., 2022 agree that human-AI collaborative creative systems based on machine learning have been gradually entering people’s creative artistic life such as music composition, creative illustration, and co-writing. Based on this, it is important for us to understand what interactive capabilities writers actually need when co-creative writing with AI, and how these capabilities affect the writing co-creation experience?
+
+At the same time, you highlighted critical limitations. These models lack genuine understanding, often producing nonsensical or dangerously inappropriate outputs, as illustrated by your examples ranging from absurd answers to harmful suggestions. You highlighted the “opaque complexity” of billions of parameters, which makes their inner workings difficult to interpret or correct. This difficulty compounds the challenge of addressing issues like bias, hate speech, and harmful stereotypes. Your post correctly point out that instilling common sense, causal reasoning, and moral judgment remains an unsolved research problem, leaving significant ethical and safety concerns unresolved.
+
+In summary, your post highlights that Large Language Models offer extensive benefits in generating and adapting text, but their lack of true understanding, production of harmful or nonsensical outputs, and the impermeable complexity of their design pose significant risks that demand transparency, ethical safeguards, and deeper research into reasoning and moral judgment.
+
+#### References
+Fang, X., Ng, D.T.K., Leung, J.K.L. and Chu, S.K.W., 2023. A systematic review of artificial intelligence technologies used for story writing. Education and Information Technologies, 28(11), pp.14361-14397.
+
+Kacena, M.A., Plotkin, L.I. and Fehrenbacher, J.C., 2024. The use of artificial intelligence in writing scientific review articles. Current Osteoporosis Reports, 22(1), pp.115-121.
+
+Marzuki, Widiati, U., Rusdin, D., Darwin and Indrawati, I., 2023. The impact of AI writing tools on the content and organization of students’ writing: EFL teachers’ perspective. Cogent Education, 10(2), p.2236469.
+
+Yang, D., Zhou, Y., Zhang, Z., Li, T.J.J. and Lc, R., 2022, March. AI as an Active Writer: Interaction strategies with generated text in human-AI collaborative fiction writing. In Joint proceedings of the ACM IUI workshops (Vol. 10, pp. 1-11). CEUR-WS Team.
+
+### Peer Response to Tamim Al-Mutawa
+Thank you Tamim for such an excellent post.
+
+Your post raises several detailed points about the evolving role of AI in writing. Tseng, W. and Warschauer, M., 2023 emphasise that “By teaching our students how to effectively partner with AI, we can better prepare them for the changing landscape of technology use in the world beyond the classroom .”
+
+First, the framing of the debate is insightful, rather than focusing narrowly on whether AI will replace human writers, you shift attention to how AI may redefine authorship. This is a valuable perspective because it moves beyond job displacement toward deeper cultural and epistemological questions. Your emphasis on administrative benefits is well-supported.
+
+The discussion of creative writing is well balanced, and further analysis might benefit from exploring how human writers themselves often draw on patterns, conventions, and intertextuality when collaborating with AI writing tools. The section on accountability and ownership from your post is particularly important. You rightly identify the “responsibility gap” when AI contributes substantially to written work. This is a strong point, and it is important for writers to always consider practical mechanisms for accountability such as disclosure requirements, watermarking AI-generated text, or institutional guidelines for attribution. The conclusion from your post is constructive and well crafted, framing AI not as a threat but as a collaborator. 
+
+In summing it up, your post effectively highlights the benefits of AI in routine tasks, the risks in creative and scholarly domains, and the ethical challenges of accountability. 
+
+#### References
+Buriak, J.M., Akinwande, D., Artzi, N., Brinker, C.J., Burrows, C., Chan, W.C., Chen, C., Chen, X., Chhowalla, M., Chi, L. and Chueh, W., 2023. Best practices for using AI when writing scientific manuscripts: Caution, care, and consideration: Creative science depends on it. ACS nano, 17(5), pp.4091-4093.
+
+Gasaymeh, A.M.M., Beirat, M.A. and Abu Qbeita, A.A.A., 2024. University students’ insights of generative artificial intelligence (AI) writing tools. Education Sciences, 14(10), p.1062.
+
+Tseng, W. and Warschauer, M., 2023. AI-writing tools in education: If you can’t beat them, join them. Journal of China computer-assisted language learning, 3(2), pp.258-262.
+
+#### Summary Post
+AI writers are effective for routine tasks but remain limited in high stakes contexts. Their lack of genuine comprehension can lead to misinformation, bias, and accountability gaps. Scholars also note that they complicate definitions of plagiarism and authorship, requiring institutional reconsideration. At the same time, Cardon et al. (2023) report that communication instructors anticipate widespread workplace adoption of AI assisted writing, which will necessitate significant changes to instructional practices.
+
+Peer reviews expanded on these points. Daniel emphasized that accountability requires institutional measures, such as mandatory disclosure of AI use, shifting responsibility back to human authors. He also noted that bias cannot be solved by filtering words alone, but continuous auditing of model behaviour is key. Tamim highlighted the importance of governance frameworks (ISO/IEC, 2023) and explainability standards (NIST, 2023) to build trust. Tamim also argued that ethical education is more effective than outright bans, encouraging responsible and transparent use of AI tools. Paul suggested clarifying who should be held accountable when AI outputs cause harm and his suggestion is addressed on the paragraph below.
+
+AI tools enhance efficiency but cannot bear responsibility for errors, bias, or ethical issues. Accountability lies with developers who design safeguards, institutions that set policies, end-users who must verify outputs, and regulators who enforce standards. This shared framework ensures responsibility is distributed among those who design, deploy, and apply AI.
+
+Units 8–10 show that AI architectures enable powerful capabilities but lack true comprehension. Unit 8 highlights that ANNs and backpropagation learn mechanically. Unit 9 demonstrates how CNNs, GANs, and transformers drive creativity and pattern recognition yet risk misuse through deepfakes. Unit 10 emphasizes transformer-based NLP models like BERT and GPT, while metrics such as BLEU and ROUGE show performance but not genuine understanding. In essence, these units reveal that AI’s technical strength lies in efficiency and creativity, but its weakness is the absence of real comprehension.
+
+In conclusion, AI writers are best understood as collaborative tools. They boost productivity in routine contexts but demand human oversight, ethical governance, and institutional accountability in high-stakes domains. Their technical foundations explain both their strengths and their limits, underscoring the need to balance automation with human judgment.
+
+#### References
+Buriak, J.M., Akinwande, D., Artzi, N., Brinker, C.J., Burrows, C., Chan, W.C., Chen, C., Chen, X., Chhowalla, M., Chi, L. and Chueh, W., 2023. Best practices for using AI when writing scientific manuscripts: Caution, care, and consideration: Creative science depends on it. ACS nano, 17(5), pp.4091-4093.
+
+Cardon, P., Fleischmann, C., Aritz, J., Logemann, M. and Heidewald, J., 2023. The challenges and opportunities of AI-assisted writing: Developing AI literacy for the AI age. Business and Professional Communication Quarterly, 86(3), pp.257-295.
+
+https://journals.sagepub.com/doi/abs/10.1177/23294906231176517 (Accessed on 04 July 2026).
+
+Marzuki, Widiati, U., Rusdin, D., Darwin and Indrawati, I., 2023. The impact of AI writing tools on the content and organization of students’ writing: EFL teachers’ perspective. Cogent Education, 10(2), p.2236469.
 
 ### 2.10 Unit 8: Formative activities - e-Portfolio activity
 Read the Mayo, 2017 article and then run the tutorial: gradient_descent_cost _function.ipynb. Change the iteration number and learning rate and observe how cost decreases.
