@@ -1021,7 +1021,7 @@ Marzuki, Widiati, U., Rusdin, D., Darwin and Indrawati, I., 2023. The impact of 
 
 Yang, D., Zhou, Y., Zhang, Z., Li, T.J.J. and Lc, R., 2022, March. AI as an Active Writer: Interaction strategies with generated text in human-AI collaborative fiction writing. In Joint proceedings of the ACM IUI workshops (Vol. 10, pp. 1-11). CEUR-WS Team.
 
-### Peer Response to Tamim Al-Mutawa
+#### Peer Response to Tamim Al-Mutawa
 Thank you Tamim for such an excellent post.
 
 Your post raises several detailed points about the evolving role of AI in writing. Tseng, W. and Warschauer, M., 2023 emphasise that “By teaching our students how to effectively partner with AI, we can better prepare them for the changing landscape of technology use in the world beyond the classroom .”
