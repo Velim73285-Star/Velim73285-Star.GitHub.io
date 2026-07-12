@@ -1102,14 +1102,14 @@ Table 1 below shows indices 1 – 15 and a summary of textual feedback (predicte
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Textual_feedback.PNG)
 
 ### 2.12 Unit 11: Formative activity - e-Portfolio Activity
-1. Run the model_Performance_Measurement.ipnyb file and change different parameters and observe its impact on AUC and R2 error.
+1.Run the model_Performance_Measurement.ipnyb file and change different parameters and observe its impact on AUC and R2 error.
 
 #### Results
 In classification, parameter changes mainly shift the decision boundary, impacting AUC and for regression, parameter changes affect how well the model captures variance, impacting R². In both cases, tuning parameters carefully via grid search or cross-validation is essential to avoid underfitting or overfitting.
 
 It is also noted that So, switching from linear to RBF often increases AUC because the model adapts better to curved decision boundaries and more flexible kernels (like RBF) usually improve separation. In regression, higher polynomial degree improves the fit i.e. higher R², but too high can overfit and reduce generalization.
 
-2. Articulate the legal, social, ethical and professional issues faced by machine learning professionals.
+2.Articulate the legal, social, ethical and professional issues faced by machine learning professionals.
 
 #### Legal Issues
 •	Data privacy => Compliance with laws like GDPR, POPIA, and CCPA is critical to protect personal information.
