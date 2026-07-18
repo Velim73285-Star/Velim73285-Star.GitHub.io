@@ -1151,7 +1151,7 @@ It is also noted that So, switching from linear to RBF often increases AUC becau
 
 ### 2.13 Unit 12: Seminar: Future of Machine Learning
 #### Consider the following discussion topics:
-1. The impact of Self-Supervised Learning in reducing reliance on labelled data.
+1.The impact of Self-Supervised Learning in reducing reliance on labelled data.
    
 Self-Supervised Learning (SSL) dramatically reduces reliance on labelled data by enabling models to learn useful representations directly from raw, unlabelled inputs. This shift lowers costs, accelerates scalability, and makes AI more accessible in domains where labelled datasets are scarce or expensive, such as healthcare and autonomous systems.
 
@@ -1164,7 +1164,7 @@ Enhanced generalization => by learning underlying structures and semantic featur
 
 Domain democratization => SSL helps resource-constrained fields (like African healthcare or industrial monitoring) by reducing dependence on annotated datasets, enabling broader adoption of AI.
 
-2. The advantages and challenges of Neural Architecture Search.
+2.The advantages and challenges of Neural Architecture Search.
 
 Neural Architecture Search (NAS) offers the advantage of automating deep learning model design, reducing reliance on human intuition, and often achieving state-of-the-art performance. However, it faces challenges such as high computational cost, reproducibility issues, and difficulty in balancing accuracy with deployment constraints.
 
@@ -1179,7 +1179,7 @@ Reduced human bias => by exploring architectures beyond human intuition, NAS can
 
 Hardware-aware optimization => NAS can co-optimize models for specific devices (e.g., ARM CPUs, GPUs, mobile phones), improving inference speed and energy efficiency.
 
-3. How Edge AI is enabling AI at the edge (e.g., autonomous vehicles, medical devices, and smart cities).
+3.How Edge AI is enabling AI at the edge (e.g., autonomous vehicles, medical devices, and smart cities).
 
 Edge AI is transforming industries by enabling real-time, on-device intelligence in autonomous vehicles, medical devices, and smart cities reducing latency, improving privacy, and ensuring systems remain functional even without cloud connectivity. In South Africa, this is particularly impactful for healthcare monitoring, traffic management, and energy optimization in urban centres like City of Cape Town.
 
@@ -1204,7 +1204,7 @@ Edge AI is transforming industries by enabling real-time, on-device intelligence
 
 •	Public safety => Surveillance systems detect anomalies instantly without sending raw footage to the cloud.
 
-4. The future of AI ethics, scalability, and sustainability in a rapidly evolving landscape.
+4.The future of AI ethics, scalability, and sustainability in a rapidly evolving landscape.
    
 The future of AI ethics, scalability, and sustainability will be defined by balancing innovation with responsibility: ensuring fairness and transparency in decision-making, scaling AI systems efficiently across industries, and minimizing environmental impact through sustainable computing practices. For South Africa, this means aligning AI growth with governance frameworks, energy realities, and equitable access.
 
