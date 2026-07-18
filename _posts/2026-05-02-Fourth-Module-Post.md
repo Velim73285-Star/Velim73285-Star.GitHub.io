@@ -1149,13 +1149,90 @@ It is also noted that So, switching from linear to RBF often increases AUC becau
 
 •	Ethics-by-design => Embedding ethical principles directly into model development.
 
-## 3.	What exactly have I learnt and how?
+### 2.13 Unit 12: Seminar: Future of Machine Learning
+#### Consider the following discussion topics:
+1. The impact of Self-Supervised Learning in reducing reliance on labelled data.
+   
+Self-Supervised Learning (SSL) dramatically reduces reliance on labelled data by enabling models to learn useful representations directly from raw, unlabelled inputs. This shift lowers costs, accelerates scalability, and makes AI more accessible in domains where labelled datasets are scarce or expensive, such as healthcare and autonomous systems.
+
+#### Key impacts of SSL on label efficiency
+Reduced labelling costs => traditional supervised learning requires massive, labelled datasets, which are costly and labour-intensive to produce. SSL leverages unlabelled data with pretext tasks (e.g., predicting missing parts, contrastive learning), cutting down the need for manual annotation.
+
+Improved scalability => SSL allows models to train on vast amounts of raw data (images, text, audio) without labels, making it easier to scale across industries where data volume is high, but labels are limited.
+
+Enhanced generalization => by learning underlying structures and semantic features, SSL produces robust representations that transfer well to downstream tasks, improving performance even with fewer labelled examples.
+
+Domain democratization => SSL helps resource-constrained fields (like African healthcare or industrial monitoring) by reducing dependence on annotated datasets, enabling broader adoption of AI.
+
+2. The advantages and challenges of Neural Architecture Search.
+
+Neural Architecture Search (NAS) offers the advantage of automating deep learning model design, reducing reliance on human intuition, and often achieving state-of-the-art performance. However, it faces challenges such as high computational cost, reproducibility issues, and difficulty in balancing accuracy with deployment constraints.
+
+#### Advantages of NAS
+Automation of design => NAS reduces the need for manual trial-and-error in designing neural networks, allowing algorithms to discover architectures that outperform human-designed models.
+
+Performance gains => NAS has produced highly efficient architectures (e.g., EfficientNet, MobileNetV3) that achieve strong accuracy while being optimized for speed and energy efficiency.
+
+Adaptability across domains => NAS can be applied to vision, NLP, speech, and graph tasks, making it versatile across industries.
+
+Reduced human bias => by exploring architectures beyond human intuition, NAS can uncover novel structures that researchers might overlook.
+
+Hardware-aware optimization => NAS can co-optimize models for specific devices (e.g., ARM CPUs, GPUs, mobile phones), improving inference speed and energy efficiency.
+
+3. How Edge AI is enabling AI at the edge (e.g., autonomous vehicles, medical devices, and smart cities).
+
+Edge AI is transforming industries by enabling real-time, on-device intelligence in autonomous vehicles, medical devices, and smart cities reducing latency, improving privacy, and ensuring systems remain functional even without cloud connectivity. In South Africa, this is particularly impactful for healthcare monitoring, traffic management, and energy optimization in urban centres like City of Cape Town.
+
+#### Autonomous vehicles
+•	Real-time decision-making => Edge AI allows vehicles to process sensor data locally, enabling split-second navigation and collision avoidance.
+
+•	Reduced latency => Processing at the edge cuts response times from hundreds of milliseconds to single digits, critical for safety.
+
+•	Connectivity independence => Vehicles can operate even in areas with poor network coverage, vital for rural roads in South Africa.
+
+#### Medical Devices
+•	On-device diagnostics => Wearables and hospital-grade devices can analyse patient data locally, reducing reliance on cloud servers.
+
+•	Privacy protection => Sensitive health data stays on-site, aligning with strict data protection regulations.
+
+•	Continuous monitoring => Devices remain functional during connectivity loss, ensuring uninterrupted patient care.
+
+#### Smart Cities
+•	Traffic optimization => Edge-enabled cameras and sensors manage congestion in real time, reducing delays and emissions.
+
+•	Energy efficiency => Smart grids powered by edge AI balance supply and demand locally, improving reliability.
+
+•	Public safety => Surveillance systems detect anomalies instantly without sending raw footage to the cloud.
+
+4. The future of AI ethics, scalability, and sustainability in a rapidly evolving landscape.
+   
+The future of AI ethics, scalability, and sustainability will be defined by balancing innovation with responsibility: ensuring fairness and transparency in decision-making, scaling AI systems efficiently across industries, and minimizing environmental impact through sustainable computing practices. For South Africa, this means aligning AI growth with governance frameworks, energy realities, and equitable access.
+
+#### AI ethics
+•	Fairness and bias mitigation =>: Future AI systems must address algorithmic bias, especially in sensitive domains like healthcare and finance.
+
+•	Transparency and accountability => Explainable AI will be crucial for trust, allowing stakeholders to understand how decisions are made.
+
+•	Governance frameworks => Countries like South Africa will need clear regulatory structures to ensure ethical deployment, particularly in public services and energy.
+
+#### Scalability
+•	Efficient deployment => AI must scale across industries without excessive infrastructure demands. Cloud-edge hybrid models will help balance performance and cost.
+
+•	Cross-domain adaptability => Scalable AI will support diverse applications from smart cities to agriculture—without requiring bespoke architectures for each.
+
+•	Resource optimization: Techniques like model compression, federated learning, and self-supervised learning will reduce reliance on massive, labelled datasets and computational power.
+
+#### Sustainability
+•	Energy efficiency => Training large models consumes vast energy; future AI must prioritize low-carbon computing, renewable-powered data centres, and optimized algorithms.
+
+•	Environmental impact => AI can both exacerbate and solve sustainability challenges data centres increase emissions, but AI also enables smart grids, predictive maintenance, and climate modeling.
+
+•	Social sustainability => AI must enhance inclusion, trust, and equitable access to services, ensuring benefits reach underserved communities.
+
+## 3.	What exactly have I learnt from this module?
 To be completed
 
-### 3.1 What have I learnt from this module?
-To be completed
-
-### 3.2 The how part of learning the above
+### 3.1 The how part of learning the above.
 To be completed
 
 ## 4.	Professional skills matrix and action plan (PDP)
