@@ -1254,6 +1254,7 @@ The future of AI ethics, scalability, and sustainability will be defined by bala
 •	Present results and findings professionally.
 
 ## 4.	Professional skills matrix and action plan (PDP)
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Textual_feedback.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PDP.PNG)
+
 
 
