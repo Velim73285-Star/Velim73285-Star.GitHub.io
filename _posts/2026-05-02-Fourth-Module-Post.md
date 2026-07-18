@@ -1240,7 +1240,7 @@ The future of AI ethics, scalability, and sustainability will be defined by bala
 
 •	In coding/programming, I learnt how to embed interactive Colab notebooks into Jupyter notebook platform, ensuring project artefacts are both documented and executable. This skill demonstrates my ability to integrate technical workflows with clear stakeholder communication, making outputs accessible, reproducible, and professionally presented.
 
-### 3.1 The how part of learning the above.
+### 3.1 The how part of learning the above
 •	Hands-on practical work from unit 1 to 12 during the module.
 
 •	Practice and application of Python coding.
