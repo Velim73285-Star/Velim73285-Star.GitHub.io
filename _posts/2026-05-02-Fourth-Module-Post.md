@@ -24,7 +24,7 @@ tags: [Github, Modules, Python, R]
 •	Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team rolesand organisation
 
 ## 2.	The artefacts created during the module
-### 2.1 Units 1 – 3: Collaborative Discussion
+## 2.1 Units 1 – 3: Collaborative Discussion
 ### Discussion topic
 Read the article by Metcalf (2024) and discuss the impact of industry 4.0 and/or Industry 5.0 on the sector in which you are involved or interested.
 
@@ -144,7 +144,7 @@ Pandey, V., Sircar, A., Bist, N., Solanki, K. and Yadav, K., 2023. Accelerating 
 
 Raja Santhi, A. and Muthuswamy, P., 2023. Industry 5.0 or industry 4.0 S? Introduction to industry 4.0 and a peek into the prospective industry 5.0 technologies. International Journal on Interactive Design and Manufacturing (IJIDeM), 17(2), pp.947-979.
 
-### 2.2 Unit 2: Seminar Exploratory Data Analysis (EDA) tutorial 
+## 2.2 Unit 2: Seminar Exploratory Data Analysis (EDA) tutorial 
 Apply EDA using the dataset Auto-mpg dataset (Unit02_uto-mpg.csv) and answer the following questions.
 
 1.Identify missing values.
@@ -399,7 +399,7 @@ print(df.head(10))
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Table_showing_first_10_rows_with_changes.PNG)
 
-### 2.3 Unit 3: e-Portfolio Activity - Correlation and Regression
+## 2.3 Unit 3: e-Portfolio Activity - Correlation and Regression
 Create the arrays that represent the values of the x and y axis.
 
 x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
@@ -434,7 +434,7 @@ plt.show()
 
 Pearsons correlation: -0.759
 
-### 2.4 Unit 4: Linear Regression with Scikit-Learn
+## 2.4 Unit 4: Linear Regression with Scikit-Learn
 
 #### Task A: Correlation analysis
 Pre-process the data, mean population of each country and mean per capita GDP (from 2001 to 2021) by making some arrangements for the missing values (HINT: You will need to use the datasets Global_GDP.csv and Global_Population.csv). Investigate any correlation between the mean population of each country and the mean per capita GDP (from 2001 to 2021). Very briefly, interpret the generated plot. Evaluate the Pearson Correlation Coefficient.
@@ -599,7 +599,7 @@ Slope: −0.0000025249
 
 Y(Estimate) = 15456.464 − 0.0000025249 ⋅ X
 
-### 2.5 Unit 5: e-Portfolio Activity: Jaccard Distance/Dissimilarity Calculations
+## 2.5 Unit 5: e-Portfolio Activity: Jaccard Distance/Dissimilarity Calculations
 
 Provided with a table that shows pathological test results for three individuals. Calculate Jaccard distance/dissimilarity for the following pairs:
 
@@ -648,7 +648,7 @@ for a, b in pairs:
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Jaccard_distance_results1.PNG)
 
-### 2.6 Unit 6: Seminar for K-Means clustering tutorial
+## 2.6 Unit 6: Seminar for K-Means clustering tutorial
 #### Task A: Iris dataset
 Perform K-Means clustering on the dataset, iris.csv (from the UCI Machine Learning Repository). Before using the data for clustering, you might have to remove a few columns because the K-Means algorithm involves the calculation of Euclidian distance. You can choose various values of K; however, you must also choose K = 3 in this case. Upon clustering at K = 3, check how much similar your three clusters are as compared to the labels of species – setosa, versicolour, and verginica.
 
@@ -859,7 +859,7 @@ Cluster overlap => Some clusters overlap or sit close together, which suggests t
 
 Unsupervised insight => K-Means doesn’t know the “true” weather outcomes (like rain/no rain). It simply groups data points by similarity. The fact that you see distinct regions means the dataset has natural structure that can be exploited for analysis.
 
-### 2.7 Units 1 - 6: Team project artefacts  
+## 2.7 Units 1 - 6: Team project artefacts  
 #### Airbnb Business Analysis Using a Data Science Approach
 #### Background
 Since 2008, guests and hosts have used Airbnb to expand on travelling possibilities and present more unique, personalised ways of experiencing the world. The Airbnb dataset AB_NYC_2019.csv along with its description was accessed from Kaggle. This dataset describes the listing activity and metrics in NYC, NY for 2019,  including host information, geographical availability, and key metrics to support predictions and insights.
@@ -914,7 +914,7 @@ Finalisation of work allocation and presentation on the following tasks:
 #### The Google Colab notebook for the sentiment analysis is in the link below: 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
-### 2.8 Unit 7: Formative activities - e-Portfolio activity
+## 2.8 Unit 7: Formative activities - e-Portfolio activity
 #### Exercise 1 using simple perceptron
 #### Results:
 •	With weights [0.7, 0.1], the sum is 34.0, so the step function outputs 1 and the perceptron does not fire.
@@ -959,7 +959,7 @@ Predictions after training are close to the XOR outputs:
 
 The network successfully learns the XOR function, which a single-layer perceptron cannot solve. This code builds and trains a two-layer neural network using NumPy to solve the XOR problem, demonstrating forward propagation, error calculation, backpropagation, and weight updates across multiple epochs. It highlights how multi-layer networks can handle non-linear problems that single-layer perceptrons cannot.
 
-### 2.9 Units 8 – 10: Collaborative Discussion
+## 2.9 Units 8 – 10: Collaborative Discussion
 #### Discussion topic
 Read/listen to the article by Hutson (2021) in Nature on Robo-writers. This week, post your thoughts on the risks and benefits of the use AI writers at different levels, from administrative work to creative writing. You should demonstrate that you understand the topic covered and ensure you use references to academic literature (journals, books, reports, etc.).
 
@@ -1059,7 +1059,7 @@ https://journals.sagepub.com/doi/abs/10.1177/23294906231176517 (Accessed on 04 J
 
 Marzuki, Widiati, U., Rusdin, D., Darwin and Indrawati, I., 2023. The impact of AI writing tools on the content and organization of students’ writing: EFL teachers’ perspective. Cogent Education, 10(2), p.2236469.
 
-### 2.10 Unit 8: Formative activities - e-Portfolio activity
+## 2.10 Unit 8: Formative activities - e-Portfolio activity
 Read the Mayo, 2017 article and then run the tutorial: gradient_descent_cost _function.ipynb. Change the iteration number and learning rate and observe how cost decreases.
 
 Calculating cost with gradient descent and learning rate
@@ -1075,7 +1075,7 @@ Changing the iteration count and learning rate in the gradient descent code dire
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Gradient_Descent_Cost_Curves.PNG)
 
-### 2.11 Unit 9: Formative activity - e-Portfolio Activity: CNN Model Activity
+## 2.11 Unit 9: Formative activity - e-Portfolio Activity: CNN Model Activity
 Q1. Read the Wall (2019) article and record your thoughts on the ethical and social implications of this CNN technology.
 
 Facial recognition (FR) technology is increasingly deployed by law enforcement, corporations, and even the military. While it promises enhanced security and efficiency, Wall (2019) highlights serious ethical and social risks. These concerns center on bias, civil liberties, and accountability, raising questions about whether society is prepared to manage such powerful tools responsibly.
@@ -1101,7 +1101,7 @@ Table 1 below shows indices 1 – 15 and a summary of textual feedback (predicte
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Textual_feedback.PNG)
 
-### 2.12 Unit 11: Formative activity - e-Portfolio Activity
+## 2.12 Unit 11: Formative activity - e-Portfolio Activity
 1.Run the model_Performance_Measurement.ipnyb file and change different parameters and observe its impact on AUC and R2 error.
 
 #### Results
@@ -1149,7 +1149,7 @@ It is also noted that So, switching from linear to RBF often increases AUC becau
 
 •	Ethics-by-design => Embedding ethical principles directly into model development.
 
-### 2.13 Unit 12: Seminar: Future of Machine Learning
+## 2.13 Unit 12: Seminar: Future of Machine Learning
 #### Consider the following discussion topics:
 1.The impact of Self-Supervised Learning in reducing reliance on labelled data.
    
@@ -1240,7 +1240,7 @@ The future of AI ethics, scalability, and sustainability will be defined by bala
 
 •	In coding/programming, I learnt how to embed interactive Colab notebooks into Jupyter notebook platform, ensuring project artefacts are both documented and executable. This skill demonstrates my ability to integrate technical workflows with clear stakeholder communication, making outputs accessible, reproducible, and professionally presented.
 
-### 3.1 The how part of learning the above
+## 3.1 The how part of learning the above
 •	Hands-on practical work from unit 1 to 12 during the module.
 
 •	Practice and application of Python coding.
