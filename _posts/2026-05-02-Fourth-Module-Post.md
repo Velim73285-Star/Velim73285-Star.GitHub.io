@@ -914,6 +914,10 @@ Finalisation of work allocation and presentation on the following tasks:
 #### The Google Colab notebook for the sentiment analysis is in the link below: 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
+### 2.7.1 Comparison of the final project against the initial proposal
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Comparison.PNG)
+
 ## 2.8 Unit 7: Formative activities - e-Portfolio activity
 #### Exercise 1 using simple perceptron
 #### Results:
