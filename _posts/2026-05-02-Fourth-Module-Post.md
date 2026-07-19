@@ -933,7 +933,7 @@ o	SVM: 95% accuracy, strong on majority class, weaker on minority TB-positive ca
 
 o	CNN: Perfect training accuracy (100%) but suspiciously overfit (loss = 0).
 
-o	Validation: k-fold cross-validation showed CNN ~97% average accuracy, SVM ~94%.
+o	Validation: k-fold cross-validation showed CNN = 97% average accuracy, SVM = 94%.
 
 #### Explainability and interpretation
 #### Proposal:
