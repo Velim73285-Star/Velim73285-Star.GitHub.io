@@ -918,6 +918,79 @@ https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Comparison.PNG)
 
+#### Model design and performance
+##### Initial Proposal
+o	Tabular NN: Strong performance, key predictors = availability_365, minimum_nights.
+
+o	LSTM sentiment: Captured tone/presentation signals.
+
+o	CNN map-patch: Weak (0.51 accuracy).
+
+o	Hybrid: Moderate (79.3% accuracy, 0.833 ROC-AUC), but recall for high-demand listings was low.
+
+#####	Final Project
+o	SVM: 95% accuracy, strong on majority class, weaker on minority TB-positive cases.
+
+o	CNN: Perfect training accuracy (100%) but suspiciously overfit (loss = 0).
+
+o	Validation: k-fold cross-validation showed CNN ~97% average accuracy, SVM ~94%.
+
+#### Explainability and interpretation
+##### Proposal:
+o	Limited interpretability of NN models.
+
+o	Sentiment analysis provided clearer insights into text signals.
+
+o	CNN spatial patches lacked meaningful separation.
+
+##### Final Project:
+o	SHAP for SVM: Showed reliance on a few dominant features.
+
+o	GradCAM for CNN: Highlighted lung regions, aiding clinical trust.
+
+o	Stronger emphasis on transparency and clinical explainability.
+
+#### Ethical and bias considerations
+##### Proposal:
+o	Focused on business limitations (proxy demand measure, lack of occupancy data).
+
+o	Mentioned interpretability challenges of NNs.
+
+##### Final Project:
+o	Explicit ethical framework:
+
+  Bias across subgroups (lighting conditions, demographic disparities).
+  
+  Data privacy, fairness, harm prevention.
+  
+  Continuous monitoring post-deployment.
+  
+o	Clear strategies for bias mitigation (augmentation, reweighting, fairness-aware training).
+
+#### Conclusions and Recommendations
+##### Proposal:
+o	Deep learning can support Airbnb host guidance, but structured tabular data was most valuable.
+
+o	Hybrid models added limited improvement.
+
+o	Richer booking/occupancy data needed for commercial reliability.
+
+##### Final Project:
+o	SVM reliable but imperfect; CNN high risk of overfitting.
+
+o	Validation and explainability are critical safeguards.
+
+o	Ethical deployment requires fairness, privacy, and subgroup analysis.
+
+o	Recommendations: robust validation, augmentation, fairness-aware training, continuous monitoring.
+
+#### Overall comparison
+•	The initial proposal was business-oriented, focusing on demand prediction and host guidance in Airbnb.
+
+•	The final project shifted to a healthcare and ethics-oriented lens, emphasizing ML vs DL intelligence, fairness, transparency, and responsible AI in medical imaging.
+
+•	Methodologically, both explored deep learning architectures, but the final project added classical ML (SVM) for comparison and leaned heavily into ethical accountability.
+
 ## 2.8 Unit 7: Formative activities - e-Portfolio activity
 #### Exercise 1 using simple perceptron
 #### Results:
