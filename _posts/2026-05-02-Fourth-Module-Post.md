@@ -914,7 +914,7 @@ Finalisation of work allocation and presentation on the following tasks:
 #### The Google Colab notebook for the sentiment analysis is in the link below: 
 https://drive.google.com/file/d/14lUf26nr2TnYd9AiWJXQTpmKBOk7AEZc/view?usp=drive_link
 
-### 2.7.1 Comparison of the final project against the initial proposal
+## 2.7.1 Comparison of the final project against the initial proposal
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Comparison.PNG)
 
@@ -959,12 +959,12 @@ o	Mentioned interpretability challenges of NNs.
 ##### Final Project:
 o	Explicit ethical framework:
 
-  Bias across subgroups (lighting conditions, demographic disparities).
-  
-  Data privacy, fairness, harm prevention.
-  
-  Continuous monitoring post-deployment.
-  
+   	Bias across subgroups (lighting conditions, demographic disparities).
+
+   	Data privacy, fairness, harm prevention.
+
+   	Continuous monitoring post-deployment.
+
 o	Clear strategies for bias mitigation (augmentation, reweighting, fairness-aware training).
 
 #### Conclusions and Recommendations
