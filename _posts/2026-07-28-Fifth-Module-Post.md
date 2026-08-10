@@ -55,7 +55,7 @@ Based on Ryanair and EasyJet websites, write a comparative report (in table form
 6.Strengths.
 6.Your views (from a visualisation perspective).
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Comparison_Table.PNG)
 
 ### 3. What exactly have I learnt from this module?
 To be completed
