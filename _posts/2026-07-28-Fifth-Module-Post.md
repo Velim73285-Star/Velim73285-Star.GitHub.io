@@ -60,7 +60,7 @@ Based on Ryanair and EasyJet websites, write a comparative report (in table form
 
 6.Strengths.
 
-6.Your views (from a visualisation perspective).
+7.Your views (from a visualisation perspective).
 
 #### Initial Post
 Healy (2024) emphasizes that some visualisations are more effective than others. This is true because the best visualisations align the chosen chart type with the analytical question, employ clear visual encodings such as marks, colours, and scales, and leverage how humans naturally perceive patterns. In contrast, poor visualisations often mislead by distorting scales, overwhelming viewers with clutter, or failing to draw attention to the key insight.
