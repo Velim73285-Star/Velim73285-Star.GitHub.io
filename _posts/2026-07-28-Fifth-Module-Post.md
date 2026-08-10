@@ -45,8 +45,17 @@ Based on the New York Times article “Across U.S. Companies, Tax Rates Vary Gre
 The article reveals a two-tier tax reality in USA, large multinationals companies with access to loopholes and global strategies pay far less tax, while smaller firms and individuals bear the tax burden.
 
 ### 2.2 Unit 2 – 4: Collaborative Discussion
-### Discussion topic
+### Discussion Topic: Report on Ryanair and Easyjet websites
+Based on Ryanair and EasyJet websites, write a comparative report (in table format) that describes the following points:
+1.From these two sites, what attributes are you or the viewer examining? List the attributes.
+2.What type of tasks abstraction viewers are undertaking on these two websites (e.g. looking for holiday destinations, etc.)?
+3.How the data is represented – i.e. using different marks and channels.
+4.Colour schema used.
+5.Limitations.
+6.Strengths.
+6.Your views (from a visualisation perspective).
 
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Missing_values_Per_Variable.PNG)
 
 ### 3. What exactly have I learnt from this module?
 To be completed
