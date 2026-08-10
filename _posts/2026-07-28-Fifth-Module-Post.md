@@ -75,6 +75,7 @@ Maddigan, P. and Susnjak, T., 2023. Chat2vis: Generating data visualizations via
 Waskom, M.L., 2021. Seaborn: statistical data visualization. Journal of open source software, 6(60), p.3021.
 
 
+
 ### 3. What exactly have I learnt from this module?
 To be completed
 
