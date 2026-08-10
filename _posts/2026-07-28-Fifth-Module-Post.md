@@ -47,13 +47,25 @@ The article reveals a two-tier tax reality in USA, large multinationals companie
 ### 2.2 Unit 2 – 4: Collaborative Discussion
 ### Discussion Topic: Report on Ryanair and Easyjet websites
 Based on Ryanair and EasyJet websites, write a comparative report (in table format) that describes the following points:
+
 1.From these two sites, what attributes are you or the viewer examining? List the attributes.
+
 2.What type of tasks abstraction viewers are undertaking on these two websites (e.g. looking for holiday destinations, etc.)?
+
 3.How the data is represented – i.e. using different marks and channels.
+
 4.Colour schema used.
+
 5.Limitations.
+
 6.Strengths.
+
 6.Your views (from a visualisation perspective).
+
+#### Initial Post
+Healy (2024) emphasizes that some visualisations are more effective than others. This is true because the best visualisations align the chosen chart type with the analytical question, employ clear visual encodings such as marks, colours, and scales, and leverage how humans naturally perceive patterns. In contrast, poor visualisations often mislead by distorting scales, overwhelming viewers with clutter, or failing to draw attention to the key insight.
+
+The Ryanair’s website is highly functional and conversion-driven, while EasyJet’s design emphasizes usability, accessibility, and a mobile-first experience. Both prioritize booking efficiency but differ in visual style, data representation, and user engagement.
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Comparison_Table.PNG)
 
