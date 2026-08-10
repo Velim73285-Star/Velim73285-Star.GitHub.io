@@ -65,7 +65,7 @@ Based on Ryanair and EasyJet websites, write a comparative report (in table form
 
 7.Your views (from a visualisation perspective).
 
-#### Initial Post
+#### 2.2.1 Initial Post
 Healy (2024) emphasizes that some visualisations are more effective than others. This is true because the best visualisations align the chosen chart type with the analytical question, employ clear visual encodings such as marks, colours, and scales, and leverage how humans naturally perceive patterns. In contrast, poor visualisations often mislead by distorting scales, overwhelming viewers with clutter, or failing to draw attention to the key insight.
 
 The Ryanair’s website is highly functional and conversion-driven, while EasyJet’s design emphasizes usability, accessibility, and a mobile-first experience. Both prioritize booking efficiency but differ in visual style, data representation, and user engagement.
