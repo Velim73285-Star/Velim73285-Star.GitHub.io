@@ -32,7 +32,6 @@ tags: [GitHub, Modules, Python, R, Tableau]
 Explore this article by Mike Bostock titled 'Across U.S. Companies, Tax Rates Vary Greatly' from The New York Times, and consider the questions below.
 
 1.Variation of corporate tax.
-   
 Corporate tax variation in the U.S. arises because while the federal corporate tax rate is a flat 21%, state-level taxes, deductions, credits, and loopholes create wide differences in what companies actually pay. Effective tax rates range from near zero for some large corporations to nearly 30% in high-tax states.
 
 2.What types of companies pay less tax and high tax?
