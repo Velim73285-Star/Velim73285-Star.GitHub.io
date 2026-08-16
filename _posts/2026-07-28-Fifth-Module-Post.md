@@ -89,6 +89,49 @@ Maddigan, P. and Susnjak, T., 2023. Chat2vis: Generating data visualizations via
 
 Waskom, M.L., 2021. Seaborn: statistical data visualization. Journal of open source software, 6(60), p.3021.
 
+#### 2.2.2 Peer Response to Daniel Eduardo Lopez
+Thank you so much Daniel for sharing an insightful post that evidently demonstrates a clear and structured comparison between Ryanair and EasyJet websites. 
+
+Data visualization plays a crucial role in illustrating results, transforming complex datasets into clear visual narratives, and enabling data users to share knowledge effectively across disciplines, fostering collaboration, critical analysis, and informed decision making (Chen et al., 2022). This argument is supported because data visualisation bridges the gap between raw data and human understanding by ensures that insights are not only accessible but also actionable across diverse research and professional contexts. 
+
+The first strength of your post lies in its clear framework, covering attributes, tasks, representation, colour, and in the insightful observation that Ryanair’s integration of list and map views directly supports price driven queries by aligning visualization design with user intent.
+
+While Ryanair’s design is praised for coherence, the post could acknowledge that its dual representation may also introduce cognitive load, requiring users to constantly cross reference between list and map. Similarly, EasyJet’s minimalist approach is described as uncluttered, but the analysis could probe whether this simplicity risks oversimplification, leaving users without actionable data. Highlighting these tensions would strengthen the critical perspective of the post.
+
+Another area for improvement is the treatment of colour encoding. The post correctly notes that both airlines use brand palettes decoratively rather than data driven, but it stops short of suggesting how colour could be leveraged more effectively. For example, Ryanair could encode price ranges with colour gradients, while EasyJet could differentiate airports by traffic volume or regional grouping. This would move the critique to a prescriptive level, offering constructive design insights.
+
+In conclusion, your post is insightful and well structured, but the critique would be stronger if it addressed cognitive load, suggested improvements in data encoding, and considered how visualization choices align with brand identity thereby shifting the analysis from description to a more refined evaluation of effectiveness.
+
+#### References
+Chen, T., Liu, Y.X. and Huang, L., 2022. ImageGP: An easy‐to‐use data visualization web server for scientific researchers. Imeta, 1(1), p.e5.
+
+Goedhart, J. and Luijsterburg, M.S., 2020. VolcaNoseR is a web app for creating, exploring, labelling and sharing volcano plots. Scientific reports, 10(1), p.20560.
+
+Sievert, C., 2020. Interactive web-based data visualization with R, plotly, and shiny. CRC Press.
+
+Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., Wu, S. and Wang, Y., 2023. SRplot: A free online platform for data visualization and graphing. PloS one, 18(11), p.e0294236.
+
+#### 2.2.3 Peer Response to Kgwerano Chula
+Thank you Kgwerano for a well structured post that demonstrates a clear application of data visualization grammar to compare EasyJet and Ryanair route maps. 
+
+(Unwin, 2020) states that “Data visualization, facilitated by the power of the computer, represents one of the fundamental tools of modern data science. Indeed, computational advances enable data visualization to transform raw datasets into interactive, interpretable graphics, making it indispensable for modern data science workflows. Your post demonstrates a clear framework, covering attributes, tasks, representation, colour, and insightfully emphasizes spatial position as a key encoding channel, showing how both airlines use geography to support pattern recognition and route exploration.
+
+You could have expanded the critique by interrogating the user experience trade-offs more explicitly. While EasyJet’s minimalist design is praised for clarity, the analysis could also consider whether its simplicity risks underserving users who need comparative data. Conversely, Ryanair’s integration of multiple attributes is described as comprehensive, but the post could explore how this complexity may increase cognitive load, especially for beginner users. A stronger critique would balance the benefits of multidimensional data with the potential drawbacks of overwhelming interfaces (Holland et al., 2020).
+
+The post notes EasyJet’s use of orange circles and Ryanair’s aircraft icons, but it stops short of evaluating how effective these symbols are in conveying meaning. For instance, aircraft icons may add visual flair but could clutter the map compared to simpler point marks. Similarly, the reliance on brand colours as decorative rather than data driven encoding could be critiqued more sharply, with suggestions for how colour could be leveraged to encode quantitative variables such as price ranges or flight frequency.
+
+In summary, your post is academically solid and well structured, but the critique would be stronger if it addressed cognitive load, symbol effectiveness, encoding improvements, and brand alignment, making the analysis more critical and holistic.
+
+#### References
+Holland, C.P., Thornton, S.C. and Naudé, P., 2020. B2B analytics in the airline market: Harnessing the power of consumer big data. Industrial Marketing Management, 86, pp.52-64.
+
+Mohamed, H.A.E.S. and Al-Azab, M.R., 2021. Big data analytics in airlines: Opportunities and challenges. Journal of Association of Arab Universities for Tourism and Hospitality, 21(4), pp.77-112.
+
+Unwin, A., 2020. Why is data visualization important? what is important in data visualization?. Harvard Data Science Review, 2(1).
+
+Zepner, L., Karrasch, P., Wiemann, F. and Bernard, L., 2021. ClimateCharts. net–an interactive climate analysis web platform. International journal of digital Earth, 14(3), pp.338-356.
+
+#### 2.2.4 Summary Post
 
 
 ### 3. What exactly have I learnt from this module?
