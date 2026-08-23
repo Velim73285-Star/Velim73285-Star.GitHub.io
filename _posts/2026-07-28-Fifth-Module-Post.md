@@ -132,6 +132,22 @@ Unwin, A., 2020. Why is data visualization important? what is important in data 
 Zepner, L., Karrasch, P., Wiemann, F. and Bernard, L., 2021. ClimateCharts. net–an interactive climate analysis web platform. International journal of digital Earth, 14(3), pp.338-356.
 
 #### 2.2.4 Summary Post
+Data visualization could enable researchers to explore, interpret, and present the results in a clearer and graceful way (Chen et al., 2022). Certainly, effective visualization extracts complex datasets into clear, interpretable patterns, thereby advancing comprehension and reinforcing scholarly communication. My initial post analysis showed that effective visualization relies on clear encodings and reduced clutter. Applied to airline websites, Ryanair’s urgency driven design risks overwhelming users, while EasyJet’s mobile first approach offers cleaner usability. To improve, Ryanair could adopt progressive disclosure and storytelling elements to boost engagement (Unwin., 2020), whereas EasyJet should refine consistency and visual hierarchy.
+
+By Unit 4, only one peer response was received from Kgwerano Chula. His feedback highlighted the strengths of my initial post and expanded it by stressing data visualization principles. He noted that both airlines’ route maps use spatial positioning to convey geographical information, with Ryanair’s interactive filters supporting analytical comparisons and EasyJet’s design simplifying route exploration.
+
+Unit 2 introduced the grammar and idioms of data visualization, emphasizing how effective visuals depend on aligning data and task abstraction with channels such as spatial position, marks, and colour. This foundation supports critical evaluation of how insights are communicated and how cognitive load can be reduced (Tang et al., 2023). Unit 3 builds on this by teaching R programming for statistical analysis and visualization, providing practice in writing scripts, working with dataframes, and applying basic techniques through libraries, with flexible access via RStudio. Unit 4 extended these skills to data handling in R, focusing on reading, organizing, and writing datasets to support future analysis.
+
+Overall, the study of data visualization underscored its role in transforming complex information into clear insights, as reflected in my comparison of Ryanair and EasyJet’s design approaches. Peer feedback reinforced the importance of aligning visuals with user objectives, while Units 2–4 provided both theoretical grounding and practical skills in R for creating, organizing, and evaluating effective visualizations.
+
+#### References
+Chen, T., Liu, Y.X. and Huang, L., 2022. ImageGP: An easy‐to‐use data visualization web server for scientific researchers. Imeta, 1(1), p.e5.
+
+Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., Wu, S. and Wang, Y., 2023. SRplot: A free online platform for data visualization and graphing. PloS one, 18(11), p.e0294236.
+
+Unwin, A., 2020. Why is data visualization important? what is important in data visualization?. Harvard Data Science Review, 2(1).
+
+Xie, J., Chen, Y., Cai, G., Cai, R., Hu, Z. and Wang, H., 2023. Tree Visualization By One Table (tvBOT): a web application for visualizing, modifying, and annotating phylogenetic trees. Nucleic acids research, 51(W1), pp.W587-W592.
 
 
 ### 3. What exactly have I learnt from this module?
