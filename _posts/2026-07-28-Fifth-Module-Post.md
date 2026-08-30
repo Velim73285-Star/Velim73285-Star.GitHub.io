@@ -158,11 +158,9 @@ For this activity, the was an introduction of the Plotly data visualisation libr
 •	Change the type of graphs etc. and evaluate how such changes impact on the interpretation.
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Regression_Plot.png)
-
 This regression plot shows a strong positive linear relationship between the variables xand y. As xincreases, yalso increases in a fairly consistent way, with the fitted regression line capturing this upward trend. The clustering of points around the line suggests the model explains the data well, indicating a clear correlation.
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
-
 This PCA plot shows how the Iris dataset is reduced to two principal components (PC1 and PC2), revealing clear separation between the three species. Each cluster of points corresponds to a species, and the distinct grouping indicates that PCA successfully captures the main variance in the data, making species differences visible in just two dimensions.
 
 
