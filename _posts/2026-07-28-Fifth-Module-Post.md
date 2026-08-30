@@ -149,6 +149,23 @@ Unwin, A., 2020. Why is data visualization important? what is important in data 
 
 Xie, J., Chen, Y., Cai, G., Cai, R., Hu, Z. and Wang, H., 2023. Tree Visualization By One Table (tvBOT): a web application for visualizing, modifying, and annotating phylogenetic trees. Nucleic acids research, 51(W1), pp.W587-W592.
 
+### 2.3 Unit 5: Formative Activity: Plotly
+
+For this activity, the was an introduction of the Plotly data visualisation library as used in machine learning. Plotly provides the facility to create interactive graphs and charts. In this formative exercise, one explored the code for regression and principal component analysis (PCA) visualisation.
+
+•	Copy and paste the codes into your Jupyter notebook. Change the variables, values, colour etc. and observe the impact.
+
+•	Change the type of graphs etc. and evaluate how such changes impact on the interpretation.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Regression_Plot.PNG)
+
+This regression plot shows a strong positive linear relationship between the variables xand y. As xincreases, yalso increases in a fairly consistent way, with the fitted regression line capturing this upward trend. The clustering of points around the line suggests the model explains the data well, indicating a clear correlation.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.PNG)
+
+This PCA plot shows how the Iris dataset is reduced to two principal components (PC1 and PC2), revealing clear separation between the three species. Each cluster of points corresponds to a species, and the distinct grouping indicates that PCA successfully captures the main variance in the data, making species differences visible in just two dimensions.
+
+
 
 ### 3. What exactly have I learnt from this module?
 To be completed
