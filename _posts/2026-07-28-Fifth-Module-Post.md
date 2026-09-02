@@ -166,11 +166,11 @@ This regression plot shows a strong positive linear relationship between the var
 This PCA plot shows how the Iris dataset is reduced to two principal components (PC1 and PC2), revealing clear separation between the three species. Each cluster of points corresponds to a species, and the distinct grouping indicates that PCA successfully captures the main variance in the data, making species differences visible in just two dimensions.
 
 ### 2.4 Unit 6: Learn how to build a ROC curve (Receiver Operating Characteristic curve)
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Classifier_Probabilities.PNG)
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Thresholds.PNG)
 
-![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ROC_Curve.PNG)
 
 What is the best threshold for the example provided in the ROC curve?
 
