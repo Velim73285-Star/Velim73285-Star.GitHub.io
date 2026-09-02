@@ -172,7 +172,7 @@ This PCA plot shows how the Iris dataset is reduced to two principal components 
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ROC_Curve.PNG)
 
-What is the best threshold for the example provided in the ROC curve?
+What is the best threshold for this example?
 
 •	At t = 0.52, the TPR = 0.8 and FPR = 0.8. This means the model is catching most positives but also misclassifying many negatives.
 
