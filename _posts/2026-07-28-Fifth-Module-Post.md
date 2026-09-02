@@ -165,7 +165,32 @@ This regression plot shows a strong positive linear relationship between the var
 
 This PCA plot shows how the Iris dataset is reduced to two principal components (PC1 and PC2), revealing clear separation between the three species. Each cluster of points corresponds to a species, and the distinct grouping indicates that PCA successfully captures the main variance in the data, making species differences visible in just two dimensions.
 
+### 2.4 Unit 6: Learn how to build a ROC curve (Receiver Operating Characteristic curve)
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
 
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/PCA_Plot.png)
+
+What is the best threshold for the example provided in the ROC curve?
+
+•	At t = 0.52, the TPR = 0.8 and FPR = 0.8. This means the model is catching most positives but also misclassifying many negatives.
+
+•	At t = 0.84, the TPR = 0.6 and FPR = 0.4. This is a more balanced trade off, reducing false positives while still detecting a fair number of true positives.
+
+•	At t = 0.93, the model becomes stricter where TPR = 0.2 and FPR = 0, so it avoids false alarms but misses most positives.
+
+Practically, the “best” threshold is chosen by maximising a metric such as Youden’s J statistic (TPR – FPR) or by considering the cost of false positives vs false negatives in the application.
+
+From table 2, t = 0.84 looks like the most balanced point:
+
+•	TPR = 0.6
+
+•	FPR = 0.4
+
+•	J = 0.2 (higher than at other thresholds)
+
+So, to compromise between sensitivity and specificity, 0.84 is the best threshold in this example.
 
 ### 3. What exactly have I learnt from this module?
 To be completed
