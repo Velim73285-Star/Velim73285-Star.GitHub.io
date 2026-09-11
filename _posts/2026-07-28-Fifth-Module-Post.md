@@ -197,7 +197,6 @@ So, to compromise between sensitivity and specificity, 0.84 is the best threshol
 Exercise: Plot any 2 of iris original variables and then plot the scaled variables.
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scaled_Variables.PNG)
-
 Findings
 
 •	Cluster separation: The black points (likely Iris setosa) are tightly grouped in the upper-left region, clearly distinct from the other species.
