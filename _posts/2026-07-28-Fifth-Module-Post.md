@@ -192,6 +192,21 @@ From table 2, t = 0.84 looks like the most balanced point:
 
 So, to compromise between sensitivity and specificity, 0.84 is the best threshold in this example.
 
+### 2.5 Unit 7: Exercise: Plot any 2 of iris original variables and then plot the scaled variables.
+
+Exercise: Plot any 2 of iris original variables and then plot the scaled variables.
+
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/ROC_Curve.PNG)
+
+Findings
+
+•	Cluster separation: The black points (likely Iris setosa) are tightly grouped in the upper-left region, clearly distinct from the other species.
+
+•	Overlap of species: The red and green points (versicolor and virginica) overlap more, spread across the middle and right side. This indicates that Sepal length and width alone do not perfectly distinguish them.
+
+•	Effect of scaling: Standardisation does not change the relative positions of points, but it makes the axes comparable. Both variables now contribute equally, so the clustering patterns are easier to interpret without one variable dominating due to its larger numeric range.
+
+
 ### 3. What exactly have I learnt from this module?
 To be completed
 
