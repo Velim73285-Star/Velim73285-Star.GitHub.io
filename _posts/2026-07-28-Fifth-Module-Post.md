@@ -223,7 +223,7 @@ In our specific application, the aim is to develop statistical models that can a
 
 The data we are considering originates from a Portuguese bank and were collected from 2008 to 2013. The data is available on the UCI machine learning repository. You are provided with a random cleaned sample of 4100 observations from the overall dataset (MMA Marketing Data Sample file). Each record (observation) contains the output target, y, and 19 input features. These include telemarketing attributes (e.g., call direction), product details (e.g., the interest rate offered), and client information (e.g., age). These records were enriched with social and economic influence features (e.g., unemployment variation rate), by gathering external data from the Portuguese central bank.
 
-Part 1: Exploratory analysis 
+Part 1: Exploratory data analysis 
 
 Using appropriate visualisation methods and statistical measures covered in the module, develop general and specific insights from the data which are relevant to the classification problem at hand. You are free to use R or Python for your analysis.
 
