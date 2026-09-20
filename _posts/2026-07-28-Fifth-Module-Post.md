@@ -192,7 +192,7 @@ From table 2, t = 0.84 looks like the most balanced point:
 
 So, to compromise between sensitivity and specificity, 0.84 is the best threshold in this example.
 
-### 2.5 Unit 7: Exercise: Plot any 2 of iris original variables and then plot the scaled variables.
+### 2.5 Unit 7: Exercise: Plot any 2 of iris original variables and then plot the scaled variables
 Exercise: Plot any 2 of iris original variables and then plot the scaled variables.
 
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scaled_Variables.PNG)
@@ -205,7 +205,7 @@ Findings
 
 •	Effect of scaling: Standardisation does not change the relative positions of points, but it makes the axes comparable. Both variables now contribute equally, so the clustering patterns are easier to interpret without one variable dominating due to its larger numeric range.
 
-### 2.6 Unit 8: Sunburst plots implemented with R from the Plotly website page on sunburst charts.
+### 2.6 Unit 8: Sunburst plots implemented with R from the Plotly website page on sunburst charts
 Using the https://plotly.com/r/sunburst-charts/ link. Make a post pointing out the strengths and limitations of interactive sunburst plots (implemented with R). Also, in your post, you should outline at least one alternative representation approach you would have taken if there were no interactive facilities.
 
 Response
@@ -231,8 +231,9 @@ Part 2: Statistical modelling
 
 For the different classifiers we covered in the module, attempt to develop appropriate models for this problem. You are required to visualise the performance of your models.
 
+The Python code for this exercise is found from this link: https://colab.research.google.com/drive/1WaWT47fjxvH6iVVecT2tV9MZMykvr4Hr
 
-
+The final and full report for this exercise is found from this link: https://docs.google.com/document/d/1fFPHsjFa0gURlEbLk9dPI4nNaltf9iqE/edit
 
 ### 3. What exactly have I learnt from this module?
 To be completed
