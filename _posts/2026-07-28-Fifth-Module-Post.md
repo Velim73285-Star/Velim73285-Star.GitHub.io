@@ -214,7 +214,23 @@ Interactive sunburst plots in R are a compelling way to visualize hierarchical d
 
 I would have opted for a treemap instead. Treemaps provide a rectangular, space filling layout that makes proportional comparisons easier, remain effective in static form, and are more widely understood by general audiences, making them a practical alternative for hierarchical data visualization.
 
-### 2.7 Unit 8:
+### 2.7 Unit 8: Programming exercise assignment
+Problem description
+
+Marketing selling campaigns aim to enhance business. Companies use direct marketing to target segments of customers by contacting them to meet a specific goal. We are interested in developing and accessing data-driven models to assist the bank's telemarketing campaigns.
+
+In our specific application, the aim is to develop statistical models that can accurately predict the result of a phone call to sell long term bank deposits. Such models are valuable as they assist campaigners to prioritize and select the next customers to be contacted during marketing campaigns. Improving the efficiency of such campaigns reduces time and associated cost.
+
+The data we are considering originates from a Portuguese bank and were collected from 2008 to 2013. The data is available on the UCI machine learning repository. You are provided with a random cleaned sample of 4100 observations from the overall dataset (MMA Marketing Data Sample file). Each record (observation) contains the output target, y, and 19 input features. These include telemarketing attributes (e.g., call direction), product details (e.g., the interest rate offered), and client information (e.g., age). These records were enriched with social and economic influence features (e.g., unemployment variation rate), by gathering external data from the Portuguese central bank.
+
+Part 1: Exploratory analysis 
+
+Using appropriate visualisation methods and statistical measures covered in the module, develop general and specific insights from the data which are relevant to the classification problem at hand. You are free to use R or Python for your analysis.
+
+Part 2: Statistical modelling 
+
+For the different classifiers we covered in the module, attempt to develop appropriate models for this problem. You are required to visualise the performance of your models.
+
 
 
 
