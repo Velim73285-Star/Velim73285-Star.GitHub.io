@@ -209,6 +209,7 @@ Findings
 Using the https://plotly.com/r/sunburst-charts/ link. Make a post pointing out the strengths and limitations of interactive sunburst plots (implemented with R). Also, in your post, you should outline at least one alternative representation approach you would have taken if there were no interactive facilities.
 
 Response
+
 Interactive sunburst plots in R are a compelling way to visualize hierarchical data because they provide a clear layered structure that allows users to see parent-child relationships at multiple levels. Their greatest strength lies in interactivity with packages like sunburstR or plotly, users can hover, click, and drill down into specific branches, making exploration intuitive and engaging. They also condense large hierarchies into a compact circular form, which is visually appealing and efficient compared to sprawling tree diagrams. However, these plots are not without limitations. When datasets contain many categories, the chart can become overcrowded, with small segments difficult to interpret. They also rely heavily on interactivity without it, static sunburst plots lose much of their analytical power, and audiences unfamiliar with radial hierarchies may find them less accessible.
 
 I would have opted for a treemap instead. Treemaps provide a rectangular, space filling layout that makes proportional comparisons easier, remain effective in static form, and are more widely understood by general audiences, making them a practical alternative for hierarchical data visualization.
