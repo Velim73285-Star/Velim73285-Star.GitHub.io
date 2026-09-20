@@ -205,7 +205,7 @@ Findings
 
 •	Effect of scaling: Standardisation does not change the relative positions of points, but it makes the axes comparable. Both variables now contribute equally, so the clustering patterns are easier to interpret without one variable dominating due to its larger numeric range.
 
-### 2.6 Unit 8: Sunburst plots implemented with R from the Plotly website page on sunburst charts
+### 2.6 Unit 8: Sunburst plots implemented with R from the Plotly website page
 Using the https://plotly.com/r/sunburst-charts/ link. Make a post pointing out the strengths and limitations of interactive sunburst plots (implemented with R). Also, in your post, you should outline at least one alternative representation approach you would have taken if there were no interactive facilities.
 
 Response
