@@ -235,6 +235,21 @@ The Python code for this exercise is found from this link: https://colab.researc
 
 The final and full report for this exercise is found from this link: https://docs.google.com/document/d/1fFPHsjFa0gURlEbLk9dPI4nNaltf9iqE/edit
 
+### 2.8 Unit 9: A dashboard draft design 
+Instructions
+
+Design a dashboard for your (or any) organisation and write a short report (500 words) on your design rationale.
+
+1.	Describe your audience (who are they, what they need etc.)
+   
+2.	What type of dashboard do you want to design and why?
+   
+3.	Design your mockup dashboard (No data is required, you can do it on paper and then scan/take a picture of it, or you can use tools like PowerPoint, Adobe Photoshop, Paint to create the mockup.
+   
+4.	Present your answers to questions 1-3 in your report and submit it on the platform for formative feedback.
+
+The dashboard draft design report is found from this link: https://docs.google.com/document/d/1g-zyljcCFu0A4zo38PZFWlWpILbYE6z-/edit
+
 ### 3. What exactly have I learnt from this module?
 To be completed
 
