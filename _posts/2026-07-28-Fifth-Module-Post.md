@@ -250,6 +250,29 @@ Design a dashboard for your (or any) organisation and write a short report (500 
 
 The dashboard draft design report is found from this link: https://docs.google.com/document/d/1g-zyljcCFu0A4zo38PZFWlWpILbYE6z-/edit
 
+### 2.9 Unit 12: Formative Activity - The Future of Data Visualisation (Virtual Reality (VR) and Augmented Reality (AR))
+Instructions
+
+This activity focuses on the future of data visualisation using AR/VR technologies. With its immersive and collaborative capabilities, AR/VR offers a new approach to data visualisation. Take the time to review the following articles/blogs as the activity for this week. Write a reflective entry (200 - 300 Words) on how you can apply these technologies in your current or future employment.
+
+Articles
+
+Nichols, G. (2019) Data visualization via VR and AR: How we'll interact with tomorrow's data.
+
+Kurbatov, V. (2017) Human factor in virtual reality data visualization.
+
+Dalton, J. (2016) 5 Reasons to Use Virtual Reality for Data Visualisation.
+
+Reflective Entry: The Future of Data Visualisation with AR/VR
+
+The articles highlighted how Augmented Reality (AR) and Virtual Reality (VR) can transform the way people interact with and understand complex datasets. According to Nichols, AR and VR have the potential to change data analysis by allowing users to interact with three-dimensional data environments and identify patterns more intuitively than with traditional charts and dashboards. Kurbatov further emphasizes the human aspect of VR, explaining that immersive visualisations can improve engagement, understanding, and emotional connection with data. Dalton identifies additional benefits such as reduced distractions, increased visual space, support for multidimensional analysis, and more natural interaction with data.
+
+In my current employment within the energy and regulatory sector, I can see significant potential for AR and VR technologies. My work often involves analysing large volumes of electricity distribution, generation, and performance data. Traditional dashboards and reports can sometimes make it difficult to identify relationships between multiple variables. Using VR-based visualisations, I could explore network performance, energy losses, infrastructure projects, and submission trends in an immersive environment, making complex patterns easier to understand and communicate to stakeholders.
+
+In my future career as a Data Scientist, AR and VR could enhance advanced analytics and decision-making processes. For example, immersive data environments could support collaborative discussions among analysts, managers, and policymakers, allowing them to interact with the same datasets in real time. This would improve transparency, communication, and evidence-based decision-making.
+
+Overall, I believe AR and VR will play an increasingly important role in data visualisation by making data more interactive, understandable, and accessible. As data volumes continue to grow, these technologies may become essential tools for effective analysis and informed decision-making.
+
 ### 3. What exactly have I learnt from this module?
 •	Data vacuolations principles, techniques, tools.
 
