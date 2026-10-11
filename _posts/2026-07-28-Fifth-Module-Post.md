@@ -263,8 +263,7 @@ Kurbatov, V. (2017) Human factor in virtual reality data visualization.
 
 Dalton, J. (2016) 5 Reasons to Use Virtual Reality for Data Visualisation.
 
-Reflective Entry: The Future of Data Visualisation with AR/VR
-
+#### Reflective Entry: The Future of Data Visualisation with AR/VR
 The articles highlighted how Augmented Reality (AR) and Virtual Reality (VR) can transform the way people interact with and understand complex datasets. According to Nichols, AR and VR have the potential to change data analysis by allowing users to interact with three-dimensional data environments and identify patterns more intuitively than with traditional charts and dashboards. Kurbatov further emphasizes the human aspect of VR, explaining that immersive visualisations can improve engagement, understanding, and emotional connection with data. Dalton identifies additional benefits such as reduced distractions, increased visual space, support for multidimensional analysis, and more natural interaction with data.
 
 In my current employment within the energy and regulatory sector, I can see significant potential for AR and VR technologies. My work often involves analysing large volumes of electricity distribution, generation, and performance data. Traditional dashboards and reports can sometimes make it difficult to identify relationships between multiple variables. Using VR-based visualisations, I could explore network performance, energy losses, infrastructure projects, and submission trends in an immersive environment, making complex patterns easier to understand and communicate to stakeholders.
