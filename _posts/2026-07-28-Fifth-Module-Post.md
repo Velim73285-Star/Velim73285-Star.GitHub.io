@@ -276,6 +276,6 @@ The dashboard draft design report is found from this link: https://docs.google.c
 
 •	Present results and findings professionally.
 
-### 4. 4.	Professional skills matrix and Personal Development Plan (PDP)
+### 4. Professional skills matrix and Personal Development Plan (PDP)
 ![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Skills_Matrx_PDP.PNG)
 
