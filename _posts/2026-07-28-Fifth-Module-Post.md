@@ -251,10 +251,30 @@ Design a dashboard for your (or any) organisation and write a short report (500 
 The dashboard draft design report is found from this link: https://docs.google.com/document/d/1g-zyljcCFu0A4zo38PZFWlWpILbYE6z-/edit
 
 ### 3. What exactly have I learnt from this module?
-To be completed
+•	Data vacuolations principles, techniques, tools.
+
+•	Data analysis with modern tools.
+
+•	Real-world applications of supervised and unsupervised Machine Learning models.
+
+•	Systematic analysis and problem solving.
+
+•	R and Python programming and visualisation tools. 
+
+•	In coding/programming, I learnt how to embed interactive Colab notebooks into Jupyter notebook platform, ensuring project artefacts are both documented and executable. This skill demonstrates my ability to integrate technical workflows with clear stakeholder communication, making outputs accessible, reproducible, and professionally presented.
 
 ### 3.1	The how part of learning the above
-To be completed
+•	Hands-on practical work from unit 1 to 12 during the module.
+
+•	Practice and application of R and Python coding and Tableau.
+
+•	Apply the theory to real-world problems.
+
+•	Analyse data and produce results systematically.
+
+•	Collaboration discussion on different topics related to the module.
+
+•	Present results and findings professionally.
 
 ### 4. Professional skills matrix and action plan (PDP)
-To be completed
+![Boxplot of income](https://raw.githubusercontent.com/Velim73285-Star/Velim73285-Star.GitHub.io/main/assets/images/banners/Scaled_Variables.PNG)
