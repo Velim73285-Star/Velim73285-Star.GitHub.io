@@ -235,7 +235,7 @@ The Python code for this exercise is found from this link: https://colab.researc
 
 The final and full report for this exercise is found from this link: https://docs.google.com/document/d/1fFPHsjFa0gURlEbLk9dPI4nNaltf9iqE/edit
 
-### 2.8 Unit 9: A dashboard draft design 
+### 2.8 Unit 9: Dashboard draft and final design 
 Instructions
 
 Design a dashboard for your (or any) organisation and write a short report (500 words) on your design rationale.
@@ -249,6 +249,8 @@ Design a dashboard for your (or any) organisation and write a short report (500 
 4.	Present your answers to questions 1-3 in your report and submit it on the platform for formative feedback.
 
 The dashboard draft design report is found from this link: https://docs.google.com/document/d/1g-zyljcCFu0A4zo38PZFWlWpILbYE6z-/edit
+
+Final dashboard link: https://public.tableau.com/app/profile/veli.mahlangu/viz/ElectricityAnalyticalPerformance/ElectricityStrategicandAnalyticalPerformanceDashboard?publish=yes
 
 ### 2.9 Unit 12: Formative Activity - The Future of Data Visualisation (Virtual Reality (VR) and Augmented Reality (AR))
 Instructions
