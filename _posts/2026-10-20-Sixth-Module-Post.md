@@ -28,7 +28,25 @@ This module aims to provide students with the ability to study and reflect on ke
 •	Produce and critically evaluate a research proposal for the chosen topic.
 
 ### 2. The artefacts created during the module
-#### 2.1 Unit 1: Case Study - Exploring corporate tax rate variation in the USA
+#### 2.1 Unit 1: Formative Activity - The quiz on deductive and inductive reasoning
+The quiz questions were based on either inductive or deductive reasoning methods in research.
+
+Grading method: Highest grade
+
+Highest grade: 5.00 / 6.00.
+
+Attempt 1 summary results
+
+Status:	Finished
+
+Started	Sunday, 25 October 2026, 12:50 PM
+
+Completed	Sunday, 25 October 2026, 12:55 PM
+
+Duration	4 mins 7 secs
+
+Grade	5.00 out of 6.00 (83.33%)
+
 
 ### 3. What exactly have I learnt from this module?
 To be populated
