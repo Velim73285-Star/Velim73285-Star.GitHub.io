@@ -52,6 +52,9 @@ Discussion Topic: Codes of Ethics and Professional Conduct
 
 In order to write your first post, you have to pick a case study from the examples provided by the Association of Computing Machinery (ACM). Review the application of the ethics code to the situation described and highlight the impact on any relevant legal (jurisdictional or non-jurisdictional) and social issues, as well as on the professionalism of the computing professionals involved. You should provide comparisons to the British Computer Society (BCS) Code of Conduct
 
+#### 2.2.1 Initial Post
+
+
 
 ### 3. What exactly have I learnt from this module?
 To be populated
