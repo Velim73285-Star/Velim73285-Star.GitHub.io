@@ -50,10 +50,34 @@ Grade	5.00 out of 6.00 (83.33%)
 #### 2.2 Unit 1 – 3: Collaborative Discussion
 Discussion Topic: Codes of Ethics and Professional Conduct
 
-In order to write your first post, you have to pick a case study from the examples provided by the Association of Computing Machinery (ACM). Review the application of the ethics code to the situation described and highlight the impact on any relevant legal (jurisdictional or non-jurisdictional) and social issues, as well as on the professionalism of the computing professionals involved. You should provide comparisons to the British Computer Society (BCS) Code of Conduct
+In order to write your first post, you have to pick a case study from the examples provided by the Association of Computing Machinery (ACM). Review the application of the ethics code to the situation described and highlight the impact on any relevant legal (jurisdictional or non-jurisdictional) and social issues, as well as on the professionalism of the computing professionals involved. You should provide comparisons to the British Computer Society (BCS) Code of Conduct.
 
 #### 2.2.1 Initial Post
+Case Study: Accessibility in Software Development
 
+(Sutrop et al., 2020) indicate the importance of key elements shared by disciplines and research professions that include consent, privacy, data management, fraud, coverage, accessibility, and plagiarism in a research project. The case study highlights a serious ethical failure in software development, as accessibility requirements were knowingly overlooked despite organisational policies, accessibility standards, and guidance from a Diversity Advisory Board. Although accessibility defects were identified during testing, AllTogether proceeded with the release to satisfy project deadlines and business objectives. This decision violated key principles of the Association for Computing Machinery (ACM) Code of Ethics, including promoting human well-being, avoiding harm, ensuring fairness, and preventing discrimination. As a result, users who relied on assistive technologies such as screen readers, keyboard navigation, magnification software, and alternative input devices were excluded from fully using the product.
+
+This decision also created significant legal risks. Many countries have disability discrimination and accessibility laws that require digital products and services to be accessible. By knowingly releasing software that did not comply with recognised standards, including the Web Content Accessibility Guidelines (WCAG) (Gogoll et al., 2021), AllTogether increased its exposure to legal complaints, regulatory scrutiny, and potential liability arising from discriminatory outcomes.
+
+Socially, the case study demonstrates how inaccessible technology can reinforce barriers to participation in employment, education, and community activities. Leadership comments questioning the importance of disabled users reflected a lack of inclusiveness and consideration for minority groups. Consequently, disabled users experienced frustration and exclusion, while some customers reverted to older software versions. This highlights the wider societal impact of failing to prioritise accessibility (Fiesler et al., 2020).
+
+Computing professionals have a responsibility to exercise independent judgement and prioritise user welfare. Although the accessibility and customer support teams attempted to lessen the impact through support measures, these actions were reactive rather than preventative. A more professional approach would have been to delay the release until accessibility issues were resolved.
+
+A comparison with the BCS Code of Conduct reinforces these concerns, as both the ACM and BCS emphasise public interest, professional competence, integrity, and accountability. 
+
+Overall, the case study demonstrates the importance of embedding accessibility throughout the software development lifecycle to create inclusive, fair, and socially responsible technology.
+
+References
+
+Fiesler, C., Garrett, N. and Beard, N., 2020, February. What do we teach when we teach tech ethics? A syllabi analysis. In Proceedings of the 51st ACM technical symposium on computer science education (pp. 289-295).
+
+Gogoll, J., Zuber, N., Kacianka, S., Greger, T., Pretschner, A. and Nida-Rümelin, J., 2021. Ethics in the software development process: from codes of conduct to ethical deliberation. Philosophy & Technology, 34(4), pp.1085-1108.
+
+MacNeill, K., Bolt, B., Barrett, E., McPherson, M., Sierra, M., Miller, S., Ednie-Brown, P. and Wilson, C., 2021. An ethical engagement: creative practice research, the academy, and professional codes of conduct. Research Ethics, 17(1), pp.73-86.
+
+Seth, A., 2023. What is missing in the ACM Code of Ethics and Professional Conduct. Interactions, 30(3), pp.44-47.
+
+Sutrop, M., Parder, M.L. and Juurik, M., 2020. Research ethics codes and guidelines. In Handbook of research ethics and scientific integrity (pp. 67-89). Cham: Springer International Publishing.
 
 
 ### 3. What exactly have I learnt from this module?
