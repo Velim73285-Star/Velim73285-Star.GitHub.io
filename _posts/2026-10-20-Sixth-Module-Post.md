@@ -30,4 +30,12 @@ This module aims to provide students with the ability to study and reflect on ke
 ### 2. The artefacts created during the module
 #### 2.1 Unit 1: Case Study - Exploring corporate tax rate variation in the USA
 
+### 3. What exactly have I learnt from this module?
+To be populated
+
+#### 3.1 The how part of learning the above
+To be populated
+
+### 4. Professional skills matrix and Personal Development Plan (PDP)
+To be populated
 
