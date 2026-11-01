@@ -79,6 +79,51 @@ Seth, A., 2023. What is missing in the ACM Code of Ethics and Professional Condu
 
 Sutrop, M., Parder, M.L. and Juurik, M., 2020. Research ethics codes and guidelines. In Handbook of research ethics and scientific integrity (pp. 67-89). Cham: Springer International Publishing.
 
+#### 2.2.2 Peer Response to Elvira Anani Agbogba
+Hi Elvira,
+
+Thank you for the excellent post.
+
+I found your discussion of the Corazón case study insightful and well-balanced, particularly in how you linked the technical vulnerability to broader ethical and legal responsibilities. Your observation that the risk assessment was not fully independent is important, as it highlights the potential for bias when developers and researchers jointly evaluate the significance of a flaw. I also agree with your argument that a device reset could still result in harm through data loss or interrupted monitoring, even if the likelihood of physical injury appears low.
+
+Your analysis of the hard-coded initialisation value is particularly strong because it demonstrates that security depends not only on the use of encryption but also on how it is implemented. This effectively challenges the assumption that compliance with security principles has been achieved simply through the use of standard cryptographic techniques (Kwon et al., 2023).
+
+I also appreciated your consideration of vulnerable users. The point that low-income patients may rely on outdated smartphones adds an important social dimension to the discussion and reinforces Corazón’s ethical obligation to protect all users equitably.
+
+To strengthen your post further, you could expand on how excluding the implant itself from the bug bounty programme may conflict with ACM principles relating to harm prevention and thorough system evaluation. Additionally, discussing the need for independent security audits could further support your argument regarding accountability and public trust (Hong et al., 2019).
+
+Overall, this is a thoughtful and comprehensive analysis that effectively integrates technical, ethical, social, and legal perspectives.
+
+References
+
+Hong, Y.J., Jeong, H., Cho, K.W., Lu, N. and Kim, D.H., 2019. Wearable and implantable devices for cardiovascular healthcare: from monitoring to therapy based on flexible and stretchable electronics. Advanced Functional Materials, 29(19), p.1808247.
+
+Kwon, K., Kim, J.U., Won, S.M., Zhao, J., Avila, R., Wang, H., Chun, K.S., Jang, H., Lee, K.H., Kim, J.H. and Yoo, S., 2023. A battery-less wireless implant for the continuous monitoring of vascular pressure, flow rate and temperature. Nature Biomedical Engineering, 7(10), pp.1215-1228.
+
+Walsh III, J.A., Topol, E.J. and Steinhubl, S.R., 2014. Novel wireless devices for cardiac monitoring. Circulation, 130(7), pp.573-581.
+
+#### 2.2.3 Initial Post
+Hi Patrick,
+
+I enjoyed reading your analysis because it goes beyond simply identifying the ethical issue and critically examines the responsibilities of all parties involved. Your argument that the ACM case study places too much emphasis on the client while underestimating the role of Stewart and the development team is particularly persuasive. I agree that ACM Principle 2.5 requires computing professionals to provide objective and thorough evaluations, especially when they recognize that a design change could manipulate user behaviour.
+
+Your discussion of the evidence of harm is also compelling. The fact that complaints and refund requests were already being received suggests that the negative impact was not merely theoretical. I think your point that Stewart could have documented his concerns and recommended usability testing before deployment demonstrates a practical way professionals can uphold their ethical obligations while still working within organizational structures (Tsui et al., 2022).
+
+I also appreciated how you incorporated both legal and accessibility considerations into the analysis. The references to the Consumer Contracts Regulations and WCAG 2.2 strengthen your argument by showing that the issue extends beyond ethics and into compliance and consumer protection. This effectively demonstrates how poor design decisions can have consequences for both users and organisations (Al-Saqqa,  et al., 2020).
+
+One area you might expand on further is the long-term impact of dark patterns on user trust. While such designs may increase short-term revenue, they can damage customer relationships, brand reputation, and confidence in digital services over time. 
+
+This is a well-reasoned and comprehensive discussion post that successfully integrates ethical, legal, and practical perspectives.
+
+References
+
+Al-Saqqa, S., Sawalha, S. and Abdelnabi, H., 2020. Agile software development: Methodologies and trends. iJIM, 14(11), pp.246-70.
+
+Edison, H., Wang, X. and Conboy, K., 2021. Comparing methods for large-scale agile software development: A systematic literature review. IEEE Transactions on Software Engineering, 48(8), pp.2709-2731.
+
+Tsui, F., Karam, O. and Bernal, B., 2022. Essentials of software engineering. Jones & Bartlett Learning.
+
+Winters, T., Manshreck, T. and Wright, H., 2020. Software engineering at google: Lessons learned from programming over time. " O'Reilly Media, Inc.".
 
 ### 3. What exactly have I learnt from this module?
 To be populated
