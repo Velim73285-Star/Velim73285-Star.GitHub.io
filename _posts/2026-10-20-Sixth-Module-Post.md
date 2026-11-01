@@ -102,7 +102,7 @@ Kwon, K., Kim, J.U., Won, S.M., Zhao, J., Avila, R., Wang, H., Chun, K.S., Jang,
 
 Walsh III, J.A., Topol, E.J. and Steinhubl, S.R., 2014. Novel wireless devices for cardiac monitoring. Circulation, 130(7), pp.573-581.
 
-#### 2.2.3 Initial Post
+#### 2.2.3 Peer Response to Patrick Tosto
 Hi Patrick,
 
 I enjoyed reading your analysis because it goes beyond simply identifying the ethical issue and critically examines the responsibilities of all parties involved. Your argument that the ACM case study places too much emphasis on the client while underestimating the role of Stewart and the development team is particularly persuasive. I agree that ACM Principle 2.5 requires computing professionals to provide objective and thorough evaluations, especially when they recognize that a design change could manipulate user behaviour.
