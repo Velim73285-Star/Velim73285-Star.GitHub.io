@@ -125,6 +125,33 @@ Tsui, F., Karam, O. and Bernal, B., 2022. Essentials of software engineering. Jo
 
 Winters, T., Manshreck, T. and Wright, H., 2020. Software engineering at google: Lessons learned from programming over time. " O'Reilly Media, Inc.".
 
+#### 2.3 Unit 3: Seminar – Peer Review Activity
+One of the most challenging parts of any research project is to carry out a literature review. To prepare for this, in this seminar we will start to develop the required skills, starting, well from the start: select the relevant sources and critically evaluating them.
+
+Therefore Seminar 2 will cover LO 3: “Evaluate critically existing literature, research design and methodology for the chosen topic.” and one way this is done is by conducting a peer review of existing literature on a particular subject.
+
+In preparation for this week’s seminar, you will need to source at least 2 papers in a Computing subject of your choice (AI, Cybersecurity, Data Science, or a general interest topic in Computer Science) provided they utilise two different types of research methods to achieve their goal/research aims. Now answer the following questions (please provide justifications for your answers) and be prepared to discuss them in the session:
+
+•	Familiarise yourself with the purpose, problem, objective or research question of each paper. Are they in line with your experience or thoughts on the topic, contributing to the collective body of knowledge in this area?
+
+•	Is the research methodology utilised in each paper appropriate for the stated purpose or question?
+
+•	In terms of data collection and analysis, is this also appropriate for the stated purpose or question? (We will discuss this further in upcoming units.)
+
+•	Does each paper support its claims and conclusions with explicit arguments or evidence?
+
+•	How would you enhance the work/paper?
+
+Also, as a general evaluation for the writing of a literature review, you might want to consider the following points:
+
+•	Looking at the papers you have selected, list three features of a well-structured literature review. What do they have in common?
+
+•	What does it mean to synthesise your sources in a literature review? The papers have certainly done a great deal of this.
+
+•	How good your research also depends on how good your own sources are. Discuss why is it important to evaluate the credibility of the sources used and how would you achieve that in practice?
+
+The comparison report is found on this link: https://drive.google.com/drive/my-drive
+
 ### 3. What exactly have I learnt from this module?
 To be populated
 
