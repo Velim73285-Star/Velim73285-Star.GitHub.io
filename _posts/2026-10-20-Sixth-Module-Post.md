@@ -150,7 +150,7 @@ Also, as a general evaluation for the writing of a literature review, you might 
 
 •	How good your research also depends on how good your own sources are. Discuss why is it important to evaluate the credibility of the sources used and how would you achieve that in practice?
 
-The comparison report is found on this link: https://docs.google.com/document/d/1ZDBLbwQvRieMSmjNFQgVt_GpY3rd9Lez/edit
+The comparison report is found on this link: https://docs.google.com/document/d/1IjDE3ZtZ_lWjL3rcm0ibORC3tjm5f_I8/edit
 
 ### 3. What exactly have I learnt from this module?
 To be populated
