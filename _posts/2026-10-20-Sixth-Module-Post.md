@@ -141,6 +141,7 @@ Units 1, 2, and 3 introduced the principles of research ethics, proposal develop
 Overall, accessibility is an ethical, legal, and professional responsibility that requires effective governance, accountability, and integration into software development processes to ensure inclusive and equitable software.
 
 References
+
 Agree, P.D.E.M., 2014. The potential for technology to enhance independence for those aging with a disability. Disability and health journal, 7(1), pp.S33-S39.
 
 Emiliani, P.L. and Stephanidis, C., 2005. Universal access to ambient intelligence environments: Opportunities and challenges for people with disabilities. IBM Systems Journal, 44(3), pp.605-619.
