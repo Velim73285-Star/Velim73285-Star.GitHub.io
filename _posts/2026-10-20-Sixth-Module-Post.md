@@ -125,6 +125,30 @@ Tsui, F., Karam, O. and Bernal, B., 2022. Essentials of software engineering. Jo
 
 Winters, T., Manshreck, T. and Wright, H., 2020. Software engineering at google: Lessons learned from programming over time. " O'Reilly Media, Inc.".
 
+#### 2.2.4	Summary post
+My initial post argued that AllTogether's failure to prioritise accessibility violated ACM ethical principles, excluded users with disabilities, created legal risks, and demonstrated the need to resolve accessibility issues before software release.
+
+The peer responses expanded and strengthened this analysis. Elvira emphasised that the case also breached the BCS Public Interest principles and suggested referencing specific legislation, such as the UK Equality Act 2010, to strengthen the legal argument. Specific legislation like Public Sector Bodies, Accessibility Regulations 2018 (UK), Americans with Disabilities Act (ADA) 1990 (United States), European Accessibility Act (EAA) (European Union), and Promotion of Equality and Prevention of Unfair Discrimination Act (PEPUDA), 2000 (South Africa) support the legal aspect.
+
+Patrick argued that the perceived trade-off between meeting deadlines and ensuring accessibility was a false one, as the long-term costs of releasing inaccessible software could exceed the costs of fixing defects before release. I agree with Patrick's argument because prioritising deadlines over accessibility often creates greater long-term costs through additional support requests, corrective updates, reputational damage, and potential legal challenges. 
+
+Kaona raised important questions about accountability and governance, highlighting the need for clear authority and responsibility in release decisions involving accessibility risks. Kaona's argument is key in that the effective accessibility governance requires clear accountability and decision-making authority. Without defined responsibility for addressing accessibility risks, important concerns can be overlooked in favour of business priorities, increasing the likelihood of exclusion and non-compliance.
+
+Thiago reinforced the importance of embedding accessibility throughout the software development lifecycle and to answer the question raised by Thiago. Yes, accessibility testing should be a mandatory release requirement, with critical accessibility barriers resolved before deployment. This ensures equal access for users with disabilities and promotes inclusivity, compliance, and responsible software development.
+
+Units 1, 2, and 3 introduced the principles of research ethics, proposal development, literature reviews, and research methodologies. Together, they highlighted the importance of formulating clear research questions and conducting ethical, well-planned, and methodologically sound research to produce reliable and meaningful outcomes.
+
+Overall, accessibility is an ethical, legal, and professional responsibility that requires effective governance, accountability, and integration into software development processes to ensure inclusive and equitable software.
+
+References
+Agree, P.D.E.M., 2014. The potential for technology to enhance independence for those aging with a disability. Disability and health journal, 7(1), pp.S33-S39.
+
+Emiliani, P.L. and Stephanidis, C., 2005. Universal access to ambient intelligence environments: Opportunities and challenges for people with disabilities. IBM Systems Journal, 44(3), pp.605-619.
+
+Holzinger, A., Searle, G. and Wernbacher, M., 2011. The effect of previous exposure to technology on acceptance and its importance in usability and accessibility engineering. Universal Access in the Information Society, 10(3), pp.245-260.
+
+Kowtko, M., 2012, May. Using assistive technologies to improve lives of older adults and people with disabilities. In 2012 IEEE Long Island Systems, Applications and Technology Conference (LISAT) (pp. 1-6). IEEE.
+
 #### 2.3 Unit 3: Seminar – Peer Review Activity
 One of the most challenging parts of any research project is to carry out a literature review. To prepare for this, in this seminar we will start to develop the required skills, starting, well from the start: select the relevant sources and critically evaluating them.
 
