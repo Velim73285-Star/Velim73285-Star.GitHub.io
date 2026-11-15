@@ -188,19 +188,19 @@ Ricardo works for the records department of his local government as a computer r
 
 Now consider, what are the ethical issues involved in deciding which of these options to pursue?
 
-1. If Ricardo is not responsible for determining allowable access, should he release the names and addresses? 
+1.If Ricardo is not responsible for determining allowable access, should he release the names and addresses? 
 
 Answer: No, Ricardo should not release the names and addresses. Ricardo should follow organisational policies and the conditions under which the information is held. If Beth requires access to identifying information, she should seek approval through the appropriate authority responsible for granting access rather than asking Ricardo to bypass established procedures.
 
-2. Suppose Ricardo were responsible for determining allowable access to the files. What ethical issues would be involved in his deciding whether to grant access to Beth?
+2.Suppose Ricardo were responsible for determining allowable access to the files. What ethical issues would be involved in his deciding whether to grant access to Beth?
    
 Answer: If Ricardo were responsible for granting access, he would need to balance the potential benefits of Beth's research against individuals' rights to privacy and confidentiality. He would also need to consider whether the property owners had provided informed consent for their personal information to be shared. In making his decision, Ricardo should follow legal, ethical, and organisational requirements, ensuring that any disclosure of information is properly authorised and protects the rights of the individuals involved.
 
-3. Should Beth be allowed to contact the individuals involved? That is, should the Records department release individuals' names to a researcher? What are the ethical issues for the Records department to consider? 
+3.Should Beth be allowed to contact the individuals involved? That is, should the Records department release individuals' names to a researcher? What are the ethical issues for the Records department to consider? 
 
 Answer: Beth should only be allowed to contact individuals if their privacy is protected and proper consent or authorisation has been obtained. The Records Department must consider privacy, confidentiality, informed consent, and compliance with applicable laws and policies before releasing any personal information. A more ethical approach would be to obtain the individuals' consent before sharing their details with the researcher.
 
-4. Suppose Beth contacts the individuals to ask their permission, and one-third of them respond giving permission, one-third respond denying permission, and one-third do not respond. Beth claims that at least one-half of the individuals are needed to make a valid study. What options are available to Beth? 
+4.Suppose Beth contacts the individuals to ask their permission, and one-third of them respond giving permission, one-third respond denying permission, and one-third do not respond. Beth claims that at least one-half of the individuals are needed to make a valid study. What options are available to Beth? 
 
 Answer: Beth has several options. She may proceed with the study using only the participants who granted permission, although this may reduce the validity of the research. She could attempt to contact the non-respondents again to obtain additional consent, provided this is ethically approved. Beth may also redesign the study to require a bigger sample size or use alternative sources of data. However, she should not include individuals who denied permission or assume that non-response implies consent. Respecting participants' choices and maintaining ethical research standards must remain a priority.
 
