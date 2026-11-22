@@ -214,7 +214,7 @@ Read a good analysis of the University of Michigan Consumer Sentiment Survey.
 
 Find one or two further examples of inappropriate use of surveys and highlight the impact of all these examples from the various ethical, social, legal and professional standpoints that apply.
 
-Answer
+Answers:
 
 1.The Literary Digest poll failure (1936)
    
