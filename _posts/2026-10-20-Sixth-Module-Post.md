@@ -204,6 +204,92 @@ Answer: Beth should only be allowed to contact individuals if their privacy is p
 
 Answer: Beth has several options. She may proceed with the study using only the participants who granted permission, although this may reduce the validity of the research. She could attempt to contact the non-respondents again to obtain additional consent, provided this is ethically approved. Beth may also redesign the study to require a bigger sample size or use alternative sources of data. However, she should not include individuals who denied permission or assume that non-response implies consent. Respecting participants' choices and maintaining ethical research standards must remain a priority.
 
+#### 2.5 Reflective Activity 1: Case study on inappropriate use of surveys
+In 2018, Cambridge Analytica was in the news in the United Kingdom and the USA (Confessore, 2018) for obtaining and sharing data obtained from millions of Facebook users. They obtained the data through innocuous surveys on Facebook (you may have seen this type of survey and probably participated at times). This is probably the highest profile of surveys used for alternative means and, probably, monetary gains. However, this happens often through various media.
+Consider how exactly this happened and why it was used.
+
+There are other examples where, while the intention was not outward manipulation, the way the survey was conducted elicited different, and somehow, quite misleading results. A good example here is the case of the University of Michigan Consumer Sentiment Survey (2024–2025). Here, the researchers noted that a structural break occurred when the survey switched from phone to online administration, leading to significantly lower sentiment readings a drop estimated at around 8.9 index points, casting doubt on trend comparability and raising concerns about methodological integrity (a good analysis is available here:)
+
+Read a good analysis of the University of Michigan Consumer Sentiment Survey.
+
+Find one or two further examples of inappropriate use of surveys and highlight the impact of all these examples from the various ethical, social, legal and professional standpoints that apply.
+
+Answer
+
+1.The Literary Digest poll failure (1936)
+   
+What happened?
+
+The magazine Literary Digest mailed approximately 10 million survey ballots and received about 2.4 million responses. The poll predicted a decisive victory for presidential candidate Alf Landon. Instead, Franklin D. Roosevelt won overwhelmingly. The survey relied heavily on telephone directories, automobile registrations, and similar lists that disproportionately represented wealthier citizens. Additionally, only a minority responded, creating severe nonresponse bias. 
+
+Ethical issues
+
+•	Failure to ensure a representative sample.
+
+•	Publication of misleading conclusions despite methodological weaknesses.
+
+Social impact
+
+•	Misinformed the public regarding likely election outcomes.
+
+•	Undermined confidence in polling and survey research.
+
+Legal impact
+
+•	No legal consequences, but it became a classic example of poor survey design.
+
+Professional impact
+
+•	Revolutionized survey methodology.
+
+•	Demonstrated that sample quality matters more than sample size.
+
+•	Led to advances in sampling theory and polling standards. 
+
+2.Facebook Emotional Contagion Experiment (2012, disclosed 2014)
+
+What happened?
+
+Facebook manipulated the News Feeds of approximately 689,000 users without their explicit knowledge to study whether emotions could spread through social networks. Researchers altered the balance of positive and negative content shown to participants and measured subsequent posting behaviour.
+
+Ethical issues
+
+•	Absence of meaningful informed consent.
+
+•	Use of human subjects without traditional ethical review.
+
+•	Deliberate manipulation of emotional experiences.
+
+Social impact
+
+•	Public concern about the power of platforms to influence emotions and behaviour.
+
+•	Increased scepticism regarding technology companies' use of personal data.
+
+Legal impact
+
+•	Exposed gaps between academic research ethics regulations and privately conducted digital studies. 
+
+Professional impact
+
+•	Triggered debates about ethical oversight in big-data research.
+
+•	Encouraged calls for stronger ethical review processes for corporate research. 
+
+Conclusion
+
+These examples demonstrate that surveys are not ethically neutral tools. Whether through privacy violations, methodological flaws, or behavioural manipulation, poorly designed or improperly used surveys can have far-reaching consequences. From ethical, social, legal, and professional perspectives, the key principles that emerge are:
+
+a)Informed consent must be respected
+
+b)Survey methods must be transparent and scientifically valid.
+
+c)Participants' privacy and independence must be protected.
+
+d)Researchers and organizations must remain accountable for how survey data are collected, interpreted, and used.
+
+Together, these cases illustrate why ethical survey practice is essential for maintaining public trust, producing reliable knowledge, and protecting individuals from misuse of their personal information.
+
 ### 3. What exactly have I learnt from this module?
 To be populated
 
