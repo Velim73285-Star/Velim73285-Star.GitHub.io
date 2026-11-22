@@ -204,7 +204,7 @@ Answer: Beth should only be allowed to contact individuals if their privacy is p
 
 Answer: Beth has several options. She may proceed with the study using only the participants who granted permission, although this may reduce the validity of the research. She could attempt to contact the non-respondents again to obtain additional consent, provided this is ethically approved. Beth may also redesign the study to require a bigger sample size or use alternative sources of data. However, she should not include individuals who denied permission or assume that non-response implies consent. Respecting participants' choices and maintaining ethical research standards must remain a priority.
 
-#### 2.5 Reflective Activity 1: Case study on inappropriate use of surveys
+#### 2.5 Unit 5: Reflective Activity 1 - Case study on inappropriate use of surveys
 In 2018, Cambridge Analytica was in the news in the United Kingdom and the USA (Confessore, 2018) for obtaining and sharing data obtained from millions of Facebook users. They obtained the data through innocuous surveys on Facebook (you may have seen this type of survey and probably participated at times). This is probably the highest profile of surveys used for alternative means and, probably, monetary gains. However, this happens often through various media.
 Consider how exactly this happened and why it was used.
 
